@@ -2762,6 +2762,10 @@
                 padding: 100px 0;
             }
 
+            .react-native-detail {
+                padding: 50px 0;
+            }
+
             .portfolio-title h3 {
                 color: #fff;
                 font-weight: 600;
@@ -3438,6 +3442,10 @@
                 cursor: pointer;
             }
 
+            .other-project-img:hover {
+                border-radius: 10px;
+            }
+
             .other-project-img:hover .yoshoppers-other {
                 transform: scale(1.2);
             }
@@ -3452,6 +3460,7 @@
                 opacity: 0;
                 transition: all 0.5s;
                 transform: translateY(-50px);
+                border-radius: 10px;
             }
 
             .other-project-img:hover .other-projct-overlay {
@@ -3471,18 +3480,19 @@
 
             .overlay-caption h4 {
                 color: #fff;
+                font-size: 19px;
             }
 
             .overlay-caption p {
                 color: #fff;
-                font-size: 14px;
+                font-size: 12px;
             }
 
             .read-more-btn {
                 background: #DA6427;
                 border: none;
                 color: #fff;
-                padding: 13px 30px;
+                padding: 10px 30px;
                 font-size: 14px;
                 border-radius: 50px;
                 white-space: nowrap;
@@ -3904,13 +3914,13 @@
                 text-decoration: none;
             }
 
-            .category a{
+            .category a {
                 display: block;
                 font-weight: 400;
                 color: #000;
             }
 
-            .category-style{
+            .category-style {
                 color: #DA6427 !important;
             }
 
@@ -4505,6 +4515,7 @@
                 margin: auto;
                 justify-content: center;
                 background-color: #d85b1a;
+                border: 2px solid transparent;
                 padding: 10px 20px;
                 text-align: center;
                 border-radius: 5px;
@@ -4515,6 +4526,7 @@
             .view-more-btn a {
                 line-height: 31px;
                 color: #fff;
+                text-decoration: none;
             }
 
             .view-more-btn:hover {
@@ -4528,6 +4540,19 @@
             .view-more-btn:hover a {
                 color: #d85b1a;
                 line-height: 31px;
+            }
+
+            .project-box .view-more-btn {
+                width: 30%;
+            }
+
+            .view-more-icon {
+                transition: all ease-in-out 0.3s;
+            }
+
+            .project-box .view-more-btn:hover .view-more-icon {
+                padding-left: 5px;
+                transition: all ease-in-out 0.3s;
             }
 
             .published-date {
@@ -4743,13 +4768,15 @@
                 width: 550px;
             }
 
-            .seo-title h1 {
+            .seo-title h1,
+            .react-native-title h1 {
                 font-size: 50px;
                 color: #fff;
                 font-weight: 700;
             }
 
-            .seo-title p {
+            .seo-title p,
+            .react-native-title p {
                 font-size: 25px;
                 color: #fff;
             }
@@ -4818,7 +4845,9 @@
             }
 
             .seo-title h1,
-            .seo-title p {
+            .seo-title p,
+            .react-native-title h1,
+            .react-native-title p {
                 padding-bottom: 50px;
             }
 
@@ -5397,14 +5426,14 @@
                     margin-top: 40px;
                 }
 
-                #subscribe-form .form-group{
+                #subscribe-form .form-group {
                     flex-direction: column;
                     justify-content: center;
                 }
 
                 #subscribe-form .quote-btn {
                     padding: 10px !important;
-                    margin:auto;
+                    margin: auto;
                     width: 50%;
                 }
 
@@ -6986,6 +7015,23 @@
 
                 .digital-marketing-service {
                     padding: 35px;
+                }
+
+                .seo-title h1,
+                .seo-title p,
+                .react-native-title h1,
+                .react-native-title p {
+                    padding-bottom: 20px;
+                }
+
+                .seo-title h1,
+                .react-native-title h1 {
+                    font-size: 30px;
+                }
+
+                .seo-title p,
+                .react-native-title p {
+                    font-size: 15px;
                 }
 
             }
