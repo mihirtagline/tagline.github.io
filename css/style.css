@@ -6604,7 +6604,7 @@
                 }
 
                 .modal .modal-dialog {
-                    max-width: 100%;
+                    max-width: 100% !important;
                     margin: auto;
                 }
 
@@ -6627,647 +6627,652 @@
                     padding: 35px;
                     border-top: none;
                 }
-
-                @media (max-width: 575px) {
-                    .getquote-btn {
-                        padding: 20px;
-                        font-size: 14px;
-                    }
-
-                    header .logo {
-                        max-width: 150px;
-                        padding: 10px;
-                    }
-
-                    header.fixed-header .logo {
-                        max-width: 140px;
-                        padding: 10px;
-                    }
-
-                    .outer-menu .hamburger {
-                        width: 60px;
-                        height: 46px;
-                        padding: 15px 13px 20px 25px;
-                    }
-
-                    .outer-menu .checkbox-toggle {
-                        width: 60px;
-                        height: 46px;
-                    }
-
-                    header.fixed-header .outer-menu .hamburger {
-                        width: 60px;
-                        height: 46px;
-                        padding: 15px 13px 20px 25px;
-                    }
-
-                    .outer-menu .hamburger .close-icon {
-                        width: 20px;
-                    }
-
-                    .outer-menu .menu-list>div {
-                        width: 80%;
-                        height: 100%;
-                    }
-
-                    .banner-bg {
-                        min-height: inherit;
-                        background: none !important;
-                    }
-
-                    .banner-background {
-                        background-image: none !important;
-                    }
-
-                    .banner-bg .content {
-                        padding: 90px 0 0;
-                    }
-
-                    .banner-bg .content h1 {
-                        height: 106px;
-                    }
-
-                    .aboutus-bg {
-                        padding: 30px 0px;
-                    }
-
-                    .aboutus-bg::before,
-                    .services-bg::before {
-                        width: 250px;
-                        height: 250px;
-                        top: -110px;
-                    }
-
-                    .aboutus-bg::after,
-                    .services-bg::after {
-                        width: 250px;
-                        height: 250px;
-                        bottom: -190px;
-                        left: -130px;
-                    }
-
-                    .about-bg::before {
-                        width: 250px;
-                        height: 250px;
-                        top: -110px;
-                        right: 0;
-                    }
-
-                    .about-bg.career-bg::after {
-                        width: 250px;
-                        height: 250px;
-                        bottom: 0px;
-                        top: auto;
-                        left: -130px;
-                    }
-
-                    .ourservices-bg .border-right {
-                        border-right: 0px !important;
-                    }
-
-                    .ourtechnologies-bg .nav.nav-tabs li {
-                        margin: 0 5px;
-                    }
-
-                    .ourtechnologies-bg .nav.nav-tabs li a {
-                        padding: 7px 8px;
-                        font-size: 12px;
-                        border-radius: 5px 5px 0 0;
-                    }
-
-                    .ourtechnologies-bg .logos-boxs .img {
-                        width: 50%;
-                    }
-
-                    .casestudies-bg h5 {
-                        margin-bottom: 15px;
-                    }
-
-                    .casestudies-bg h6 {
-                        font-size: 13px;
-                        width: 100%;
-                    }
-
-                    .casestudies-bg .owl-carousel .casestudies-box {
-                        margin-bottom: 55px;
-                    }
-
-                    .casestudies-bg .owl-carousel .casestudies-box .content {
-                        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
-                    }
-
-                    .experience-box .brands-boxs {
-                        max-width: 100%;
-                        padding: 20px 0;
-                    }
-
-                    .experience-bg h4 {
-                        text-align: center;
-                        font-size: 18px;
-                    }
-
-                    .experience-bg p {
-                        text-align: center;
-                        margin: 0 0 20px;
-                    }
-
-                    .experience-bg .successful-box {
-                        margin-bottom: 20px;
-                    }
-
-                    .experience-bg .brands-boxs h3,
-                    .experience-bg .successful-box span,
-                    .experience-bg .owl-carousel .item .content h6,
-                    .letstalk-bg,
-                    footer .logo {
-                        text-align: center;
-                    }
-
-                    .experience-bg .owl-carousel .item .img {
-                        width: 100%;
-                        margin-bottom: 30px;
-                    }
-
-                    .experience-bg .owl-carousel .item .img::before {
-                        display: none;
-                    }
-
-                    .experience-bg .owl-carousel .item .content {
-                        width: 100%;
-                        padding: 20px 0 0 0;
-                    }
-
-                    .experience-bg .owl-carousel .item .content p::before {
-                        top: -30px;
-                        font-size: 30px;
-                    }
-
-                    .experience-bg .owl-carousel .owl-dots {
-                        left: 50%;
-                        -moz-transform: translateX(-50%);
-                        -webkit-transform: translateX(-50%);
-                        transform: translateX(-50%);
-                    }
-
-                    .letstalk-bg h2 {
-                        display: block;
-                        margin: 0 0 20px;
-                    }
-
-                    footer h3 {
-                        margin: 25px 0 15px;
-                    }
-
-                    footer .border-right {
-                        border-right: 0px !important;
-                    }
-
-                    footer .menu-boxs .menu-list.help-box,
-                    footer .menu-boxs .menu-list.company-box,
-                    footer .menu-boxs .menu-list.gettouch-box {
-                        width: 100%;
-                        padding: 0;
-                    }
-
-                    footer .menu-boxs .menu-list.gettouch-box {
-                        padding-bottom: 30px;
-                    }
-
-                    footer .copyright {
-                        font-size: 11px;
-                        text-align: center;
-                    }
-
-                    footer .follow-boxs {
-                        width: 100%;
-                        justify-content: center;
-                        margin: 0px;
-                    }
-
-                    .modal .modal-dialog {
-                        max-width: 90%;
-                        margin: 4rem auto;
-                    }
-
-                    .modal .modal-dialog .modal-content {
-                        padding: 20px;
-                    }
-
-                    .modal .modal-dialog .modal-content .modal-header h5 {
-                        font-size: 20px;
-                    }
-
-                    .modal .modal-dialog .modal-content .modal-header .close {
-                        top: -15px;
-                        right: -10px;
-                    }
-
-                    footer .menu-boxs .menu-list.services-box,
-                    .services-bg ul li,
-                    .dot_list.half_list li,
-                    .dot_list.col3_list li {
-                        width: 100%;
-                    }
-
-                    .subpage-banner .content {
-                        margin: 40px 0 0 0;
-                    }
-
-                    .subpage-banner .content h1 {
-                        font-size: 34px;
-                        margin: 0 0 20px;
-                    }
-
-                    .subpage-banner .content p {
-                        font-size: 14px;
-                        line-height: 28px;
-                    }
-
-                    .subpage-banner .content::after {
-                        width: 180px;
-                        height: 180px;
-                        top: -120px;
-                        left: -40px;
-                    }
-
-                    .portfolio-bg #filter-list li {
-                        margin: 12px 0;
-                        width: 33.33%;
-                        text-align: center;
-                    }
-
-                    .career-bg .card .card-header {
-                        padding: 15px 15px 15px 30px;
-                        font-size: 18px;
-                    }
-
-                    .career-bg .card .card-body {
-                        padding: 30px 30px 15px;
-                    }
-
-                    .career-bg .card .card-body h4 {
-                        font-size: 18px;
-                    }
-
-                    .about-bg .career-services h2 {
-                        font-size: 30px;
-                    }
-
-                    .contact-bg ul.details {
-                        padding: 40px 0px;
-                    }
-
-                    .portfolio-title .portfolio_subtitle {
-                        font-size: 20px;
-                    }
-
-                    .section_portfolio_detail,
-                    .bg_banner {
-                        /* margin-top: 47px; */
-                        padding: 50px 0;
-                    }
-
-                    .section {
-                        padding: 50px 0;
-                    }
-
-                    .heading h2 {
-                        font-size: 26px;
-                        margin-bottom: 20px;
-                    }
-
-                    .heading h3 {
-                        font-size: 22px;
-                        margin-bottom: 20px;
-                    }
-
-                    .about-bg .career-services {
-                        margin: 50px 0 0;
-                    }
-
-                    .nav-style1 .owl-nav .owl-prev,
-                    .nav-style1 .owl-nav .owl-next {
-                        top: 50%;
-                        right: 10px;
-                        -moz-transform: translateY(-50%);
-                        -webkit-transform: translateY(-50%);
-                        transform: translateY(-50%);
-                    }
-
-                    .nav-style1 .owl-nav .owl-prev {
-                        right: auto;
-                        left: 10px;
-                    }
-
-                    .tm-icon_box {
-                        justify-content: flex-start;
-                        text-align: left;
-                        margin-bottom: 30px;
-                    }
-
-                    .service_overlay_bg:before {
-                        top: 30px;
-                        bottom: 30px;
-                    }
-
-                    .cta_small_section:before {
-                        font-size: 150px;
-                    }
-
-                    .scrollup {
-                        max-width: 40px;
-                    }
-
-                    .blog-detail-wrapper span a {
-                        font-size: 12px;
-                        margin-left: 3px;
-                    }
-
-                    .blog-detail-wrapper .comments_post {
-                        margin-left: 0;
-                    }
-
-                    .blog-detail-wrapper .date_post {
-                        margin-left: 8px;
-                    }
-
-                    .blog-detail-wrapper .date_post,
-                    .blog-detail-wrapper .comments_post a i {
-                        font-size: 13px;
-                    }
-
-                    .slider-caption h2 {
-                        color: #fff;
-                        font-size: 16px;
-                    }
-
-                    .form-company-titile {
-                        font-size: 15px;
-                    }
-
-                    .form-title {
-                        font-size: 22px;
-                    }
-
-                    .quick-contact-form h3 {
-                        font-size: 22px;
-                    }
-
-                    .quick-contact-form input,
-                    .quick-contact-form textarea {
-                        font-size: 12px;
-                    }
-
-                    ul.service-submenu-mobile-accordian,
-                    ul.solution-submenu-mobile-accordian,
-                    ul.company-submenu-mobile-accordian {
-                        padding: 0px 15px !important;
-                    }
-
-                    .view-more-btn {
-                        width: 55%;
-                        margin: 30px auto;
-                    }
-
-                    .digital-marketing-service .solution-media {
-                        height: 440px;
-                        max-height: 100%;
-                        width: 350px;
-                        max-width: 100%;
-                    }
-
-                    .digital-marketing-service {
-                        padding: 35px;
-                    }
-
-                    .seo-title h1,
-                    .seo-title p,
-                    .react-native-title h1,
-                    .react-native-title p {
-                        padding-bottom: 20px;
-                    }
-
-                    .seo-title h1,
-                    .react-native-title h1 {
-                        font-size: 30px;
-                    }
-
-                    .seo-title p,
-                    .react-native-title p {
-                        font-size: 15px;
-                    }
-
-                    .bounceimg img {
-                        width: 200px;
-                    }
-
+            }
+
+            @media (max-width: 575px) {
+                .getquote-btn {
+                    padding: 20px;
+                    font-size: 14px;
                 }
 
-                @media (max-width: 513px) {
-                    .ourtechnologies-bg .nav.nav-tabs li a {
-                        padding: 7px 8px;
-                        font-size: 12px;
-                        border-radius: 5px 5px 5px 5px;
-                    }
-
-                    .ourtechnologies-bg-body {
-                        background-color: #fff;
-                        padding: 30px;
-                        border-radius: 10px 10px 10px 10px;
-                        box-shadow: 0px 9px 17px 6px rgb(0 0 0 / 16%);
-                        -webkit-box-shadow: 0px 9px 17px 6px rgb(0 0 0 / 16%);
-                        -moz-box-shadow: 0px 9px 17px 6px rgba(0, 0, 0, 0.16);
-                    }
-
-                    .technologies-tab {
-                        margin-bottom: 10px;
-                    }
+                header .logo {
+                    max-width: 150px;
+                    padding: 10px;
                 }
 
-                @media (max-width: 480px) {
-                    .banner-bg .content h1 {
-                        height: auto;
-                    }
-
-                    .portfolio-title h3 {
-                        font-size: 30px;
-                        margin-bottom: 10px;
-                    }
-
-                    .section {
-                        padding: 30px 0;
-                    }
-
-                    .icon_box .icon {
-                        max-width: 80px;
-                        -ms-flex: 0 0 80px;
-                        flex: 0 0 80px;
-                    }
-
-                    .icon_box .icon img {
-                        padding: 20px;
-                    }
-
-                    .shadow_img {
-                        padding: 10px;
-                    }
-
-                    .ourservices-bg p.dont-text {
-                        padding: 0 0 20px 0;
-                        margin: 10px 0 20px;
-                    }
-
-                    .experience-bg h2 {
-                        font-size: 22px;
-                    }
-
-                    .experience-box h3 {
-                        font-size: 18px;
-                    }
-
-                    .experience-box h6 {
-                        font-size: 16px;
-                    }
-
-                    .about-bg .career-services h2,
-                    .career-banner .content h1 {
-                        font-size: 26px;
-                    }
-
-                    .about-bg .career-services {
-                        margin: 30px 0 0;
-                    }
-
-                    .career-banner {
-                        height: 350px;
-                    }
-
-                    .development-serices .col-6 {
-                        -ms-flex: 0 0 100%;
-                        flex: 0 0 100%;
-                        max-width: 100%;
-                    }
-
-                    .icon_box {
-                        display: block
-                    }
-
-                    .icon_box .icon {
-                        float: none;
-                        margin: 0 auto 10px;
-                    }
-
-                    .icon_content {
-                        text-align: center;
-                    }
-
-                    .form-company-titile {
-                        font-size: 12px;
-                    }
-
-                    .form-title {
-                        font-size: 20px;
-                    }
-
-                    .quick-contact-form h3 {
-                        font-size: 20px;
-                    }
-
-                    .quick-contact-form input,
-                    .quick-contact-form textarea {
-                        font-size: 12px;
-                    }
-
-                    #getquote-btn,
-                    #getquote-btn2 {
-                        background-color: #D85B1A;
-                        color: #fff;
-                        border-radius: 5px;
-                        transition: all ease-in-out 0.5s;
-                        cursor: pointer;
-                        padding: 10px !important;
-                        width: 70%;
-                        font-size: 15px;
-                        margin-bottom: 15px;
-                    }
-
+                header.fixed-header .logo {
+                    max-width: 140px;
+                    padding: 10px;
                 }
 
-                @media (max-width: 380px) {
-                    .portfolio-title h3 {
-                        font-size: 22px;
-                    }
-
-                    .portfolio-title .portfolio_subtitle {
-                        font-size: 18px;
-                    }
-
-                    .heading h2 {
-                        font-size: 22px;
-                        margin-bottom: 15px;
-                    }
-
-                    .heading h3 {
-                        font-size: 18px;
-                        margin-bottom: 15px;
-                    }
-
-                    .app_btn img {
-                        max-width: 130px;
-                    }
-
-                    .career-banner {
-                        height: 300px;
-                    }
-
-                    .form-title {
-                        font-size: 17px;
-                    }
-
-                    .quick-contact-form h3 {
-                        font-size: 17px;
-                    }
-
-                    .outer-menu .menu-list>div>ul>li>a {
-                        font-size: 18px;
-                        padding: 10px 0 10px 10px;
-                    }
-
-                    .service-menu-mobile a,
-                    .solution-submenu-mobile a,
-                    .company-submenu-mobile-accordian a {
-                        font-size: 12px;
-                    }
-
-                    .mobiledev-submenu-body li a,
-                    .webdev-submenu-body li a,
-                    .digital-submenu-body li a {
-                        padding: 10px 0 0 0px !important;
-                        font-size: 10px;
-                    }
-
-                    ul.mobiledev-submenu-body li,
-                    ul.webdev-submenu-body li,
-                    ul.digital-submenu-body li,
-                    ul.design-submenu-body li,
-                    ul.solution-submenu-mobile-accordian li,
-                    ul.company-submenu-mobile-accordian li {
-                        list-style: none !important;
-                    }
-
-                    .digital-marketing-service .solution-media {
-                        height: 475px;
-                        max-height: 100%;
-                        width: 300px;
-                        max-width: 100%;
-                    }
+                .outer-menu .hamburger {
+                    width: 60px;
+                    height: 46px;
+                    padding: 15px 13px 20px 25px;
                 }
 
-                /* .dropdown:hover>.dropdown-menu {
+                .outer-menu .checkbox-toggle {
+                    width: 60px;
+                    height: 46px;
+                }
+
+                header.fixed-header .outer-menu .hamburger {
+                    width: 60px;
+                    height: 46px;
+                    padding: 15px 13px 20px 25px;
+                }
+
+                .outer-menu .hamburger .close-icon {
+                    width: 20px;
+                }
+
+                .outer-menu .menu-list>div {
+                    width: 80%;
+                    height: 100%;
+                }
+
+                .banner-bg {
+                    min-height: inherit;
+                    background: none !important;
+                }
+
+                .banner-background {
+                    background-image: none !important;
+                }
+
+                .banner-bg .content {
+                    padding: 90px 0 0;
+                }
+
+                .banner-bg .content h1 {
+                    height: 106px;
+                }
+
+                .aboutus-bg {
+                    padding: 30px 0px;
+                }
+
+                .aboutus-bg::before,
+                .services-bg::before {
+                    width: 250px;
+                    height: 250px;
+                    top: -110px;
+                }
+
+                .aboutus-bg::after,
+                .services-bg::after {
+                    width: 250px;
+                    height: 250px;
+                    bottom: -190px;
+                    left: -130px;
+                }
+
+                .about-bg::before {
+                    width: 250px;
+                    height: 250px;
+                    top: -110px;
+                    right: 0;
+                }
+
+                .about-bg.career-bg::after {
+                    width: 250px;
+                    height: 250px;
+                    bottom: 0px;
+                    top: auto;
+                    left: -130px;
+                }
+
+                .ourservices-bg .border-right {
+                    border-right: 0px !important;
+                }
+
+                .ourtechnologies-bg .nav.nav-tabs li {
+                    margin: 0 5px;
+                }
+
+                .ourtechnologies-bg .nav.nav-tabs li a {
+                    padding: 7px 8px;
+                    font-size: 12px;
+                    border-radius: 5px 5px 0 0;
+                }
+
+                .ourtechnologies-bg .logos-boxs .img {
+                    width: 50%;
+                }
+
+                .casestudies-bg h5 {
+                    margin-bottom: 15px;
+                }
+
+                .casestudies-bg h6 {
+                    font-size: 13px;
+                    width: 100%;
+                }
+
+                .casestudies-bg .owl-carousel .casestudies-box {
+                    margin-bottom: 55px;
+                }
+
+                .casestudies-bg .owl-carousel .casestudies-box .content {
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+                }
+
+                .experience-box .brands-boxs {
+                    max-width: 100%;
+                    padding: 20px 0;
+                }
+
+                .experience-bg h4 {
+                    text-align: center;
+                    font-size: 18px;
+                }
+
+                .experience-bg p {
+                    text-align: center;
+                    margin: 0 0 20px;
+                }
+
+                .experience-bg .successful-box {
+                    margin-bottom: 20px;
+                }
+
+                .experience-bg .brands-boxs h3,
+                .experience-bg .successful-box span,
+                .experience-bg .owl-carousel .item .content h6,
+                .letstalk-bg,
+                footer .logo {
+                    text-align: center;
+                }
+
+                .experience-bg .owl-carousel .item .img {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+
+                .experience-bg .owl-carousel .item .img::before {
+                    display: none;
+                }
+
+                .experience-bg .owl-carousel .item .content {
+                    width: 100%;
+                    padding: 20px 0 0 0;
+                }
+
+                .experience-bg .owl-carousel .item .content p::before {
+                    top: -30px;
+                    font-size: 30px;
+                }
+
+                .experience-bg .owl-carousel .owl-dots {
+                    left: 50%;
+                    -moz-transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                }
+
+                .letstalk-bg h2 {
+                    display: block;
+                    margin: 0 0 20px;
+                }
+
+                footer h3 {
+                    margin: 25px 0 15px;
+                }
+
+                footer .border-right {
+                    border-right: 0px !important;
+                }
+
+                footer .menu-boxs .menu-list.help-box,
+                footer .menu-boxs .menu-list.company-box,
+                footer .menu-boxs .menu-list.gettouch-box {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                footer .menu-boxs .menu-list.gettouch-box {
+                    padding-bottom: 30px;
+                }
+
+                footer .copyright {
+                    font-size: 11px;
+                    text-align: center;
+                }
+
+                footer .follow-boxs {
+                    width: 100%;
+                    justify-content: center;
+                    margin: 0px;
+                }
+
+                /* .modal .modal-dialog {
+                    max-width: 90%;
+                    margin: 4rem auto;
+                }
+
+                .modal .modal-dialog .modal-content {
+                    padding: 20px;
+                }
+
+                .modal .modal-dialog .modal-content .modal-header h5 {
+                    font-size: 20px;
+                }
+
+                .modal .modal-dialog .modal-content .modal-header .close {
+                    top: -15px;
+                    right: -10px;
+                } */
+
+                footer .menu-boxs .menu-list.services-box,
+                .services-bg ul li,
+                .dot_list.half_list li,
+                .dot_list.col3_list li {
+                    width: 100%;
+                }
+
+                .subpage-banner .content {
+                    margin: 40px 0 0 0;
+                }
+
+                .subpage-banner .content h1 {
+                    font-size: 34px;
+                    margin: 0 0 20px;
+                }
+
+                .subpage-banner .content p {
+                    font-size: 14px;
+                    line-height: 28px;
+                }
+
+                .subpage-banner .content::after {
+                    width: 180px;
+                    height: 180px;
+                    top: -120px;
+                    left: -40px;
+                }
+
+                .portfolio-bg #filter-list li {
+                    margin: 12px 0;
+                    width: 33.33%;
+                    text-align: center;
+                }
+
+                .career-bg .card .card-header {
+                    padding: 15px 15px 15px 30px;
+                    font-size: 18px;
+                }
+
+                .career-bg .card .card-body {
+                    padding: 30px 30px 15px;
+                }
+
+                .career-bg .card .card-body h4 {
+                    font-size: 18px;
+                }
+
+                .about-bg .career-services h2 {
+                    font-size: 30px;
+                }
+
+                .contact-bg ul.details {
+                    padding: 40px 0px;
+                }
+
+                .portfolio-title .portfolio_subtitle {
+                    font-size: 20px;
+                }
+
+                .section_portfolio_detail,
+                .bg_banner {
+                    /* margin-top: 47px; */
+                    padding: 50px 0;
+                }
+
+                .section {
+                    padding: 50px 0;
+                }
+
+                .heading h2 {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .heading h3 {
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+
+                .about-bg .career-services {
+                    margin: 50px 0 0;
+                }
+
+                .nav-style1 .owl-nav .owl-prev,
+                .nav-style1 .owl-nav .owl-next {
+                    top: 50%;
+                    right: 10px;
+                    -moz-transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+
+                .nav-style1 .owl-nav .owl-prev {
+                    right: auto;
+                    left: 10px;
+                }
+
+                .tm-icon_box {
+                    justify-content: flex-start;
+                    text-align: left;
+                    margin-bottom: 30px;
+                }
+
+                .service_overlay_bg:before {
+                    top: 30px;
+                    bottom: 30px;
+                }
+
+                .cta_small_section:before {
+                    font-size: 150px;
+                }
+
+                .scrollup {
+                    max-width: 40px;
+                }
+
+                .blog-detail-wrapper span a {
+                    font-size: 12px;
+                    margin-left: 3px;
+                }
+
+                .blog-detail-wrapper .comments_post {
+                    margin-left: 0;
+                }
+
+                .blog-detail-wrapper .date_post {
+                    margin-left: 8px;
+                }
+
+                .blog-detail-wrapper .date_post,
+                .blog-detail-wrapper .comments_post a i {
+                    font-size: 13px;
+                }
+
+                .slider-caption h2 {
+                    color: #fff;
+                    font-size: 16px;
+                }
+
+                .form-company-titile {
+                    font-size: 15px;
+                }
+
+                .form-title {
+                    font-size: 22px;
+                }
+
+                .quick-contact-form h3 {
+                    font-size: 22px;
+                }
+
+                .quick-contact-form input,
+                .quick-contact-form textarea {
+                    font-size: 12px;
+                }
+
+                ul.service-submenu-mobile-accordian,
+                ul.solution-submenu-mobile-accordian,
+                ul.company-submenu-mobile-accordian {
+                    padding: 0px 15px !important;
+                }
+
+                .view-more-btn {
+                    width: 55%;
+                    margin: 30px auto;
+                }
+
+                .digital-marketing-service .solution-media {
+                    height: 440px;
+                    max-height: 100%;
+                    width: 350px;
+                    max-width: 100%;
+                }
+
+                .digital-marketing-service {
+                    padding: 35px;
+                }
+
+                .seo-title h1,
+                .seo-title p,
+                .react-native-title h1,
+                .react-native-title p {
+                    padding-bottom: 20px;
+                }
+
+                .seo-title h1,
+                .react-native-title h1 {
+                    font-size: 30px;
+                }
+
+                .seo-title p,
+                .react-native-title p {
+                    font-size: 15px;
+                }
+
+                .bounceimg img {
+                    width: 200px;
+                }
+
+            }
+
+            @media (max-width: 513px) {
+                .ourtechnologies-bg .nav.nav-tabs li a {
+                    padding: 7px 8px;
+                    font-size: 12px;
+                    border-radius: 5px 5px 5px 5px;
+                }
+
+                .ourtechnologies-bg-body {
+                    background-color: #fff;
+                    padding: 30px;
+                    border-radius: 10px 10px 10px 10px;
+                    box-shadow: 0px 9px 17px 6px rgb(0 0 0 / 16%);
+                    -webkit-box-shadow: 0px 9px 17px 6px rgb(0 0 0 / 16%);
+                    -moz-box-shadow: 0px 9px 17px 6px rgba(0, 0, 0, 0.16);
+                }
+
+                .technologies-tab {
+                    margin-bottom: 10px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .banner-bg .content h1 {
+                    height: auto;
+                }
+
+                .portfolio-title h3 {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+
+                .section {
+                    padding: 30px 0;
+                }
+
+                .icon_box .icon {
+                    max-width: 80px;
+                    -ms-flex: 0 0 80px;
+                    flex: 0 0 80px;
+                }
+
+                .icon_box .icon img {
+                    padding: 20px;
+                }
+
+                .shadow_img {
+                    padding: 10px;
+                }
+
+                .ourservices-bg p.dont-text {
+                    padding: 0 0 20px 0;
+                    margin: 10px 0 20px;
+                }
+
+                .experience-bg h2 {
+                    font-size: 22px;
+                }
+
+                .experience-box h3 {
+                    font-size: 18px;
+                }
+
+                .experience-box h6 {
+                    font-size: 16px;
+                }
+
+                .about-bg .career-services h2,
+                .career-banner .content h1 {
+                    font-size: 26px;
+                }
+
+                .about-bg .career-services {
+                    margin: 30px 0 0;
+                }
+
+                .career-banner {
+                    height: 350px;
+                }
+
+                .development-serices .col-6 {
+                    -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
+                .icon_box {
+                    display: block
+                }
+
+                .icon_box .icon {
+                    float: none;
+                    margin: 0 auto 10px;
+                }
+
+                .icon_content {
+                    text-align: center;
+                }
+
+                .form-company-titile {
+                    font-size: 12px;
+                }
+
+                .form-title {
+                    font-size: 20px;
+                }
+
+                .quick-contact-form h3 {
+                    font-size: 20px;
+                }
+
+                .quick-contact-form input,
+                .quick-contact-form textarea {
+                    font-size: 12px;
+                }
+
+                #getquote-btn,
+                #getquote-btn2 {
+                    background-color: #D85B1A;
+                    color: #fff;
+                    border-radius: 5px;
+                    transition: all ease-in-out 0.5s;
+                    cursor: pointer;
+                    padding: 10px !important;
+                    width: 70%;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                }
+
+            }
+
+            @media (max-width: 380px) {
+                .portfolio-title h3 {
+                    font-size: 22px;
+                }
+
+                .portfolio-title .portfolio_subtitle {
+                    font-size: 18px;
+                }
+
+                .heading h2 {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+
+                .heading h3 {
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+
+                .app_btn img {
+                    max-width: 130px;
+                }
+
+                .career-banner {
+                    height: 300px;
+                }
+
+                .form-title {
+                    font-size: 17px;
+                }
+
+                .quick-contact-form h3 {
+                    font-size: 17px;
+                }
+
+                .outer-menu .menu-list>div>ul>li>a {
+                    font-size: 18px;
+                    padding: 10px 0 10px 10px;
+                }
+
+                .service-menu-mobile a,
+                .solution-submenu-mobile a,
+                .company-submenu-mobile-accordian a {
+                    font-size: 12px;
+                }
+
+                .mobiledev-submenu-body li a,
+                .webdev-submenu-body li a,
+                .digital-submenu-body li a {
+                    padding: 10px 0 0 0px !important;
+                    font-size: 10px;
+                }
+
+                ul.mobiledev-submenu-body li,
+                ul.webdev-submenu-body li,
+                ul.digital-submenu-body li,
+                ul.design-submenu-body li,
+                ul.solution-submenu-mobile-accordian li,
+                ul.company-submenu-mobile-accordian li {
+                    list-style: none !important;
+                }
+
+                .digital-marketing-service .solution-media {
+                    height: 475px;
+                    max-height: 100%;
+                    width: 300px;
+                    max-width: 100%;
+                }
+
+                .modal .modal-dialog .modal-content {
+                    padding: 20px;
+                    border-top: none;
+                }
+            }
+
+            /* .dropdown:hover>.dropdown-menu {
                     display: block;
                 } */
 
-                /* .dropdown>.dropdown-toggle:active { */
-                /* Without this, */
-                /* clicking will make it sticky pointer-events: none; */
-            }
+            /* .dropdown>.dropdown-toggle:active { */
+            /* Without this, */
+            /* clicking will make it sticky pointer-events: none; */
