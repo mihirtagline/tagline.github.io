@@ -5046,7 +5046,7 @@
                 border: none;
                 padding: 0 !important;
                 font: inherit;
-                font-size: 25px;
+                font-size: 20px;
             }
 
             .anniversary-images .owl-carousel .owl-nav button.owl-next,
@@ -5067,23 +5067,10 @@
                 background: none !important;
             }
 
-            /* .appriciation-images .owl-item {
-                max-width: 600px !important;
-                width: 100% !important;
+            .appriciation-images .owl-carousel .owl-stage-outer,
+            .anniversary-images .owl-carousel .owl-stage-outer {
+                border-radius: 10px;
             }
-
-            .appriciation-images .owl-carousel .owl-item img {
-                display: block;
-                max-width: 600px;
-                width: 100%;
-            }
-
-            .appriciation-images .owl-carousel.owl-loaded {
-                display: block;
-                max-width: 600px;
-                width: 100%;
-                margin: auto;
-            } */
 
             .appriciation-title h3 {
                 width: 55%;
