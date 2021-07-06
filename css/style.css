@@ -5038,6 +5038,35 @@
                 background-color: #d85b1a;
             }
 
+            .appriciation-images .owl-carousel .owl-nav button.owl-next,
+            .owl-carousel .owl-nav button.owl-prev,
+            .owl-carousel button.owl-dot {
+                background: 0 0;
+                color: inherit;
+                border: none;
+                padding: 0 !important;
+                font: inherit;
+                font-size: 25px;
+            }
+
+            .anniversary-images .owl-carousel .owl-nav button.owl-next,
+            .owl-carousel .owl-nav button.owl-prev,
+            .owl-carousel button.owl-dot {
+                background: 0 0;
+                color: inherit;
+                border: none;
+                padding: 0 !important;
+                font: inherit;
+                font-size: 20px;
+            }
+
+            .appriciation-images .owl-carousel .owl-nav .owl-next,
+            .appriciation-images .owl-carousel .owl-nav .owl-prev,
+            .anniversary-images .owl-carousel .owl-nav .owl-next,
+            .anniversary-images .owl-carousel .owl-nav .owl-prev {
+                background: none !important;
+            }
+
             /* .appriciation-images .owl-item {
                 max-width: 600px !important;
                 width: 100% !important;
@@ -6283,6 +6312,11 @@
                     display: none;
                 }
 
+                .appriciation-images .owl-carousel .owl-nav,
+                .anniversary-images .owl-carousel .owl-nav {
+                    display: block;
+                }
+
                 .casestudies-bg .owl-carousel .casestudies-box .content {
                     padding: 10px 20px;
                     width: 100%;
@@ -6519,6 +6553,12 @@
 
                 .list-nav {
                     margin: 50px 0;
+                }
+
+                .appriciation-images .owl-carousel .owl-nav button.owl-next,
+                .owl-carousel .owl-nav button.owl-prev,
+                .owl-carousel button.owl-dot {
+                    font-size: 20px;
                 }
             }
 

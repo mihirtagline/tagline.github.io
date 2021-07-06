@@ -15,7 +15,7 @@
                 center: $carousel.data("center"),
                 nav: $carousel.data("nav"),
                 rewind: $carousel.data("rewind"),
-                navText: ['<i class="fal fa-long-arrow-left fs-5 navigator"></i>', '<i class="fal fa-long-arrow-right fs-5 navigator"></i>'],
+                navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
                 autoplay: $carousel.data("autoplay"),
                 animateIn: $carousel.data("animate-in"),
                 animateOut: $carousel.data("animate-out"),
