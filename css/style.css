@@ -410,7 +410,8 @@
 
             #getquote-btn,
             #getquote-btn2,
-            .btn-info {
+            .btn-info,
+            #getquote-btn3 {
                 -webkit-animation: blink 2.0s linear infinite;
                 -moz-animation: blink 2.0s linear infinite;
                 -ms-animation: blink 2.0s linear infinite;
@@ -419,7 +420,8 @@
             }
 
             #getquote-btn,
-            #getquote-btn2 {
+            #getquote-btn2,
+            #getquote-btn3 {
                 background-color: #D85B1A;
                 border: 2px solid transparent;
                 color: #fff;
@@ -5028,6 +5030,12 @@
                 margin: auto;
             }
 
+            .appriciation-title h3{
+                width: 55%;
+                margin: auto;
+                font-weight: 700;
+            }
+
             @media(max-width:1900px) {
                 .aboutus-bg::before {
                     width: 400px;
@@ -7361,3 +7369,8 @@
             /* .dropdown>.dropdown-toggle:active { */
             /* Without this, */
             /* clicking will make it sticky pointer-events: none; */
+
+            .owl-dots{
+                display: block;
+                visibility: visible;
+            }
