@@ -5210,11 +5210,11 @@
 
                 .appriciation-images .owl-carousel .owl-item img {
                     width: 375px;
-                }
+                }*/
 
                 .appriciation-title h3 {
                     width: 85%;
-                } */
+                }
 
             }
 
@@ -5477,7 +5477,7 @@
 
                 #overlay {
                     position: fixed;
-                    z-index: 1;
+                    z-index: 3;
                     top: 0;
                     right: 0;
                     bottom: 0;
@@ -5571,13 +5571,13 @@
                     margin: auto;
                 }
 
-                /* .appriciation-title h3 {
+                .appriciation-title h3 {
                     width: 65%;
                     margin: 25px auto;
                     font-weight: 700;
                 }
 
-                .appriciation-images .owl-carousel.owl-loaded {
+                /* .appriciation-images .owl-carousel.owl-loaded {
                     max-width: 750px;
                     width: 100%;
                 }
@@ -5594,6 +5594,10 @@
 
                 .life-title h1 {
                     font-size: 30px;
+                }
+
+                .team-img img {
+                    width: 350px;
                 }
             }
 
@@ -7230,10 +7234,10 @@
                     font-size: 12px;
                 }
 
-                /* .appriciation-title h3 {
+                .appriciation-title h3 {
                     width: 100%;
                     font-size: 22px;
-                } */
+                }
 
                 .team-info h4 {
                     font-size: 22px;
@@ -7241,6 +7245,10 @@
 
                 .team-info p {
                     font-size: 12px;
+                }
+
+                .team-img img {
+                    width: 225px;
                 }
 
             }
