@@ -2325,21 +2325,35 @@
                 text-align: center;
             }
 
-            .about-bg .team-main .owl-carousel .img {
+            .about-bg .team-main .img {
                 display: block;
                 margin: 15px;
+                /* padding: 15px; */
+                /* background: #FFFFFF; */
+                /* box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08); */
+                border-radius: 8px;
+            }
+
+            .about-bg .team-main .item {
+                margin-bottom: 70px;
+            }
+
+            .about-bg .team-main .name-post {
                 padding: 15px;
                 background: #FFFFFF;
                 box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
-                border-radius: 20px;
+                width: 85%;
+                bottom: -50px;
+                left: 23px;
+                border-radius: 8px;
             }
 
-            .about-bg .team-main .owl-carousel .img img {
+            .about-bg .team-main .img img {
                 display: block;
                 border-radius: 10px;
             }
 
-            .about-bg .team-main .owl-carousel h3 {
+            .about-bg .team-main h3 {
                 display: block;
                 font-size: 18px;
                 color: #D85B1A;
@@ -2349,12 +2363,12 @@
                 font-weight: bold;
             }
 
-            .about-bg .team-main .owl-carousel p {
+            .about-bg .team-main p {
                 display: block;
-                font-size: 14px;
+                font-size: 16px;
                 color: #999;
                 margin: 0px 0 10px;
-                line-height: 1;
+                /* line-height: 1; */
                 text-align: center;
             }
 
@@ -4806,14 +4820,16 @@
 
             .seo-title h1,
             .react-native-title h1,
-            .life-title h1 {
+            .life-title h1,
+            .about-title h1 {
                 font-size: 50px;
                 color: #fff;
                 font-weight: 700;
             }
 
             .seo-title p,
-            .react-native-title p {
+            .react-native-title p,
+            .about-title p {
                 font-size: 25px;
                 color: #fff;
             }
@@ -5077,6 +5093,60 @@
                 margin: auto;
                 font-weight: 700;
             }
+
+            .ios-service {
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 15px;
+                text-align: center;
+                margin: 10px auto;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+                -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+                -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+                transition: all ease-in-out 0.5s;
+
+            }
+
+            .ios-service:hover {
+                box-shadow: 0px 0px 40px -5px rgb(216 91 26 / 60%);
+                -webkit-box-shadow: 0px 0px 40px -5px rgb(216 91 26 / 60%);
+                -moz-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
+                transition: all ease-in-out 0.5s;
+            }
+
+            .ios-service p {
+                padding-top: 10px;
+                margin-bottom: 0;
+            }
+
+            .ios-dev-service-title h2 {
+                text-transform: none !important;
+            }
+
+            ul.tech-use-list li {
+                margin: 10px 5px 0px 5px !important;
+            }
+
+            .tech-use {
+                background-color: #fff;
+                border-radius: 10px;
+                height: 154px;
+                max-height: 100%;
+                width: 154px;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+                -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+                -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+            }
+
+            .tech-use-title p {
+                margin: 0;
+                padding-top: 15px;
+            }
+
+            .ios-development-detail {
+                padding: 80px 0;
+            }
+
 
             @media(max-width:1900px) {
                 .aboutus-bg::before {
@@ -5608,13 +5678,15 @@
                     width: 100%;
                 } */
 
-                .life-title h1 {
+                .life-title h1,
+                .about-title h1 {
                     font-size: 30px;
                 }
 
                 .team-img img {
                     width: 350px;
                 }
+
             }
 
             @media (max-width: 440px) {
@@ -7278,6 +7350,12 @@
                     width: 225px;
                 }
 
+                .tech-use {
+                    height: 154px !important;
+                    max-height: 100% !important;
+                    width: 154px !important;
+                    max-width: 100% !important;
+                }
             }
 
             @media (max-width: 513px) {
