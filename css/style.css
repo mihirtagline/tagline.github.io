@@ -2792,7 +2792,8 @@
                 padding: 100px 0;
             }
 
-            .react-native-detail {
+            .react-native-detail,
+            .hashtags-app {
                 padding: 50px 0;
             }
 
@@ -2825,6 +2826,16 @@
                 -ms-flex-align: center;
                 align-items: center;
                 width: 100%;
+                height: 180px;
+                max-height: 100%;
+                transition: all ease-in-out 0.5s;
+            }
+
+            .icon_box:hover {
+                box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
+                -webkit-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
+                -moz-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
+                transition: all ease-in-out 0.5s;
             }
 
             .icon_box .icon {
@@ -4821,7 +4832,8 @@
             .seo-title h1,
             .react-native-title h1,
             .life-title h1,
-            .about-title h1 {
+            .about-title h1,
+            .hashtag-app-title h1 {
                 font-size: 50px;
                 color: #fff;
                 font-weight: 700;
@@ -4829,7 +4841,8 @@
 
             .seo-title p,
             .react-native-title p,
-            .about-title p {
+            .about-title p,
+            .hashtag-app-title p {
                 font-size: 25px;
                 color: #fff;
             }
@@ -4905,7 +4918,9 @@
             .seo-title h1,
             .seo-title p,
             .react-native-title h1,
-            .react-native-title p {
+            .react-native-title p,
+            .hashtag-app-title h1,
+            .hashtag-app-title p {
                 padding-bottom: 50px;
             }
 
