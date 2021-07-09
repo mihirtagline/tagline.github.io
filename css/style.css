@@ -2886,13 +2886,9 @@
                 margin-bottom: 15px;
             }
 
-            .shadow_img {
-                padding: 20px;
-                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-            }
-
             .shadow_img img {
                 width: 100%;
+                border-radius: 10px;
             }
 
             .list li {
@@ -3015,8 +3011,8 @@
             }
 
             .technology_box {
-                background-color: #fff;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+                /* background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.08); */
                 padding: 15px;
                 text-align: center;
                 margin-bottom: 30px;
@@ -5918,10 +5914,10 @@
                     font-size: 14px;
                 }
 
-                .btn:hover,
+                /* .btn:hover,
                 .btn:focus {
                     padding: 10px 50px 10px 20px;
-                }
+                } */
 
                 .btn.btn-light::before,
                 .btn.btn-default:before {
@@ -7327,12 +7323,14 @@
                 }
 
                 .seo-title h1,
-                .react-native-title h1 {
+                .react-native-title h1,
+                .hashtag-app-title h1 {
                     font-size: 30px;
                 }
 
                 .seo-title p,
-                .react-native-title p {
+                .react-native-title p,
+                .hashtag-app-title p {
                     font-size: 15px;
                 }
 
@@ -7460,6 +7458,11 @@
 
                 .icon_box {
                     display: block
+                }
+
+                .icon_box {
+                    height: 320px;
+                    max-height: 100%;
                 }
 
                 .icon_box .icon {
