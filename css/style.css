@@ -5158,6 +5158,10 @@
                 padding: 80px 0;
             }
 
+            ul.sem-benifits li{
+                list-style: disc inside !important;
+            }
+
 
             @media(max-width:1900px) {
                 .aboutus-bg::before {
@@ -5294,6 +5298,7 @@
                 .sem-title h1 {
                     font-size: 40px;
                 }
+
 
                 /* .appriciation-images .owl-carousel.owl-loaded {
                     max-width: 375px;
