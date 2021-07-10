@@ -648,7 +648,7 @@
         </div>
     </section>
 
-    <section class="letstalk-bg our-successful-projects mt-5">
+    <section class="letstalk-bg our-successful-projects mt-5 py-0">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-12 expertize-heading">
@@ -1382,8 +1382,6 @@
     <script>
         var peoples = document.querySelector(".it");
         var projects = document.querySelector(".pro");
-        var workHours = document.querySelector(".hours");
-        var experiance = document.querySelector(".exp")
         let count = 1;
 
         setInterval(() => {
@@ -1399,15 +1397,19 @@
                 projects.innerText = count;
             }
         }, 10)
+    </script>
 
-        // let count = 0;
+    <script>
+        var workHours = document.querySelector(".hours");
+        var experiance = document.querySelector(".exp")
 
+        let counter = 1;
         setInterval(() => {
-            if (count <= 44) {
-                count++;
-                workHours.innerText = count;
+            if (counter <= 44) {
+                counter++;
+                workHours.innerText = counter;
             }
-        }, 10)
+        }, 30)
     </script>
 
 </body>

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css">
@@ -35,38 +36,278 @@
 <body>
     <a href="#" class="getquote-btn" data-toggle="modal" data-target="#getquote-popup">getquote</a>
 
-    <header class="bg-white">
-        <a href="/" class="logo">
-            <img src="images/logo.png" alt="Logo">
-        </a>
-        <ul class="menu-list">
-            <li class="active"><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="career.html">Career</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#getquote-popup">Get a Quote</a></li>
-        </ul>
-        <div class="outer-menu">
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="logo m-xl-0 m-lg-0 m-md-0 m-sm-auto m-auto">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+                <ul class="menu-list">
+                    <li class="dropdown service">
+                        <a href="#" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu service-menu p-4 d-flex" aria-labelledby="navbarDropdown">
+                            <ul class="service-submenu">
+                                <li class="mobile-dev">
+                                    <span class="menu-title"><i class="fas fa-mobile-alt icon"></i> Mobile Apps
+                                        Development</span>
+                                    <ul class="mobile-dev-submenu">
+                                        <li><a class="dropdown-item" href="android-app-development.html">Android App
+                                                Development</a></li>
+                                        <li><a class="dropdown-item" href="ios-app-development.html">IOS App
+                                                Development</a></li>
+                                        <li><a class="dropdown-item" href="react-native-development.html">React Native
+                                                App Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Cross-Platform Development</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="service-submenu">
+                                <li class="web-dev">
+                                    <span class="menu-title"><i class="fas fa-window-restore icon"></i> Web
+                                        Development</span>
+                                    <ul class="web-dev-submenu overflow-wrap">
+                                        <li><a class="dropdown-item" href="#">AngularJs Development</a></li>
+                                        <li><a class="dropdown-item" href="#">NodeJs Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Java Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Django Development</a></li>
+                                        <li><a class="dropdown-item" href="#">React js Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Python Development</a></li>
+                                        <li><a class="dropdown-item" href="#">Ruby on Rails (ROR) Development</a></li>
+                                        <li><a class="dropdown-item" href="#">jQuery Development</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="service-submenu">
+                                <li class="digital-marketing">
+                                    <span class="menu-title"><i class="fad fa-megaphone icon"></i> Digital
+                                        Marketing</span>
+                                    <ul class="digital-marketing-submenu">
+                                        <li><a class="dropdown-item" href="seo.html">SEO Services</a></li>
+                                        <li><a class="dropdown-item" href="sem-service.html">SMO Services</a></li>
+                                        <li><a class="dropdown-item" href="ppc-service.html">PPC Services</a></li>
+                                    </ul>
+                                </li>
+                                <li class="design-service mt-3">
+                                    <span class="menu-title w-auto"><i class="fab fa-uikit icon"></i> Design
+                                        Serivices</span>
+                                    <ul class="design-submenu">
+                                        <li><a class="dropdown-item" href="#"> UI/UX Design</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="dropdown solution">
+                        <a href="#" class="dropdown-toggle" id="navbarDropdown2" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Solution</a>
+                        <div class="dropdown-menu service-menu p-4 fade-down d-flex" aria-labelledby="navbarDropdown2">
+                            <ul class="solution-submenu">
+                                <li class="sector">
+                                    <ul class="solution-sector-submenu">
+                                        <li><a class="dropdown-item" href="#">Demo 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Demo 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Demo 3</a></li>
+                                        <li><a class="dropdown-item" href="#">Demo 4</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="dropdown about">
+                        <a href="#" class="dropdown-toggle" id="navbarDropdown3" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Comapny</a>
+                        <div class="dropdown-menu service-menu p-4 fade-down d-flex" aria-labelledby="navbarDropdown3">
+                            <ul class="company-submenu">
+                                <li><a class="dropdown-item" href="aboutus.html"><i class="fas fa-users"></i>
+                                        About Us</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-file-code"></i>
+                                        Development Methodology</a></li>
+                                <li><a class="dropdown-item" href="career.html"><i class="fas fa-briefcase"></i>
+                                        Career</a></li>
+                                <li><a class="dropdown-item" href="life-at-tagline.html"><i
+                                            class="fas fa-briefcase"></i>
+                                        Life @ Tagline</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li>
+                        <a class="btn my-auto" id="getquote-btn" data-toggle="modal" data-target="#getquote-popup">Get a
+                            Quote</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="outer-menu position-absolute">
             <div class="hamburger">
-                <img src="images/menu-icon.png" alt="menu-icon" class="menu-icon">
-                <img src="images/close-icon.png" alt="close-icon" class="close-icon">
+                <a href="#"><img src="images/menu-icon.png" alt="Menu Bar" class="menu-icon"></a>
+                <a href="#"><img src="images/close-icon.png" alt="Close" class="close-icon"></a>
             </div>
             <div class="menu-list">
                 <div>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li class="active"><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="career.html">Career</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#getquote-popup">Get a Quote</a></li>
+                        <li><a href="/"><i class="fas fa-home pr-3"></i> Home</a></li>
+                        <li class="service-menu-mobile">
+                            <a href="#" class="align-items-center" data-toggle="collapse" data-target="#collapseService"
+                                aria-expanded="true" aria-controls="collapseService"><i class="fas fa-code pr-3"></i>
+                                Services <i class="fas fa-chevron-down"></i></a>
+                            <div id="collapseService" class="collapse service-submenu-mobile"
+                                aria-labelledby="headingOne" data-parent="#accordion">
+                                <ul class="service-submenu-mobile-accordian mt-2 px-5">
+                                    <li class="mt-4">
+                                        <a href="#" class="text-decoration-none" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne"><i class="fas fa-mobile-alt icon"></i>
+                                            Mobile
+                                            Apps
+                                            Development <i class="fas fa-chevron-right"></i></a>
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                            data-parent="#accordion">
+                                            <ul class="mobildev-submenu mx-auto">
+                                                <li>
+                                                    <ul class="mobiledev-submenu-body mt-1">
+                                                        <li><a class="dropdown-item"
+                                                                href="android-app-development.html">Android App
+                                                                Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="ios-app-development.html">IOS
+                                                                App Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="react-native-development.html">React Native App
+                                                                Development</a></li>
+                                                        <li><a class="dropdown-item" href="#">Cross-Platform
+                                                                Development</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="#" class="text-decoration-none" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo"><i class="fas fa-window-restore icon"></i> Web
+                                            Development <i class="fas fa-chevron-right"></i></a>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordion">
+                                            <ul class="webdev-submenu mx-auto">
+                                                <li>
+                                                    <ul class="webdev-submenu-body mt-1">
+                                                        <li><a class="dropdown-item" href="#">AngularJs Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">NodeJs Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Java Development</a></li>
+                                                        <li><a class="dropdown-item" href="#">Django Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">React js Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Python Development</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Ruby on Rails (ROR)
+                                                                Development</a></li>
+                                                        <li><a class="dropdown-item" href="#">jQuery Development</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="#" class="text-decoration-none" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree"><i class="fad fa-megaphone icon"></i> Digital
+                                            Marketing <i class="fas fa-chevron-right"></i></a>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <ul class="digital-submenu mx-auto">
+                                                <li>
+                                                    <ul class="digital-submenu-body mt-1">
+                                                        <li><a class="dropdown-item" href="#">SEO Services</a></li>
+                                                        <li><a class="dropdown-item" href="#">SMO Services</a></li>
+                                                        <li><a class="dropdown-item" href="#">PPC Services</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4 mb-4">
+                                        <a href="#" class="text-decoration-none" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour"><i class="fab fa-uikit icon"></i> Design
+                                            Serivices <i class="fas fa-chevron-right"></i></a>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                            data-parent="#accordion">
+                                            <ul class="digital-submenu mx-auto">
+                                                <li>
+                                                    <ul class="digital-submenu-body mt-1">
+                                                        <li><a class="dropdown-item" href="#"> UI/UX Design</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="solution-menu-mobile">
+                            <a href="#" data-toggle="collapse" data-target="#collapseSolution" aria-expanded="true"
+                                aria-controls="collapseSolution"><i class="fad fa-phone-laptop pr-3"></i> Solution <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <div id="collapseSolution" class="collapse solution-submenu-mobile"
+                                aria-labelledby="headingOne" data-parent="#accordion">
+                                <ul class="solution-submenu-mobile-accordian mt-2 px-5">
+                                    <li class="mt-4">
+                                        <a href="#">Demo 1</a>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="#">Demo 1</a>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="#">Demo 1</a>
+                                    </li>
+                                    <li class="mt-4 mb-4">
+                                        <a href="life-at-tagline.html">Life</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="portfolio.html"><i class="fas fa-briefcase pr-4"></i> Portfolio</a></li>
+                        <li><a href="aboutus.html"><i class="fas fa-user-friends pr-3"></i> About Us</a></li>
+                        <li class="company-menu-mobile">
+                            <a href="#" data-toggle="collapse" data-target="#collapseCompany" aria-expanded="true"
+                                aria-controls="collapseComapny"><i class="fas fa-mobile pr-4"></i> Company <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <div id="collapseCompany" class="collapse company-submenu-mobile"
+                                aria-labelledby="headingOne" data-parent="#accordion">
+                                <ul class="company-submenu-mobile-accordian mt-2 px-5">
+                                    <li class="mt-4 "><a href="aboutus.html"><i class="fas fa-users"></i> About Us</a>
+                                    </li>
+                                    <li class="mt-4 "><a href="#"><i class="fas fa-file-code"></i>
+                                            Development Methodology</a></li>
+                                    <li class="mt-4 mb-4"><a href="career.html"><i class="fas fa-briefcase"></i>
+                                            Career</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="blog.html"><i class="fab fa-blogger-b pr-4"></i> Blog</a></li>
+                        <li class="my-5 "><a href="#" id="getquote-btn2" class="mx-auto text-center px-0"
+                                data-toggle="modal" data-target="#getquote-popup">Get a Quote</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+
+    <div id="overlay"></div>
 
     <section class="section_portfolio_detail ios-development-detail background_bg service_overlay_bg "
         data-img-src="images/ios-app-development2.png">
@@ -101,23 +342,19 @@
                     <div class="heading">
                         <h2>Why Choose Tagline Infotech For iPhone?</h2>
                     </div>
-                    <p>iOS is a prior operating system developed by Apple Inc. for its iPhone and iPod Touch lines. It
-                        is most useful for business strategic value and is the second most popular operative system(OS)
-                        in the world. which introduces its high
-                        technical feature with its easy step follow up for standardizing your business value. It has
-                        great UI, new APIs, and frameworks for iOS programmers to make iOS app development a value feed
-                        in iPhone app development services provided
-                        to the world.</p>
-                    <p>It has a high rate of the user interface, so introducing just one new item in the market can
-                        reach a pick point of competition or get success in a short period of time. iOS application has
-                        great customization for development, catches
-                        new revenue, cutting-edge functionalities with UI and UX designing high sources of business
-                        including communication, traveling, e-commerce, digital media, social media, photography,
-                        entertainment and delivers its service to all
-                        clients.with its prior security to individual customize application buildout. The security
-                        concern with the loss of data security, duplication, and encryption. Considering the acceptance
-                        and demand for iPhone specific apps. And
-                        we are glad to accept your creative idea with our customized application solution.</p>
+                    <p>As a leading iOS development company in the USA, Tagline Infotech is aware of the processes and
+                        criteria that must be followed to produce user-friendly, secure, and compatible iPhone
+                        applications. We provide a variety of iOS application development solutions to satisfy your
+                        needs by utilizing the skills of our iOS developers in both Objective C and Swift. </p>
+                    <p>We have a team of professional iOS app developers with extensive industry knowledge and skills to
+                        assess your company needs and design the ideal solution for you. We create feature-rich mobile
+                        apps that boost user experience and help you establish market authority and expand your brand.
+                        To ensure the accuracy of the final product, our designers work parallel with the whole iOS
+                        lifecycle.</p>
+                    <p>As a leading iOS mobile app development company, we utilize state-of-the-art technologies and
+                        tools to develop friendly, robust, and secure apps for your company. Our development process,
+                        ideas and tactics, allowing us to remain among the best iOS app development firms. We will go
+                        the extra mile if necessary for your product.</p>
                 </div>
             </div>
         </div>
@@ -132,33 +369,45 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laborum, praesentium magnam vitae ea
-                        minus ut beatae laudantium voluptate natus, asperiores eius maiores, repudiandae necessitatibus
-                        inventore? At, vero! Earum voluptatem obcaecati, minus fugiat sapiente dolorum cupiditate nihil
-                        facilis maxime sit temporibus provident ad quo. Molestiae harum dolor officia ad repellat.
-                        Itaque eligendi culpa totam alias sapiente ipsam iure reprehenderit ex praesentium neque
-                        voluptas, ipsa ad. Eius id aperiam cumque amet. Ipsam perferendis eaque provident doloremque.
+                    <p>The Process of creating mobile apps for Apple devices, such as the iPhone, iPad, and Apple Tv, is
+                        known as iOS application development. The software is developed in Swift or Objective-C, and it
+                        is then published on the App Store for people to download. The firm providing these services is
+                        called an iOS app development company.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, error. Maiores, facilis.
-                        Voluptate beatae quisquam inventore autem assumenda repellat ipsam ad id iure non totam vel
-                        voluptates vero quaerat, sint tempore neque unde possimus sed dolorem aliquam laboriosam, quo
-                        numquam earum! Possimus, animi! Ullam repudiandae deserunt odio accusamus fugit hic magnam sint!
-                        Et voluptate totam perspiciatis pariatur ullam nemo eum iste adipisci id, quaerat magnam
-                        voluptates officiis aspernatur nulla ipsam aut tempore! Enim, aspernatur explicabo.</p>
+                    <p>The demand for iOS mobile apps is quickly rising in the software industry, thanks to new products
+                        launched every year by the tech giant Apple Inc. It has enabled businesses to reach a worldwide
+                        audience from anywhere on the planet with a feature-rich and completely customizable mobile
+                        application.</p>
+                    <p>Since we are a top iPhone app development company in the USA, our experience in iPhone
+                        application creation is unique and top-notch. Our iOS app development services are adaptable and
+                        dynamic. Our designers build attractive and engaging iOS apps by following the iOS Human
+                        Interface Standards.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="letstalk-bg mt-5">
+    <section class="letstalk-bg our-successful-projects mt-5 py-0 anim2">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-auto">
-                    <h2 class="anim2">Let&#39;s talk about your <span>project</span></h2>
+            <div class="row text-center">
+                <div class="col-md-12 expertize-heading">
+                    <h3 class="text-center py-3">Our Successful Projects</h3>
                 </div>
-                <div class="col-12 col-sm-auto ml-auto">
-                    <a href="#" class="btn btn-light color-black anim1" data-toggle="modal"
-                        data-target="#getquote-popup">Contact Us</a>
+                <div class="col-md-3 py-4 expertize">
+                    <h4 class="it">60</h4><span>+</span>
+                    <p>IT Professionals</p>
+                </div>
+                <div class="col-md-3 py-4 expertize align-items-center">
+                    <h4 class="pro">200</h4><span>+</span>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-md-3 py-4 expertize">
+                    <h4 class="hours">45</h4><span>K+</span>
+                    <p>Freelance Hours</p>
+                </div>
+                <div class="col-md-3 py-4 expertize">
+                    <h4 class="exp">3</h4><span>+</span>
+                    <p>Years Of Experience</p>
                 </div>
             </div>
         </div>
@@ -170,11 +419,9 @@
                 <div class="col-md-12">
                     <div class="heading anim4 text-center">
                         <h2>Technologies Our iPhone App Developers Use</h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestias blanditiis? Dicta
-                        quibusdam exercitationem quas. Et deleniti ad libero quos laboriosam. Minus dicta at ipsam.
-                        Mollitia asperiores dolores deleniti earum fugit, sint doloribus, eius fuga quae, atque ipsam
-                        nemo consequuntur autem. Mollitia dignissimos quidem, dolorem quam a, nobis expedita repellat
-                        qui error quasi odio velit modi nulla est harum sequi.
+                        <p>Our experienced iOS app developers' use modern technologies and tools to create
+                            user-friendly, durable, and secure apps that can provide high-quality results. The
+                            technologies are:</p>
                     </div>
                     <ul class="tech-use-list d-flex flex-wrap mt-3 justify-content-center">
                         <li class="tech-use">
@@ -276,11 +523,14 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 text-center ios-dev-service-title heading mb-4">
                     <h2>iPhone Mobile App Development Services</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque iste natus blanditiis, magni
-                        ratione voluptatum, eligendi illo accusamus facere voluptas repellat quod, nesciunt iure nulla!
-                        Et cum, odit velit minus nihil excepturi fugit perspiciatis libero sunt deleniti iusto, adipisci
-                        necessitatibus obcaecati accusamus quisquam quos voluptatem distinctio placeat quae consequuntur
-                        cupiditate minima ex. Quibusdam officia eligendi reiciendis expedita reprehenderit error soluta!
+                    <p>Tagine Infotech is a prominent iPhone mobile app development company in the United States. With
+                        our top-of-the-line iOS mobile application development offerings, we, therefore, provide a wide
+                        variety of services to assist you in handling your business objectives.
+                    </p>
+                    <p>Our services include UI/UX design, development of native iPhone applications, eCommerce app
+                        creation, iOS wearable app development, NFC integration, Support, Maintenance, Optimization, and
+                        many more. We also manage the entire App Store inclusion procedure, including posting,
+                        depictions, and resources.
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -486,11 +736,11 @@
             <div class="row align-items-center">
                 <div class="col-md-12 heading text-center">
                     <h3>Our App Development Process</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quibusdam rem laudantium. Ipsam
-                        amet sed hic exercitationem ut aliquam? Ex provident dolorem officia recusandae? Recusandae,
-                        delectus ab explicabo a porro atque accusamus incidunt sunt eum, repudiandae minus saepe ut.
-                        Nesciunt laudantium perspiciatis, reiciendis aliquid facere repudiandae consequatur illum
-                        voluptatem fuga.</p>
+                    <p>For your iOS app development, we employ cutting-edge technology, robust frameworks, and best
+                        industry practices as part of a complete development cycle.</p>
+                    <p>The Process includes the curation of ideas and concepts, determining feature sets, graphic
+                        designing for the overall architecture of the application, application development, testing the
+                        whole app, launching the application on the App Store and maintenance support. </p>
                 </div>
                 <div class="col-md-12 mt-5">
                     <div class="app-development-process-img text-center">
@@ -762,81 +1012,76 @@
     <footer class="footer">
         <div class="container">
             <!-- <div class="menu-boxs">				
-                <div class="menu-list services-box border-right border-bottom">
-                    <h3 class="anim2">Services</h3>
-                    <ul class="anim2">
-                        <li><a href="services.html">Mobile Development</a></li>
-                        <li><a href="services.html">Web Development</a></li>
-                        <li><a href="services.html">UI/UX Design</a></li>
-                        <li><a href="services.html">Digital Marketing</a></li>
-                    </ul>
-                </div>
-                <div class="menu-list help-box border-right border-bottom">
-                    <h3 class="anim2">Help & Advice</h3>
-                    <ul class="anim2 mb-2">
-                        <li><a href="contact.html">Contact support</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                    </ul>
-                    <h3 class="anim2 mt-0 mb-2">Company</h3>
-                    <ul class="anim2">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="aboutus.html">Our Team</a></li>
-                    </ul>
-                </div>
-                <div class="menu-list company-box border-right border-bottom">
-                    
-                </div>
-                <div class="menu-list gettouch-box border-bottom">
-                    <h3 class="anim2">Get In touch</h3>
-                    <p class="anim2">Feel free to get in touch with us via email</p>
-                    <a href="mailto:info@taglineinfotech.com" class="btn btn-link mb-2 mb-lg-4 anim2"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg> <span>info@taglineinfotech.com</span></a>
-                    <a href="tel:+919913808285" class="btn btn-link anim2"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mobile" class="svg-inline--fa fa-mobile fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg> <span>+91 9913 808 285</span></a>
-                </div>
-            </div> -->
+			<div class="menu-list services-box border-right border-bottom">
+				<h3 class="anim2">Services</h3>
+				<ul class="anim2">
+					<li><a href="services.html">Mobile Development</a></li>
+					<li><a href="services.html">Web Development</a></li>
+					<li><a href="services.html">UI/UX Design</a></li>
+					<li><a href="services.html">Digital Marketing</a></li>
+				</ul>
+			</div>
+			<div class="menu-list help-box border-right border-bottom">
+				<h3 class="anim2">Help & Advice</h3>
+				<ul class="anim2 mb-2">
+					<li><a href="contact.html">Contact support</a></li>
+					<li><a href="#">Privacy policy</a></li>
+				</ul>
+				<h3 class="anim2 mt-0 mb-2">Company</h3>
+				<ul class="anim2">
+					<li><a href="#">Blog</a></li>
+					<li><a href="aboutus.html">Our Team</a></li>
+				</ul>
+			</div>
+			<div class="menu-list company-box border-right border-bottom">
+				
+			</div>
+			<div class="menu-list gettouch-box border-bottom">
+				<h3 class="anim2">Get In touch</h3>
+				<p class="anim2">Feel free to get in touch with us via email</p>
+				<a href="mailto:info@taglineinfotech.com" class="btn btn-link mb-2 mb-lg-4 anim2"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg> <span>info@taglineinfotech.com</span></a>
+				<a href="tel:+919913808285" class="btn btn-link anim2"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mobile" class="svg-inline--fa fa-mobile fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg> <span>+91 9913 808 285</span></a>
+			</div>
+		</div> -->
             <div class="row pt-5 m-0">
                 <div class="col-md-3 col-lg-3 border-right">
                     <!-- <div class="menu-list services-box ">
-                            <h3 class="anim2">Services</h3>
-                            <ul class="anim2">
-                                <li><a href="services.html">Mobile Development</a></li>
-                                <li><a href="services.html">Web Development</a></li>
-                                <li><a href="services.html">UI/UX Design</a></li>
-                                <li><a href="services.html">Digital Marketing</a></li>
-                            </ul>
-                        </div> -->
+						<h3 class="anim2">Services</h3>
+						<ul class="anim2">
+							<li><a href="services.html">Mobile Development</a></li>
+							<li><a href="services.html">Web Development</a></li>
+							<li><a href="services.html">UI/UX Design</a></li>
+							<li><a href="services.html">Digital Marketing</a></li>
+						</ul>
+					</div> -->
                     <div class="mb-4 gettouch-box">
                         <h4>Get In touch</h4>
                         <h5 class="company-name">Tagline Infotech</h5>
                         <p>423, Apple Square, beside Lajamni Chowk, Mota Varachha, Surat, Gujarat 394101</p>
-                        <a href="mailto:info@taglineinfotech.com" class="btn btn-link mb-2"><i
+                        <a href="mailto:info@taglineinfotech.com" class="btn btn-link mb-4"><i
                                 class="fas fa-envelope"></i><span>info@taglineinfotech.com</span></a>
-                        <a href="tel:+919913808285" class="btn btn-link anim2"><i class="fas fa-mobile"></i><span> +91
+                        <a href="tel:+919913808285" class="btn btn-link"><i class="fas fa-mobile"></i><span> +91
                                 9913 808 285</span></a>
                     </div>
                 </div>
 
                 <div class="col-md-3 col-lg-3 border-right">
                     <div class="menu-list help-box">
-                        <div class="hr-box mb-4">
+                        <div class="hr-box mb-5">
                             <h5>HR Inquiery</h5>
 
-                            <a href="mailto:hr@taglineinfotech.com" class="btn btn-link mb-2"><i
+                            <a href="mailto:hr@taglineinfotech.com" class="btn btn-link mb-3 mt-3"><i
                                     class="fas fa-envelope"></i><span>hr@taglineinfotech.com</span></a>
-                            <a href="tel:+919913808285" class="btn btn-link"><i class="fas fa-mobile"></i><span>
+                            <a href="tel:+919913808285" class="btn btn-link mb-3"><i class="fas fa-mobile"></i><span>
                                     +91
                                     99138 08285</span></a>
                         </div>
-                        <div class="sales-box mb-4">
+                        <div class="sales-box pb-5">
                             <h5 class="">Sales Inquiery</h5>
-                            <a href="mailto:shantilal@taglineinfotech.com" class="btn btn-link mb-2"><i
+                            <a href="mailto:shantilal@taglineinfotech.com" class="btn btn-link mb-3 mt-3"><i
                                     class="fas fa-envelope"></i><span>shantilal@taglineinfotech.com</span></a>
-                            <a href="skype:live:cid.9a7213685f51f8b8" class="btn btn-link mb-2"><i
+                            <a href="skype:live:cid.9a7213685f51f8b8" class="btn btn-link mb-3"><i
                                     class="fab fa-skype"></i><span>live:taglineinfotech</span></a>
-                        </div>
-                        <div class="sales-box">
-                            <h5 class="">Genral Inquiery</h5>
-                            <a href="mailto:info@taglineinfotech.com" class="btn btn-link mb-2"><i
-                                    class="fas fa-envelope"></i><span>info@taglineinfotech.com</span></a>
                         </div>
                     </div>
 
@@ -845,10 +1090,10 @@
                 <div class="col-md-3 col-lg-3 border-right">
                     <h5>Help & Advice</h5>
                     <ul class="mb-2">
-                        <li><a href="contact.html">Contact support</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="aboutus.html">Our Team</a></li>
+                        <li><a href="contact.html"><i class="fas fa-headset pr-2"></i> Contact support</a></li>
+                        <li><a href="#"><i class="fas fa-user-lock pr-2"></i> Privacy policy</a></li>
+                        <li><a href="#"><i class="fab fa-blogger-b pr-3"></i> Blog</a></li>
+                        <li><a href="aboutus.html"><i class="fas fa-users pr-2"></i> Our Team</a></li>
                     </ul>
                 </div>
 
@@ -856,64 +1101,65 @@
                     <div class="menu-list help-box">
                         <h5>Services</h5>
                         <ul class="services">
-                            <li><a href="#"><i class="fas fa-mobile-alt"></i> <span>Mobile App Development</span></a>
+                            <li><a href="#"><i class="fas fa-mobile-alt pr-2"></i> <span>Mobile App
+                                        Development</span></a>
                             </li>
-                            <li><a href="#"><i class="fas fa-window-restore"></i> <span>Web Development</span></a></li>
-                            <li><a href="#"><i class="fab fa-uikit"></i> <span>Ui/Ux Design</span></a></li>
-                            <li><a href="#"><i class="fal fa-megaphone"></i> <span>Digital Marketing</span></a></li>
+                            <li><a href="#"><i class="fas fa-window-restore pr-1"></i> <span>Web Development</span></a>
+                            </li>
+                            <li><a href="#"><i class="fab fa-uikit pr-2"></i> <span>Ui/Ux Design</span></a></li>
+                            <li><a href="#"><i class="fal fa-megaphone pr-1"></i> <span>Digital Marketing</span></a>
+                            </li>
                         </ul>
-
-
                         <!-- <div class="row mt-4">
-                                <div class="col-4 mb-4">
-                                    <div class="technology-experience">
-                                        <a href="https://www.businessofapps.com/marketplace/YOURPROFILE" target="_blank">
-                                            <img src="images/1.png" alt="1" />
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-4 mb-4">
-                                    <div class="technology-experience">
-                                        <a href="https://www.appfutura.com/web-developers/india" target="_blank">
-                                            <img src="images/2.png" alt="2" />
-                                        </a>
-                                    </div>
-                                </div>
-    
-                                <div class="col-4 mb-4">
-                                    <div class="technology-experience">
-                                        <a href="https://www.softwareworld.co/top-custom-software-development-companies/"
-                                            target="_blank"></a>
-                                        <img src="images/3.png" alt="3" />
-                                        </a>
-                                    </div>
-                                </div>
-    
-                                <div class="col-4 mb-4">
-                                    <div class="technology-experience">
-                                        <a href="https://www.goodfirms.co/app-development-software/" target="_blank"></a>
-                                        <img src="images/4.png" alt="4" />
-                                        </a>
-                                    </div>
-                                </div>
-    
-                                <div class="col-4 mb-4">
-                                    <div class="technology-experience">
-                                        <a href="https://www.upwork.com/ag/taglineinfotech/" target="_blank"></a>
-                                        <img src="images/5.png" alt="5" />
-                                        </a>
-                                    </div>
-                                </div>
-    
-                                <div class="col-4 mb-4">
-                                    <div class="technology-experience">
-                                        <a href="https://clutch.co/profile/taglineinfotech" target="_blank"></a>
-                                        <img src="images/6.png" alt="6" />
-                                        </a>
-                                    </div>
-                                </div>
-    
-                            </div> -->
+							<div class="col-4 mb-4">
+								<div class="technology-experience">
+									<a href="https://www.businessofapps.com/marketplace/YOURPROFILE" target="_blank">
+										<img src="images/1.png" alt="1" />
+									</a>
+								</div>
+							</div>
+							<div class="col-4 mb-4">
+								<div class="technology-experience">
+									<a href="https://www.appfutura.com/web-developers/india" target="_blank">
+										<img src="images/2.png" alt="2" />
+									</a>
+								</div>
+							</div>
+
+							<div class="col-4 mb-4">
+								<div class="technology-experience">
+									<a href="https://www.softwareworld.co/top-custom-software-development-companies/"
+										target="_blank"></a>
+									<img src="images/3.png" alt="3" />
+									</a>
+								</div>
+							</div>
+
+							<div class="col-4 mb-4">
+								<div class="technology-experience">
+									<a href="https://www.goodfirms.co/app-development-software/" target="_blank"></a>
+									<img src="images/4.png" alt="4" />
+									</a>
+								</div>
+							</div>
+
+							<div class="col-4 mb-4">
+								<div class="technology-experience">
+									<a href="https://www.upwork.com/ag/taglineinfotech/" target="_blank"></a>
+									<img src="images/5.png" alt="5" />
+									</a>
+								</div>
+							</div>
+
+							<div class="col-4 mb-4">
+								<div class="technology-experience">
+									<a href="https://clutch.co/profile/taglineinfotech" target="_blank"></a>
+									<img src="images/6.png" alt="6" />
+									</a>
+								</div>
+							</div>
+
+						</div> -->
 
                     </div>
 
@@ -985,7 +1231,6 @@
         </div>
     </footer>
 
-
     <div class="modal fade" id="getquote-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -1012,14 +1257,25 @@
                     <div class="form-group">
                         <label>Choose One</label>
                         <select name="Choose" class="form-control">
+                            <option value="UI/UX Design">Mobile Development</option>
+                            <option value="UI/UX Design">Web Development</option>
+                            <option value="UI/UX Design">Digital Marketing</option>
                             <option value="UI/UX Design">UI/UX Design</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Choose One</label>
+                        <select name="Choose" class="form-control">
+                            <option name="lesstan10k">Less than $10,000</option>
+                            <option name="10kto25k">$10,000 - $25,000</option>
+                            <option name="25kto50k">$25,000 - $50,000</option>
+                            <option name="50kabove">$50,000 and above</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label>Comments</label>
                         <textarea name="comment" placeholder="Comments..." class="form-control"></textarea>
                     </div>
-
                     <button type="button" class="btn btn-info">Submit</button>
                 </div>
             </div>
@@ -1032,8 +1288,134 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"
+        integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
     <script src="js/skroll.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            // init the validator
+            // validator files are included in the download package
+            // otherwise download from http://1000hz.github.io/bootstrap-validator
+
+            $('#contact-form').validator();
+
+            // when the form is submitted
+            $('#contact-form').on('submit', function (e) {
+
+                // if the validator does not prevent form submit
+                if (!e.isDefaultPrevented()) {
+                    var url = "contact.php";
+
+                    // POST values in the background the the script URL
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $(this).serialize(),
+                        success: function (data) {
+                            console.log(data);
+                            // data = JSON object that contact.php returns
+
+                            // we recieve the type of the message: success x danger and apply it to the 
+                            var messageAlert = 'alert-' + data.type;
+                            var messageText = data.message;
+
+                            // let's compose Bootstrap alert box HTML
+                            var alertBox = '<div class="alert ' + messageAlert +
+                                ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
+                                messageText + '</div>';
+
+                            // If we have messageAlert and messageText
+                            if (messageAlert && messageText) {
+                                // inject the alert to .messages div in our form
+                                $('#contact-form').find('.messages').html(alertBox);
+                                // empty the form
+                                $('#contact-form')[0].reset();
+                            }
+                        }
+                    });
+                    return false;
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $('#customers-testimonials').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots: true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1170: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+
+    <script>
+        const phoneInputField = document.querySelector("#mobilenum");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $("#getquote-popup").modal('show');
+            }, 5000);
+        });
+    </script>
+
+    <script>
+        var peoples = document.querySelector(".it");
+        var projects = document.querySelector(".pro");
+        let count = 1;
+
+        setInterval(() => {
+            if (count <= 59) {
+                count++;
+                peoples.innerText = count;
+            }
+        }, 10)
+
+        setInterval(() => {
+            if (count <= 199) {
+                count++;
+                projects.innerText = count;
+            }
+        }, 10)
+    </script>
+
+    <script>
+        var workHours = document.querySelector(".hours");
+        var experiance = document.querySelector(".exp")
+
+        let counter = 1;
+        setInterval(() => {
+            if (counter <= 44) {
+                counter++;
+                workHours.innerText = counter;
+            }
+        }, 30)
+    </script>
+
 
 </body>
 

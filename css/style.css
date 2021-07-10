@@ -5158,8 +5158,22 @@
                 padding: 80px 0;
             }
 
-            ul.sem-benifits li{
-                list-style: disc inside !important;
+            ul.sem-benifits li {
+                list-style: disc inside;
+            }
+
+            ol {
+                list-style: none;
+                counter-reset: my-awesome-counter;
+            }
+
+            ol li {
+                counter-increment: my-awesome-counter;
+            }
+
+            ol li::before {
+                content: counter(my-awesome-counter) ". ";
+                font-weight: bold;
             }
 
 
@@ -7369,11 +7383,13 @@
                 }
 
                 .tech-use {
-                    height: 154px !important;
+                    height: 134px !important;
                     max-height: 100% !important;
-                    width: 154px !important;
+                    width: 134px !important;
                     max-width: 100% !important;
+                    transition: all ease-in-out 0.5s;
                 }
+
             }
 
             @media (max-width: 513px) {
@@ -7512,6 +7528,7 @@
                 .client-logo {
                     width: 170px;
                 }
+
             }
 
             @media (max-width: 380px) {
