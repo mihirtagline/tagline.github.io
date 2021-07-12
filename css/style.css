@@ -103,7 +103,7 @@
                 line-height: normal;
                 color: #DA6427;
                 font-weight: 600;
-                text-transform: capitalize;
+                /* text-transform: capitalize; */
             }
 
             .heading h3 {
@@ -5154,7 +5154,8 @@
                 padding-top: 15px;
             }
 
-            .ios-development-detail {
+            .ios-development-detail,
+            .android-development-detail {
                 padding: 80px 0;
             }
 
@@ -5338,6 +5339,13 @@
                 .custom-col-lg-size {
                     flex: 0 0 100%;
                     max-width: 100%;
+                }
+            }
+
+            @media(min-width:768px) and (max-width:1199px) {
+                .android-services {
+                    height: 160px;
+                    max-height: 100%;
                 }
             }
 
