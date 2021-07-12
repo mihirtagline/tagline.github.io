@@ -5177,6 +5177,19 @@
                 font-weight: bold;
             }
 
+            .ios-app-service-name{
+                width: 90%;
+                text-align: left;
+            }
+
+            .ios-app-service-name p{
+                padding-top: 0 !important;
+            }
+
+            .ios-app-service-name h4{
+                margin-bottom: 0 !important;
+            }
+
 
             @media(max-width:1900px) {
                 .aboutus-bg::before {
@@ -5343,8 +5356,9 @@
             }
 
             @media(min-width:768px) and (max-width:1199px) {
-                .android-services {
-                    height: 160px;
+                .android-services,
+                .ios-service {
+                    height: 205px;
                     max-height: 100%;
                 }
             }
@@ -5383,6 +5397,11 @@
                 #phone {
                     height: 96%;
                     margin: 10px auto 0px;
+                }
+
+                .ios-app-service-icon{
+                    margin-left: 1rem !important;
+                    margin-right: 1rem !important;
                 }
             }
 
