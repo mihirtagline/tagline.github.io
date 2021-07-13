@@ -2793,11 +2793,12 @@
             }
 
             .react-native-detail,
-            .hashtags-app {
+            .hashtags-app,
+            .care-clinic {
                 padding: 50px 0;
             }
 
-            .portfolio-title h3 {
+            .portfolio-title h1 {
                 color: #fff;
                 font-weight: 600;
                 font-size: 46px;
@@ -2826,7 +2827,7 @@
                 -ms-flex-align: center;
                 align-items: center;
                 width: 100%;
-                height: 180px;
+                height: 200px;
                 max-height: 100%;
                 transition: all ease-in-out 0.5s;
             }
@@ -4829,7 +4830,8 @@
             .react-native-title h1,
             .life-title h1,
             .about-title h1,
-            .hashtag-app-title h1 {
+            .hashtag-app-title h1,
+            .care-clinic-title h1 {
                 font-size: 50px;
                 color: #fff;
                 font-weight: 700;
@@ -4838,7 +4840,8 @@
             .seo-title p,
             .react-native-title p,
             .about-title p,
-            .hashtag-app-title p {
+            .hashtag-app-title p,
+            .care-clinic-title p {
                 font-size: 25px;
                 color: #fff;
             }
@@ -4916,7 +4919,9 @@
             .react-native-title h1,
             .react-native-title p,
             .hashtag-app-title h1,
-            .hashtag-app-title p {
+            .hashtag-app-title p,
+            .care-clinic-title h1,
+            .care-clinic-title p {
                 padding-bottom: 50px;
             }
 
@@ -5177,19 +5182,22 @@
                 font-weight: bold;
             }
 
-            .ios-app-service-name{
+            .ios-app-service-name {
                 width: 90%;
                 text-align: left;
             }
 
-            .ios-app-service-name p{
+            .ios-app-service-name p {
                 padding-top: 0 !important;
             }
 
-            .ios-app-service-name h4{
+            .ios-app-service-name h4 {
                 margin-bottom: 0 !important;
             }
 
+            .drendrop-img img {
+                border: 1px solid #000;
+            }
 
             @media(max-width:1900px) {
                 .aboutus-bg::before {
@@ -5353,9 +5361,22 @@
                     flex: 0 0 100%;
                     max-width: 100%;
                 }
+
+                .icon_box {
+                    background-color: rgb(255, 255, 255);
+                    padding: 20px;
+                    margin-top: 30px;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 350px;
+                    max-height: 100%;
+                    transition: all 0.5s ease-in-out 0s;
+                }
             }
 
             @media(min-width:768px) and (max-width:1199px) {
+
                 .android-services,
                 .ios-service {
                     height: 205px;
@@ -5399,7 +5420,7 @@
                     margin: 10px auto 0px;
                 }
 
-                .ios-app-service-icon{
+                .ios-app-service-icon {
                     margin-left: 1rem !important;
                     margin-right: 1rem !important;
                 }
@@ -6779,7 +6800,7 @@
                     margin: 0 12px;
                 }
 
-                .portfolio-title h3 {
+                .portfolio-title h1 {
                     font-size: 36px;
                     margin-bottom: 20px;
                 }
@@ -7370,13 +7391,15 @@
 
                 .seo-title h1,
                 .react-native-title h1,
-                .hashtag-app-title h1 {
+                .hashtag-app-title h1,
+                .care-clinic-title h1 {
                     font-size: 30px;
                 }
 
                 .seo-title p,
                 .react-native-title p,
-                .hashtag-app-title p {
+                .hashtag-app-title p,
+                .care-clinic-title p{
                     font-size: 15px;
                 }
 
@@ -7445,7 +7468,7 @@
                     height: auto;
                 }
 
-                .portfolio-title h3 {
+                .portfolio-title h1 {
                     font-size: 30px;
                     margin-bottom: 10px;
                 }
@@ -7559,7 +7582,7 @@
             }
 
             @media (max-width: 380px) {
-                .portfolio-title h3 {
+                .portfolio-title h1 {
                     font-size: 22px;
                 }
 
