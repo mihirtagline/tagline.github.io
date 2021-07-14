@@ -2019,7 +2019,7 @@
 
             }
 
-            .portfolio-img{
+            .portfolio-img {
                 overflow: hidden;
             }
 
@@ -2044,8 +2044,8 @@
                 transition: all ease-in-out 0.5s;
             }
 
-            .portfolio-bg #portfolio .item a:hover img{
-               transform: scale(1.03);
+            .portfolio-bg #portfolio .item a:hover img {
+                transform: scale(1.03);
             }
 
             .portfolio-bg #portfolio .item img {
@@ -2822,7 +2822,9 @@
 
             .react-native-detail,
             .hashtags-app,
-            .care-clinic {
+            .care-clinic,
+            .supplement-snoop,
+            .otf-fitness {
                 padding: 50px 0;
             }
 
@@ -4862,7 +4864,9 @@
             .about-title h1,
             .hashtag-app-title h1,
             .care-clinic-title h1,
-            .dare-drop-title h1 {
+            .dare-drop-title h1,
+            .supplement-title h1,
+            .otf-title h1 {
                 font-size: 50px;
                 color: #fff;
                 font-weight: 700;
@@ -4873,7 +4877,9 @@
             .about-title p,
             .hashtag-app-title p,
             .care-clinic-title p,
-            .dare-drop-title p {
+            .dare-drop-title p,
+            .supplement-title p,
+            .otf-title p {
                 font-size: 25px;
                 color: #fff;
             }
@@ -4955,7 +4961,11 @@
             .care-clinic-title h1,
             .care-clinic-title p,
             .dare-drop-title h1,
-            .dare-drop-title p {
+            .dare-drop-title p,
+            .supplement-title h1,
+            .supplement-title p,
+            .otf-title h1,
+            .otf-title p {
                 padding-bottom: 50px;
             }
 
@@ -5235,6 +5245,10 @@
             .cataegory-search:hover {
                 background-color: #d85b1a !important;
                 color: #fff !important;
+            }
+
+            ul.project_need_list li{
+                list-style: inside disc;
             }
 
             @media(max-width:1900px) {

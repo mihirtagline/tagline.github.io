@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -68,23 +69,21 @@
         </div>
     </header>
 
-    <section class="section_portfolio_detail background_bg overlay_bg" data-img-src="images/supplement-snoop-bg.jpg">
+    <div id="overlay"></div>
+
+    <section class="section_portfolio_detail supplement-snoop background_bg overlay_bg"
+        data-img-src="images/supplement-snoop-bg2.png">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="portfolio-title anim2">
-                        <h3>Supplement Snoop Mobile App</h3>
+                <div class="col-xl-6 col-lg-8 portfolio-info">
+                    <div class="portfolio-title supplement-title anim2">
+                        <h1>Supplement Snoop Mobile App</h1>
                         <p>We can help you to build out an online health and fitness application to improve your health.
                         </p>
                     </div>
-                    <a href="#" class="btn btn-default color-black anim2" data-toggle="modal"
-                        data-target="#getquote-popup">consult us</a>
-                    <div class="app_btn anim2">
-                        <a href="https://play.google.com/store/apps/details?id=com.supplementsnoop.supplementsnoop&hl=en"
-                            target="_blank">
-                            <img src="images/app-store-img.png" alt="app-store-img" />
-                        </a>
-                    </div>
+                    <a href="" class="btn btn-light color-black anim2 mr-xl-5 mr-lg-5 mr-md-5 mr-sm-5 mr-0"
+                        data-toggle="modal" data-target="#getquote-popup">Request a Quote</a>
+                    <a href="portfolio.html" class="btn btn-light color-black anim2">Our Portfolio</a>
                 </div>
             </div>
         </div>
@@ -116,6 +115,15 @@
                     <p class="text-default">HEALTH IS WEALTH…! In today’s Era</p>
                     <p>A balanced diet supplies the nutrients your body needs to work effectively. Without balanced
                         nutrition, your body is more prone to disease, infection, fatigue, and low performance.</p>
+                    <div class="app_btn anim1 justify-content-around">
+                        <a href="https://play.google.com/store/apps/details?id=com.supplementsnoop.supplementsnoop&hl=en"
+                            target="_blank">
+                            <img src="images/google-play-img.png" alt="app-store-img" />
+                        </a>
+                        <a href="https://apps.apple.com/us/app/supplement-snoop/id1180822851" target="_blank">
+                            <img src="images/app-store-img.png" alt="app-store-img" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -390,61 +398,6 @@
         </div>
 	</section> -->
 
-
-    <section class="my-5">
-        <div class="container">
-            <div class="heading text-center anim4">
-                <h2>Other Project</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class=" col-sm-8 col-md-12 col-lg-8 custom-col-lg-size">
-                    <div class="project-box mb-5">
-                        <div class="row">
-                            <div class="col-md-6 mb-4 mb-md-0">
-                                <div class="other-project-img anim2">
-                                    <img src="images/yoshoppers.jpg" class="img-fluid yoshoppers-other"
-                                        alt="yoshoppers" />
-                                    <div class="other-projct-overlay ">
-                                        <div class="overlay-caption">
-                                            <h4 class="">Yo Shoppers</h4>
-                                            <p>Why waste your time and wander outside in a crowded place for shopping
-                                                when you can buy anything anytime sitting at home at the best price.</p>
-
-                                            <a href="yoshoppers.html" type="button" class="read-more-btn">Read More <img
-                                                    src="images/right-arrow-white.png" alt="right-arrow-white" /></a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mb-4 mb-md-0">
-                                <div class="other-project-img anim1">
-                                    <img src="images/recognize-application.jpg" class="img-fluid yoshoppers-other"
-                                        alt="recognize-application" />
-                                    <div class="other-projct-overlay ">
-                                        <div class="overlay-caption">
-                                            <h4 class="">Recognize Application</h4>
-                                            <p>Recognition, manage nominations, offer rewards, & automate service
-                                                anniversaries. By developing such a recognized application.</p>
-                                            <a href="recognize-application.html" type="button"
-                                                class="read-more-btn">Read More <img src="images/right-arrow-white.png"
-                                                    alt="right-arrow-white" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
     <section class="section bg-gray">
         <div class="container">
             <div class="row justify-content-center">
@@ -455,32 +408,7 @@
                 </div>
             </div>
             <div class="row technology_wrap justify-content-center">
-                <!-- <div class="col-lg-3">
-					<div class="technology_box">
-						<div class="technology_logo">
-							<img src="images/Android.png" alt="Android"/>
-						</div>
-						<h6><strong>Android</strong></h6>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="technology_box">
-						<div class="technology_logo">
-							<img src="images/rails.png" alt="rails"/>
-						</div>
-						<h6><strong>Ruby On Rails</strong></h6>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="technology_box">
-						<div class="technology_logo">
-							<img src="images/ios.png" alt="ios"/>
-						</div>
-						<h6><strong>IOS</strong></h6>
-					</div>
-				</div> -->
-
-
+                
                 <div class="col-sm-4 col-lg-3 ">
                     <div class="technology_box dare-drop-img ">
                         <div class="technology_logo ">
@@ -511,32 +439,125 @@
         </div>
     </section>
 
-    <section class="my-5">
-        <div class="hr"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 align-self-center">
-                    <p class="form-company-titile anim-typewriter typewrite" data-period="1500"
-                        data-type='[ "A Place Where Your IDEAS transform into REALITY" ]'></p>
-                    <h2 class="form-title">Let's talk about your project with Tagline Infotech Expert team</h2>
+    <section class="section pt-0 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <div class="heading text-center anim4 ">
+                        <h2>Some Of Our Work!</h2>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="quick-contact-form rounded-bottom">
-                        <h3 class="text-center py-3">" Get your free Quote Today "</h3>
-                        <form>
-                            <div class="row justify-content-center m-0">
-                                <div class="col-md-6">
-                                    <input type="text" id="name" placeholder="FullName*">
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <div id="portfolio " class="portfolio-work owl-carousel ">
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="recognize-application.html " class="anim4 ">
+                                    <img src="images/our-work-recognize-app.png " alt="recognize-application-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">Recognize Application</h4>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="hashtag-investing-app.html " class="anim4 ">
+                                    <img src="images/our-work-hashtags-investing.png" alt="hashtag-investing-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">Hashtag Investing App</h4>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="OTF-fitness.html " class="anim4 ">
+                                    <img src="images/our-work-orange-theory.png " alt="OTF-fitness-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">OTF Fitness Web Application </h4>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="care-clinic-application-development.html " class="anim4 ">
+                                    <img src="images/our-work-care-clinic.png " alt="care-clinic-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">Care Clinic Application development</h4>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="promoprep-web-application.html " class="anim4 ">
+                                    <img src="images/our-work-promo-prep.png " alt="promoprep-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">PromoPrep web Application</h4>
+                            </div>
+                        </div>
+
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="dare-drop-application.html" class="anim4 ">
+                                    <img src="images/our-work-dare-drop.png " alt="promoprep-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">Dare Drop Web Application</h4>
+                            </div>
+                        </div>
+
+                        <div class="item ">
+                            <div class="work_item text-center ">
+                                <a href="yoshoppers.html" class="anim4 ">
+                                    <img src="images/our-work-toshoppers.png " alt="promoprep-screen "
+                                        class="w-50 m-auto">
+                                </a>
+                                <h4 class="mt-3">Yoshoppers Web Application</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5 contact-form-bg">
+        <!-- <div class="hr"></div> -->
+        <!-- <div class="container"> -->
+        <div class="container">
+            <div class="form-container p-lg-5 p-md-5 p-sm-3 p-1">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="form-company-titile anim-typewriter typewrite" data-period="1500"
+                            data-type='[ "A Place Where Your IDEAS transform into REALITY" ]'></p>
+                        <h2 class="form-title">Let's talk about your project with Tagline Infotech Expert team</h2>
+                    </div>
+
+                    <div class="col-md-6 quick-contact-form">
+                        <div class="heading">
+                            <h3 class="py-3 px-3 table-heading">Get your free Quote Today</h3>
+                        </div>
+                        <form id="contact-form">
+                            <div class="messages"></div>
+                            <div class="row justify-content-center m-0 contact-form">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" id="name" placeholder="FullName*" class="form-control"
+                                        required="required">
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-md-6">
-                                    <input id="mobilenum" type="tel" class="w-100">
+                                <div class="col-md-6 form-group">
+                                    <input id="mobilenum" type="tel" class="w-100 form-control" required="required">
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-md-12">
-                                    <input type="email" id="email" placeholder="Email*">
+                                <div class="col-md-12 form-group">
+                                    <input type="email" id="email" placeholder="Email*" required="required"
+                                        class="form-control">
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 form-group">
                                     <input list="services" name="intrestedin" id="intrestedin"
-                                        placeholder="Intrested In*">
+                                        placeholder="Intrested In*" required="required" class="form-control">
                                     <datalist id="services">
                                         <option name="ui-ux" id="ui-ux">Ui/Ux Design</option>
                                         <option name="web" id="web">Web Development</option>
@@ -544,20 +565,23 @@
                                         <option name="digital-marketing" id="digital-marketing">Digital Marketing
                                         </option>
                                     </datalist>
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 form-group">
                                     <input list="budget" name="budget-range" id="budget-range"
-                                        placeholder="Your Budget*">
+                                        placeholder="Your Budget*" required="required" class="form-control">
                                     <datalist id="budget">
                                         <option name="lesstan10k" id="lessthan10k">Less than $10,000</option>
                                         <option name="10kto25k" id="10kto25k">$10,000 - $25,000</option>
                                         <option name="25kto50k" id="25kto50k">$25,000 - $50,000</option>
                                         <option name="50kabove" id="50kabove">$50,000 and above</option>
                                     </datalist>
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-12 form-group">
                                     <textarea name="message" id="custom-message" cols="30" rows="5"
-                                        placeholder="Message*"></textarea>
+                                        placeholder="Message*" required="required" class="form-control"></textarea>
+                                    <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-12 text-center">
                                     <input type="submit" value="Send Message" class="quote-btn">
@@ -667,7 +691,8 @@
                     <div class="menu-list help-box">
                         <h5>Services</h5>
                         <ul class="services">
-                            <li><a href="#"><i class="fas fa-mobile-alt"></i> <span>Mobile App Development</span></a></li>
+                            <li><a href="#"><i class="fas fa-mobile-alt"></i> <span>Mobile App Development</span></a>
+                            </li>
                             <li><a href="#"><i class="fas fa-window-restore"></i> <span>Web Development</span></a></li>
                             <li><a href="#"><i class="fab fa-uikit"></i> <span>Ui/Ux Design</span></a></li>
                             <li><a href="#"><i class="fal fa-megaphone"></i> <span>Digital Marketing</span></a></li>
@@ -794,6 +819,7 @@
 
         </div>
     </footer>
+
     <div class="modal fade" id="getquote-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -840,8 +866,100 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"
+        integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
     <script src="js/skroll.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            // init the validator
+            // validator files are included in the download package
+            // otherwise download from http://1000hz.github.io/bootstrap-validator
+
+            $('#contact-form').validator();
+
+            // when the form is submitted
+            $('#contact-form').on('submit', function (e) {
+
+                // if the validator does not prevent form submit
+                if (!e.isDefaultPrevented()) {
+                    var url = "contact.php";
+
+                    // POST values in the background the the script URL
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $(this).serialize(),
+                        success: function (data) {
+                            console.log(data);
+                            // data = JSON object that contact.php returns
+
+                            // we recieve the type of the message: success x danger and apply it to the 
+                            var messageAlert = 'alert-' + data.type;
+                            var messageText = data.message;
+
+                            // let's compose Bootstrap alert box HTML
+                            var alertBox = '<div class="alert ' + messageAlert +
+                                ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
+                                messageText + '</div>';
+
+                            // If we have messageAlert and messageText
+                            if (messageAlert && messageText) {
+                                // inject the alert to .messages div in our form
+                                $('#contact-form').find('.messages').html(alertBox);
+                                // empty the form
+                                $('#contact-form')[0].reset();
+                            }
+                        }
+                    });
+                    return false;
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $('#customers-testimonials').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots: true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1170: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+
+    <script>
+        const phoneInputField = document.querySelector("#mobilenum");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $("#getquote-popup").modal('show');
+            }, 5000);
+        });
+    </script>
 
 </body>
 
