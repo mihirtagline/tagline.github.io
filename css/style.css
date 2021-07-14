@@ -2016,14 +2016,36 @@
                 opacity: 0;
                 width: 100%;
                 margin-bottom: 30px;
+
+            }
+
+            .portfolio-img{
+                overflow: hidden;
             }
 
             .portfolio-bg #portfolio .item a {
                 display: block;
                 position: relative;
                 background: #000;
+                box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+                -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
                 overflow: hidden;
-                border: 1px solid #eee;
+                /* border: 1px solid #eee; */
+                border-radius: 10px;
+                text-decoration: none;
+                transition: all ease-in-out 0.5s;
+            }
+
+            .portfolio-bg #portfolio .item a:hover {
+                box-shadow: 0px 0px 40px -5px rgb(216 91 26 / 60%);
+                -webkit-box-shadow: 0px 0px 40px -5px rgb(216 91 26 / 60%);
+                -moz-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
+                transition: all ease-in-out 0.5s;
+            }
+
+            .portfolio-bg #portfolio .item a:hover img{
+               transform: scale(1.03);
             }
 
             .portfolio-bg #portfolio .item img {
@@ -2047,25 +2069,31 @@
 
             .portfolio-bg #portfolio .item .content .icon {
                 position: absolute;
-                right: 40px;
-                top: 40px;
+                right: 0;
+                top: 35%;
+                bottom: 0;
+                left: 45%;
+                align-items: center;
+                justify-content: center;
             }
 
             .portfolio-bg #portfolio .item .content .icon img {
                 opacity: 1;
             }
 
-            .portfolio-bg #portfolio .item .content .title {
-                position: absolute;
-                left: 40px;
-                bottom: 40px;
+            .portfolio-bg #portfolio .item .title {
+                /* position: absolute; */
+                /* left: 40px;
+                bottom: 40px; */
+                padding: 20px !important;
+                background-color: #fff;
             }
 
-            .portfolio-bg #portfolio .item .content .title h5 {
+            .portfolio-bg #portfolio .item .title h5 {
                 display: block;
                 margin: 0px 0 5px;
                 font-size: 22px;
-                color: #FFFFFF;
+                color: #000000;
                 line-height: 1;
                 font-weight: 400;
                 text-transform: capitalize;
@@ -2075,7 +2103,7 @@
                 display: block;
                 margin: 0;
                 font-size: 18px;
-                color: #FFFFFF;
+                color: #000000;
                 line-height: 1;
                 font-weight: 400;
             }
@@ -3284,6 +3312,8 @@
                 box-shadow: 0px 20px 18px #f7f7f7;
                 border-radius: 10px;
                 transition: all 0.5s;
+                max-height: 250px;
+                height: 100%;
             }
 
             .exclusive-solution-derived:hover {
@@ -4831,7 +4861,8 @@
             .life-title h1,
             .about-title h1,
             .hashtag-app-title h1,
-            .care-clinic-title h1 {
+            .care-clinic-title h1,
+            .dare-drop-title h1 {
                 font-size: 50px;
                 color: #fff;
                 font-weight: 700;
@@ -4841,7 +4872,8 @@
             .react-native-title p,
             .about-title p,
             .hashtag-app-title p,
-            .care-clinic-title p {
+            .care-clinic-title p,
+            .dare-drop-title p {
                 font-size: 25px;
                 color: #fff;
             }
@@ -4921,7 +4953,9 @@
             .hashtag-app-title h1,
             .hashtag-app-title p,
             .care-clinic-title h1,
-            .care-clinic-title p {
+            .care-clinic-title p,
+            .dare-drop-title h1,
+            .dare-drop-title p {
                 padding-bottom: 50px;
             }
 
@@ -5020,17 +5054,12 @@
                 font-size: 30px;
             }
 
-            #subscribe-form {
-                width: 60%;
-                margin: auto;
-            }
-
             #subscribe-form input {
                 border-radius: 5px;
             }
 
             #subscribe-form .quote-btn {
-                padding: 14px !important;
+                padding: 11px !important;
                 margin-left: 10px;
             }
 
@@ -5199,6 +5228,15 @@
                 border: 1px solid #000;
             }
 
+            .cataegory-search {
+                padding: 10px !important;
+            }
+
+            .cataegory-search:hover {
+                background-color: #d85b1a !important;
+                color: #fff !important;
+            }
+
             @media(max-width:1900px) {
                 .aboutus-bg::before {
                     width: 400px;
@@ -5236,6 +5274,14 @@
                     padding: 5px 15px;
                     top: 32%;
                     right: 0;
+                }
+
+                .subscribe h3 {
+                    font-size: 25px;
+                }
+
+                #subscribe-form .quote-btn {
+                    width: 50%;
                 }
             }
 
@@ -5727,6 +5773,7 @@
                 #subscribe-form .quote-btn {
                     padding: 10px !important;
                     margin: auto;
+                    margin-top: 10px;
                     width: 50%;
                 }
 
@@ -6697,6 +6744,8 @@
                 .owl-carousel button.owl-dot {
                     font-size: 20px;
                 }
+
+
             }
 
             @media (max-width: 767px) {
@@ -7392,14 +7441,16 @@
                 .seo-title h1,
                 .react-native-title h1,
                 .hashtag-app-title h1,
-                .care-clinic-title h1 {
+                .care-clinic-title h1,
+                .dare-drop-title h1 {
                     font-size: 30px;
                 }
 
                 .seo-title p,
                 .react-native-title p,
                 .hashtag-app-title p,
-                .care-clinic-title p{
+                .care-clinic-title p,
+                .dare-drop-title p {
                     font-size: 15px;
                 }
 
