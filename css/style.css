@@ -53,6 +53,10 @@
 
             }
 
+            a{
+                cursor: pointer;
+            }
+
             .getquote-btn {
                 position: fixed;
                 right: 0px;
@@ -4889,16 +4893,28 @@
                 z-index: 2;
             }
 
-            .solution-media {
+            .solution-media,
+            .business-media {
                 background-color: #fff;
                 box-shadow: 2px 10px 27px 1px rgba(0, 0, 0, 0.2);
                 -webkit-box-shadow: 2px 10px 27px 1px rgba(0, 0, 0, 0.2);
                 -moz-box-shadow: 2px 10px 27px 1px rgba(0, 0, 0, 0.2);
                 border-radius: 20px;
                 padding: 15px;
+
+            }
+
+            .solution-media {
                 height: 400px;
                 max-height: 100%;
                 width: 333px;
+                max-width: 100%;
+            }
+
+            .business-media {
+                height: 200px;
+                max-height: 100%;
+                width: 230px;
                 max-width: 100%;
             }
 
@@ -5193,6 +5209,12 @@
                 -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
             }
 
+            .ui-ux-services-list .tech-use{
+                height: 350px;
+                max-height: 100%;
+                width: 350px;
+            }
+
             .tech-use-title p {
                 margin: 0;
                 padding-top: 15px;
@@ -5247,8 +5269,59 @@
                 color: #fff !important;
             }
 
-            ul.project_need_list li{
+            ul.project_need_list li {
                 list-style: inside disc;
+            }
+
+            .text-box-bd {
+                background-color: rgba(0, 0, 0, 0.03);
+            }
+
+            .business-dev-bg {
+                position: relative;
+                z-index: 1;
+            }
+
+            .business-dev-title {
+                position: relative;
+                z-index: 2;
+                padding: 80px 0px;
+            }
+
+            .business-dev-bg::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: black;
+                opacity: 0.5;
+                z-index: 0;
+            }
+
+            .web-dev-services {
+                height: 150px !important;
+                width: 150px !important;
+                border-radius: 50%;
+                overflow: hidden;
+                transition: all ease-in-out 0.5s;
+            }
+
+            .web-dev-services:hover {
+                box-shadow: 0px 0px 40px -5px rgb(216 91 26 / 60%);
+                -webkit-box-shadow: 0px 0px 40px -5px rgb(216 91 26 / 60%);
+                -moz-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
+                transition: all ease-in-out 0.5s;
+
+            }
+
+            .web-dev-services img {
+                padding: 30px;
+            }
+
+            .web-dev-title {
+                font-weight: 700;
             }
 
             @media(max-width:1900px) {
