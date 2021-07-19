@@ -53,7 +53,7 @@
 
             }
 
-            a{
+            a {
                 cursor: pointer;
             }
 
@@ -1069,6 +1069,23 @@
             .ourservices-bg .services-boxs {
                 display: block;
                 padding: 30px;
+                background-color: #f8f8f8;
+                margin: 10px;
+                height: 430px;
+                max-height: 100%;
+                transition: all ease-in-out 0.5s;
+
+            }
+
+            .ourservices-bg .services-boxs:hover {
+                transition: all ease-in-out 0.5s;
+                box-shadow: 0px 0px 15px 3px rgba(216, 91, 26, 0.75);
+                -webkit-box-shadow: 0px 0px 15px 3px rgba(216, 91, 26, 0.75);
+                -moz-box-shadow: 0px 0px 15px 3px rgba(216, 91, 26, 0.75);
+            }
+
+            .read-more {
+                justify-self: end;
             }
 
             .ourservices-bg .services-boxs .top {
@@ -2577,6 +2594,7 @@
             .about-bg .services-boxs {
                 display: block;
                 padding: 50px;
+                ;
             }
 
             .about-bg .services-boxs .top {
@@ -4798,12 +4816,7 @@
                 transition: all ease-in-out 0.5s;
             }
 
-            .offered-services:hover {
-                transition: all ease-in-out 0.5s;
-                box-shadow: 0px 0px 15px 3px rgba(216, 91, 26, 0.75);
-                -webkit-box-shadow: 0px 0px 15px 3px rgba(216, 91, 26, 0.75);
-                -moz-box-shadow: 0px 0px 15px 3px rgba(216, 91, 26, 0.75);
-            }
+            .offered-services:hover {}
 
             .our-work {
                 transition: all ease-in-out 0.5s;
@@ -5175,7 +5188,8 @@
                 -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
                 -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
                 transition: all ease-in-out 0.5s;
-
+                height: 200px;
+                max-height: 100%;
             }
 
             .ios-service:hover {
@@ -5209,10 +5223,15 @@
                 -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
             }
 
-            .ui-ux-services-list .tech-use{
+            .ui-ux-services-list .tech-use {
                 height: 350px;
                 max-height: 100%;
                 width: 350px;
+            }
+
+            .mobile-dev-services-list .tech-use {
+                width: 350px;
+                height: 360px;
             }
 
             .tech-use-title p {
@@ -5322,6 +5341,10 @@
 
             .web-dev-title {
                 font-weight: 700;
+            }
+
+            .android-services {
+                height: 200px;
             }
 
             @media(max-width:1900px) {
@@ -5505,6 +5528,10 @@
                     height: 350px;
                     max-height: 100%;
                     transition: all 0.5s ease-in-out 0s;
+                }
+
+                .android-services {
+                    height: 270px;
                 }
             }
 
@@ -5897,6 +5924,16 @@
 
                 .team-img img {
                     width: 350px;
+                }
+
+                .mobile-dev-services-list .tech-use {
+                    width: 290px !important;
+                    height: 410px !important;
+                }
+
+                .android-services {
+                    flex-direction: column;
+                    height: 325px;
                 }
 
             }
@@ -7717,6 +7754,10 @@
                     width: 170px;
                 }
 
+                .android-services {
+                    height: 350px !important;
+                }
+
             }
 
             @media (max-width: 380px) {
@@ -7796,6 +7837,21 @@
                 .client-logo {
                     width: 140px;
                 }
+
+                .android-services {
+                    height: 370px !important;
+                    padding: 5px 8px !important;
+                    font-size: 15px !important;
+                }
+
+                .ourservices-bg .services-boxs p {
+                    font-size: 11px;
+                }
+
+                .ourservices-bg .services-boxs a.read-more {
+                    font-size: 14px;
+                }
+
             }
 
             /* .dropdown:hover>.dropdown-menu {
