@@ -5936,6 +5936,16 @@
                     height: 325px;
                 }
 
+                .react-services {
+                    flex-direction: column;
+                    height: 240px;
+                }
+
+                .react-services .ios-app-service-name{
+                    text-align: center;
+                    margin-top: 10px;
+                }
+
             }
 
             @media (max-width: 440px) {
@@ -5980,6 +5990,10 @@
 
                 .home-blog .blog-slider-caption h3 {
                     font-size: 17px;
+                }
+
+                .react-services {
+                    height: 300px;
                 }
             }
 
@@ -7850,6 +7864,10 @@
 
                 .ourservices-bg .services-boxs a.read-more {
                     font-size: 14px;
+                }
+
+                .react-services {
+                    height: 350px;
                 }
 
             }

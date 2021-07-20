@@ -75,7 +75,7 @@
                                     <ul class="web-dev-submenu overflow-wrap">
                                         <li><a class="dropdown-item" href="angular-js.html">AngularJs Development</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#">NodeJs Development</a></li>
+                                        <li><a class="dropdown-item" href="node-js.html">NodeJs Development</a></li>
                                         <li><a class="dropdown-item" href="#">Java Development</a></li>
                                         <li><a class="dropdown-item" href="#">Django Development</a></li>
                                         <li><a class="dropdown-item" href="react-js.html">React js Development</a></li>
@@ -490,7 +490,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="ios-service android-services p-3 d-flex align-items-center">
+                    <div class="ios-service react-services p-3 d-flex align-items-center">
                         <div class="ios-app-service-icon mx-5">
                             <img src="images/react-web-app-dev.png" alt="Location Based App">
                         </div>
@@ -502,7 +502,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="ios-service android-services p-3 d-flex align-items-center">
+                    <div class="ios-service react-services p-3 d-flex align-items-center">
                         <div class="ios-app-service-icon mx-5">
                             <img src="images/react-app-migration.png" alt="Location Based App">
                         </div>
@@ -515,7 +515,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="ios-service android-services p-3 d-flex align-items-center">
+                    <div class="ios-service react-services p-3 d-flex align-items-center">
                         <div class="ios-app-service-icon mx-5">
                             <img src="images/react-portal-dev.png" alt="Location Based App">
                         </div>
@@ -529,7 +529,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="ios-service android-services p-3 d-flex align-items-center">
+                    <div class="ios-service react-services p-3 d-flex align-items-center">
                         <div class="ios-app-service-icon mx-5">
                             <img src="images/front-end-devlopment.png" alt="Location Based App">
                         </div>
@@ -542,7 +542,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="ios-service android-services p-3 d-flex align-items-center">
+                    <div class="ios-service react-services p-3 d-flex align-items-center">
                         <div class="ios-app-service-icon mx-5">
                             <img src="images/react-theme-customization.png" alt="Location Based App">
                         </div>
@@ -573,7 +573,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 m-auto text-center heading">
-                    <h3>Our Angular Development Workflow</h3>
+                    <h3>Our React Development Workflow</h3>
                     <p>LWe utilize the best technologies for your project to construct dynamic, feature-rich, and fully
                         functioning AngularJS websites and applications that fulfil your business purpose. We use an
                         agile development strategy to guarantee that you get the most out of your site and remain ahead
@@ -1232,6 +1232,39 @@
                 $("#getquote-popup").modal('show');
             }, 5000);
         });
+    </script>
+
+    <script>
+        var peoples = document.querySelector(".it");
+        var projects = document.querySelector(".pro");
+        let count = 1;
+
+        setInterval(() => {
+            if (count <= 59) {
+                count++;
+                peoples.innerText = count;
+            }
+        }, 10)
+
+        setInterval(() => {
+            if (count <= 199) {
+                count++;
+                projects.innerText = count;
+            }
+        }, 10)
+    </script>
+
+    <script>
+        var workHours = document.querySelector(".hours");
+        var experiance = document.querySelector(".exp")
+
+        let counter = 1;
+        setInterval(() => {
+            if (counter <= 44) {
+                counter++;
+                workHours.innerText = counter;
+            }
+        }, 30)
     </script>
 
 </body>
