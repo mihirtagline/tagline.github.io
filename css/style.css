@@ -2147,7 +2147,7 @@
             .about-bg {
                 display: block;
                 position: relative;
-                padding: 80px 0 100px;
+                padding: 50px 0;
             }
 
             .about-bg:before {
@@ -2182,6 +2182,7 @@
             }
 
             .about-bg .img img {
+                width: 100px;
                 max-width: 100%;
                 display: block;
                 border-radius: 15px;
@@ -2227,32 +2228,32 @@
                 margin: 0 10px 0 0;
             }
 
-            .about-bg .visionmission-box {
+            .visionmission-box {
                 background: #fff;
                 border-radius: 20px;
                 box-shadow: 0 3px 50px rgba(0, 0, 0, 0.08);
                 padding: 30px 34px;
                 display: block;
-                margin-bottom: 100px;
+                /* margin-bottom: 100px; */
                 height: 350px;
                 max-height: 100%;
                 transition: all ease-in-out 0.5s;
             }
 
-            .about-bg .visionmission-box:hover {
+            .visionmission-box:hover {
                 box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
                 -webkit-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
                 -moz-box-shadow: 0px 0px 40px -5px rgba(216, 91, 26, 0.6);
                 transition: all ease-in-out 0.5s;
             }
 
-            .about-bg .visionmission-box .icon {
+            .visionmission-box .icon {
                 display: block;
                 text-align: center;
                 margin-bottom: 20px;
             }
 
-            .about-bg .visionmission-box h4 {
+            .visionmission-box h4 {
                 display: block;
                 text-align: center;
                 margin-bottom: 15px;
@@ -2261,7 +2262,7 @@
                 line-height: 1;
             }
 
-            .about-bg .visionmission-box p {
+            .visionmission-box p {
                 display: block;
                 text-align: center;
                 margin: 0;
@@ -2349,12 +2350,11 @@
                 border-bottom: dashed 1px rgba(211, 211, 211, 0.5) !important;
             }
 
-            .about-bg .team-main {
+            .team-main {
                 display: block;
-                margin: 66px 0 0 0;
             }
 
-            .about-bg .team-main h2 {
+            .team-main h2 {
                 display: block;
                 text-align: center;
                 font-size: 36px;
@@ -2364,65 +2364,71 @@
                 margin: 0 0 15px 0;
             }
 
-            .about-bg .team-main p {
+            .team-main p {
                 display: block;
-                font-size: 16px;
+                font-size: 12px !important;
                 color: #333;
                 line-height: 1.7;
                 margin: 0 0 30px;
                 font-weight: 400;
+                /* text-align: center; */
+            }
+
+            .team-main p.team-heading {
+                font-size: 16px !important;
                 text-align: center;
             }
 
-            .about-bg .team-main .img {
+            .team-main .img {
                 display: block;
-                margin: 15px;
+                margin: 15px auto;
                 /* padding: 15px; */
                 /* background: #FFFFFF; */
                 /* box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08); */
-                border-radius: 8px;
+                /* border-radius: 8px; */
             }
 
-            .about-bg .team-main .item {
-                margin-bottom: 70px;
-            }
-
-            .about-bg .team-main .name-post {
+            .team-main .name-post {
                 padding: 15px;
                 background: #FFFFFF;
                 box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
-                width: 85%;
-                bottom: -50px;
+                width: 100%;
+                /* bottom: -50px; */
                 left: 23px;
                 border-radius: 8px;
+                height: 350px;
             }
 
-            .about-bg .team-main .img img {
+            .team-main .img img {
                 display: block;
-                border-radius: 10px;
+                border-radius: 50%;
             }
 
-            .about-bg .team-main h3 {
+            .team-main h3 {
                 display: block;
                 font-size: 18px;
                 color: #D85B1A;
-                margin: 15px 0 15px;
+                margin: 15px 0 0 0;
                 line-height: 1;
-                text-align: center;
+                /* text-align: center; */
                 font-weight: bold;
             }
 
-            .about-bg .team-main p {
+            .team-main p {
                 display: block;
                 font-size: 16px;
                 color: #999;
                 margin: 0px 0 10px;
                 /* line-height: 1; */
-                text-align: center;
+                /* text-align: center; */
             }
 
-            .about-bg .team-main .owl-carousel .owl-nav .owl-prev,
-            .about-bg .team-main .owl-carousel .owl-nav .owl-next {
+            .team-main p.bio {
+                font-size: 16px !important;
+            }
+
+            .team-main .owl-carousel .owl-nav .owl-prev,
+            .team-main .owl-carousel .owl-nav .owl-next {
                 position: absolute;
                 left: 0px;
                 top: 50%;
@@ -2441,26 +2447,26 @@
                 outline: 0;
             }
 
-            .about-bg .team-main .owl-carousel .owl-nav .owl-prev span,
-            .about-bg .team-main .owl-carousel .owl-nav .owl-next span {
+            .team-main .owl-carousel .owl-nav .owl-prev span,
+            .team-main .owl-carousel .owl-nav .owl-next span {
                 fill: #fff;
                 -moz-transform: rotate(90deg);
                 -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
             }
 
-            .about-bg .team-main .owl-carousel .owl-nav .owl-next {
+            .team-main .owl-carousel .owl-nav .owl-next {
                 left: auto;
                 right: 0px;
             }
 
-            .about-bg .team-main .owl-carousel .owl-nav .owl-prev.disabled,
-            .about-bg .team-main .owl-carousel .owl-nav .owl-next.disabled {
+            .team-main .owl-carousel .owl-nav .owl-prev.disabled,
+            .team-main .owl-carousel .owl-nav .owl-next.disabled {
                 background: #fff;
             }
 
-            .about-bg .team-main .owl-carousel .owl-nav .owl-prev.disabled span,
-            .about-bg .team-main .owl-carousel .owl-nav .owl-next.disabled span {
+            .team-main .owl-carousel .owl-nav .owl-prev.disabled span,
+            .team-main .owl-carousel .owl-nav .owl-next.disabled span {
                 fill: rgba(34, 52, 52, 0.4);
             }
 
@@ -3021,7 +3027,7 @@
                 left: 0;
                 right: 0;
                 background-color: #D85B1A;
-                opacity: 0.3;
+                opacity: 0.5;
                 z-index: 0;
             }
 
@@ -4878,7 +4884,6 @@
             .seo-title h1,
             .react-native-title h1,
             .life-title h1,
-            .about-title h1,
             .hashtag-app-title h1,
             .care-clinic-title h1,
             .dare-drop-title h1,
@@ -4891,7 +4896,6 @@
 
             .seo-title p,
             .react-native-title p,
-            .about-title p,
             .hashtag-app-title p,
             .care-clinic-title p,
             .dare-drop-title p,
@@ -5347,6 +5351,55 @@
                 height: 200px;
             }
 
+            .location {
+                font-size: 25px !important;
+                width: 50%;
+                margin: auto;
+            }
+
+            .location span {
+                color: #d85b1a;
+                font-weight: 700;
+            }
+
+            .our-team {
+                background-color: #fff4ee;
+            }
+
+            .image-box img {
+                max-width: 532px;
+                width: 100%;
+            }
+
+            .about-head-bg {
+                padding-top: 40px !important;
+                background-color: #555f77;
+            }
+
+            .about-title h1,
+            .about-title p {
+                color: #fff;
+            }
+
+            .about-title h1 {
+                font-weight: 500;
+            }
+
+            .wave {
+                background: url(../images/wave.svg);
+                width: 100%;
+                height: 100%;
+                max-height: 16.8rem;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -10.5rem;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center top;
+                z-index: 2;
+            }
+
             @media(max-width:1900px) {
                 .aboutus-bg::before {
                     width: 400px;
@@ -5510,6 +5563,10 @@
                     width: 85%;
                 }
 
+                .our-team {
+                    padding: 15px !important;
+                }
+
             }
 
             @media(min-width:992px) and (max-width:1199px) {
@@ -5668,6 +5725,34 @@
                 .client-logo {
                     width: 150px;
                 }
+
+                .location {
+                    width: 70%;
+                }
+
+                .our-team {
+                    padding: 10px !important;
+                }
+
+                .wave {
+                    background: url(../images/wave.svg);
+                    width: 100%;
+                    height: 100%;
+                    max-height: 16.8rem;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -12.5rem;
+                    /* background-size: cover; */
+                    background-repeat: no-repeat;
+                    background-position: center top;
+                    z-index: 13;
+                }
+
+                .about-title p {
+                    font-size: 13px;
+                }
+
             }
 
             @media(max-width: 767px) {
@@ -5941,9 +6026,25 @@
                     height: 240px;
                 }
 
-                .react-services .ios-app-service-name{
+                .react-services .ios-app-service-name {
                     text-align: center;
                     margin-top: 10px;
+                }
+
+                .team-main {
+                    text-align: center;
+                }
+
+                .team-main img {
+                    margin: auto;
+                }
+
+                .wave {
+                    display: none;
+                }
+
+                .about-title {
+                    margin-top: 25px;
                 }
 
             }
@@ -7868,6 +7969,19 @@
 
                 .react-services {
                     height: 350px;
+                }
+
+                .ror-services .react-services {
+                    height: 370px;
+                }
+
+                .visionmission-box {
+                    height: 400px;
+                    max-height: 100%;
+                }
+
+                .team-main .name-post {
+                    height: 360px;
                 }
 
             }
