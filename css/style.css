@@ -6047,6 +6047,13 @@
                     margin-top: 25px;
                 }
 
+                .location {
+                    width: 100%;
+                    font-size: 20px !important;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+
             }
 
             @media (max-width: 440px) {
@@ -6254,6 +6261,17 @@
             @media (min-width: 991px) and (max-width: 1199px) {
                 .cta_small_section .heading * {
                     font-size: 20px;
+                }
+
+                .team-main .name-post {
+                    padding: 15px;
+                    background: #FFFFFF;
+                    box-shadow: 0 3px 15px rgb(0 0 0 / 8%);
+                    width: 100%;
+                    /* bottom: -50px; */
+                    left: 23px;
+                    border-radius: 8px;
+                    height: 450px;
                 }
             }
 
@@ -7730,6 +7748,13 @@
                     transition: all ease-in-out 0.5s;
                 }
 
+                .location {
+                    width: 100%;
+                    font-size: 18px !important;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+
             }
 
             @media (max-width: 513px) {
@@ -7976,7 +8001,7 @@
                 }
 
                 .visionmission-box {
-                    height: 400px;
+                    height: 430px;
                     max-height: 100%;
                 }
 
