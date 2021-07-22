@@ -5411,6 +5411,15 @@
                 list-style: disc inside;
             }
 
+            .django-services {
+                height: 250px;
+                max-height: 100%;
+            }
+
+            .node-js-benefits li {
+                list-style: inside disc !important;
+            }
+
             @media(max-width:1900px) {
                 .aboutus-bg::before {
                     width: 400px;
@@ -5594,8 +5603,6 @@
                     padding: 15px !important;
                 }
 
-
-
             }
 
             @media(min-width:992px) and (max-width:1199px) {
@@ -5619,6 +5626,8 @@
                 .android-services {
                     height: 270px;
                 }
+
+
             }
 
             @media(min-width:768px) and (max-width:1199px) {
@@ -5631,6 +5640,11 @@
 
                 .react-native-service {
                     height: 350px;
+                    max-height: 100%;
+                }
+
+                .python-services {
+                    height: 330px;
                     max-height: 100%;
                 }
             }
@@ -5679,6 +5693,11 @@
                 .ios-app-service-icon {
                     margin-left: 1rem !important;
                     margin-right: 1rem !important;
+                }
+
+                .jquery-services {
+                    height: 250px;
+                    max-height: 100%;
                 }
             }
 
@@ -6148,6 +6167,17 @@
                     text-align: center !important;
                 }
 
+                .python-services {
+                    flex-direction: column;
+                    height: 250px;
+                    max-height: 100%;
+                }
+
+                .python-services .ios-app-service-name {
+                    margin-top: 10px;
+                    text-align: center;
+                }
+
             }
 
             @media (max-width: 440px) {
@@ -6196,6 +6226,15 @@
 
                 .react-services {
                     height: 300px;
+                }
+
+                .python-services {
+                    height: 360px !important;
+                    max-height: 100%;
+                }
+
+                .python-services .ios-app-service-name{
+                    font-size: 14px;
                 }
             }
 
@@ -7362,6 +7401,22 @@
                     padding: 35px;
                     border-top: none;
                 }
+
+                .jquery-services {
+                    flex-direction: column;
+                    height: 250px;
+                    max-height: 100%;
+                }
+
+                .jquery-services .ios-app-service-name {
+                    text-align: center;
+                    margin-top: 10px;
+                }
+
+                .python-services{
+                    height: 300px;
+                    max-height: 100%;
+                }
             }
 
             @media (max-width: 630px) {
@@ -7886,6 +7941,11 @@
                     height: 450px;
                     max-height: 100%;
                 }
+
+                .jquery-services {
+                    height: 300px;
+                    max-height: 100%;
+                }
             }
 
             @media (max-width: 480px) {
@@ -8014,7 +8074,7 @@
                     max-height: 100%;
                 }
 
-                .django-services .ios-app-service-name{
+                .django-services .ios-app-service-name {
                     font-size: 14px;
                 }
 
@@ -8141,6 +8201,15 @@
                 .ourservices-bg .services-boxs {
                     height: 520px;
                     max-height: 100%;
+                }
+
+                .jquery-services {
+                    height: 320px;
+                    max-height: 100%;
+                }
+
+                .jquery-services .ios-app-service-name {
+                    font-size: 14px;
                 }
 
             }
