@@ -57,6 +57,11 @@
                 cursor: pointer;
             }
 
+            ::selection {
+                color: #fff;
+                background: #DA6427;
+            }
+
             .getquote-btn {
                 position: fixed;
                 right: 0px;
@@ -1071,7 +1076,7 @@
                 padding: 30px;
                 background-color: #f8f8f8;
                 margin: 10px;
-                height: 430px;
+                height: 550px;
                 max-height: 100%;
                 transition: all ease-in-out 0.5s;
 
@@ -5400,6 +5405,12 @@
                 z-index: 2;
             }
 
+            ul.framwork-list li,
+            ul.ranking-list li,
+            ul.mobdev-list li {
+                list-style: disc inside;
+            }
+
             @media(max-width:1900px) {
                 .aboutus-bg::before {
                     width: 400px;
@@ -5415,6 +5426,16 @@
                     padding: 10px 20px;
                     top: 42.5%;
                     right: 0;
+                }
+
+                .react-native-service {
+                    height: 250px;
+                    max-height: 100%;
+                }
+
+                .django-services {
+                    height: 300px;
+                    max-height: 100%;
                 }
             }
 
@@ -5446,6 +5467,12 @@
                 #subscribe-form .quote-btn {
                     width: 50%;
                 }
+
+                .django-services {
+                    height: 380px !important;
+                    max-height: 100%;
+                }
+
             }
 
             @media(max-width: 1035px) {
@@ -5567,6 +5594,8 @@
                     padding: 15px !important;
                 }
 
+
+
             }
 
             @media(min-width:992px) and (max-width:1199px) {
@@ -5599,6 +5628,11 @@
                     height: 205px;
                     max-height: 100%;
                 }
+
+                .react-native-service {
+                    height: 350px;
+                    max-height: 100%;
+                }
             }
 
             @media only screen and (min-width: 768px) and (max-width: 800px) {
@@ -5615,6 +5649,11 @@
                     max-width: 300px !important;
                     width: 100% !important;
                 } */
+
+                .ourservices-bg .services-boxs {
+                    height: 500px;
+                    max-height: 100%;
+                }
             }
 
             @media(min-width: 768px) and (max-width: 991px) {
@@ -5753,6 +5792,37 @@
                     font-size: 13px;
                 }
 
+                .ourservices-bg .services-boxs {
+                    height: 470px;
+                    max-height: 100%;
+                }
+
+                .django-services {
+                    height: 410px !important;
+                    max-height: 100%;
+                }
+
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 800px) {
+                header ul.menu-list li a {
+                    padding: 7px !important;
+                    font-size: 14px;
+                }
+
+                .service.dropdown .dropdown-menu {
+                    left: -193px !important;
+                }
+
+                /* .appriciation-images .owl-item {
+                    max-width: 300px !important;
+                    width: 100% !important;
+                } */
+
+                .ourservices-bg .services-boxs {
+                    height: 530px;
+                    max-height: 100%;
+                }
             }
 
             @media(max-width: 767px) {
@@ -6052,6 +6122,30 @@
                     font-size: 20px !important;
                     margin-bottom: 20px;
                     text-align: center;
+                }
+
+                .react-native-service {
+                    flex-direction: column;
+                }
+
+                .react-native-service .ios-app-service-name {
+                    text-align: center;
+                }
+
+                .ourservices-bg .services-boxs {
+                    height: 350px;
+                    max-height: 100%;
+                }
+
+                .django-services {
+                    flex-direction: column !important;
+                    height: 300px !important;
+                    max-height: 100%;
+                }
+
+                .django-services .ios-app-service-name {
+                    margin-top: 10px;
+                    text-align: center !important;
                 }
 
             }
@@ -7755,6 +7849,17 @@
                     text-align: center;
                 }
 
+                .react-native-service {
+                    height: 350px;
+                    max-height: 100%;
+                }
+
+                .django-services {
+                    flex-direction: column !important;
+                    height: 330px !important;
+                    max-height: 100%;
+                }
+
             }
 
             @media (max-width: 513px) {
@@ -7775,6 +7880,11 @@
 
                 .technologies-tab {
                     margin-bottom: 10px;
+                }
+
+                .ourservices-bg .services-boxs {
+                    height: 450px;
+                    max-height: 100%;
                 }
             }
 
@@ -7898,6 +8008,16 @@
                     height: 350px !important;
                 }
 
+                .django-services {
+                    flex-direction: column !important;
+                    height: 400px !important;
+                    max-height: 100%;
+                }
+
+                .django-services .ios-app-service-name{
+                    font-size: 14px;
+                }
+
             }
 
             @media (max-width: 380px) {
@@ -8007,6 +8127,20 @@
 
                 .team-main .name-post {
                     height: 360px;
+                }
+
+                .react-native-service {
+                    height: 390px;
+                    max-height: 100%;
+                }
+
+                .react-native-service .ios-app-service-name {
+                    font-size: 14px;
+                }
+
+                .ourservices-bg .services-boxs {
+                    height: 520px;
+                    max-height: 100%;
                 }
 
             }
