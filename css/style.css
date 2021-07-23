@@ -5627,7 +5627,6 @@
                     height: 270px;
                 }
 
-
             }
 
             @media(min-width:768px) and (max-width:1199px) {
@@ -5646,6 +5645,10 @@
                 .python-services {
                     height: 330px;
                     max-height: 100%;
+                }
+
+                .flutter-services{
+                    height: 350px;
                 }
             }
 
@@ -6178,6 +6181,15 @@
                     text-align: center;
                 }
 
+                .flutter-services{
+                    flex-direction: column;
+                    height: 300px;
+                }
+
+                .flutter-services .ios-app-service-name{
+                    margin-top: 12px;
+                    text-align: center;
+                }
             }
 
             @media (max-width: 440px) {
@@ -8078,6 +8090,15 @@
                     font-size: 14px;
                 }
 
+                .flutter-services{
+                    height: 320px;
+                }
+
+                .flutter-services .ios-app-service-name{
+                    margin-top: 12px;
+                    font-size: 14px;
+                }
+
             }
 
             @media (max-width: 380px) {
@@ -8212,6 +8233,9 @@
                     font-size: 14px;
                 }
 
+                .flutter-services{
+                    height: 380px;
+                }
             }
 
             /* .dropdown:hover>.dropdown-menu {
