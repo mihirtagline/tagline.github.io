@@ -5233,9 +5233,9 @@
             }
 
             .ui-ux-services-list .tech-use {
-                height: 350px;
+                height: 370px;
                 max-height: 100%;
-                width: 350px;
+                width: 370px;
             }
 
             .mobile-dev-services-list .tech-use {
@@ -5647,8 +5647,12 @@
                     max-height: 100%;
                 }
 
-                .flutter-services{
+                .flutter-services {
                     height: 350px;
+                }
+
+                .ror-service {
+                    height: 280px;
                 }
             }
 
@@ -6181,13 +6185,23 @@
                     text-align: center;
                 }
 
-                .flutter-services{
+                .flutter-services {
                     flex-direction: column;
                     height: 300px;
                 }
 
-                .flutter-services .ios-app-service-name{
+                .flutter-services .ios-app-service-name {
                     margin-top: 12px;
+                    text-align: center;
+                }
+
+                .ror-service {
+                    flex-direction: column;
+                    height: 250px;
+                }
+
+                .ror-service .ios-app-service-name {
+                    margin-top: 10px;
                     text-align: center;
                 }
             }
@@ -6245,7 +6259,15 @@
                     max-height: 100%;
                 }
 
-                .python-services .ios-app-service-name{
+                .python-services .ios-app-service-name {
+                    font-size: 14px;
+                }
+
+                .ror-service {
+                    height: 330px !important;
+                }
+
+                .ror-service .ios-app-service-name {
                     font-size: 14px;
                 }
             }
@@ -7425,9 +7447,13 @@
                     margin-top: 10px;
                 }
 
-                .python-services{
+                .python-services {
                     height: 300px;
                     max-height: 100%;
+                }
+
+                .seo-process-includes {
+                    width: 100%;
                 }
             }
 
@@ -7927,6 +7953,17 @@
                     max-height: 100%;
                 }
 
+                .ui-ux-services-list .tech-use {
+                    height: 370px !important;
+                    max-height: 100%;
+                    width: 370px !important;
+                }
+
+                .ror-service {
+                    flex-direction: column;
+                    height: 300px;
+                }
+
             }
 
             @media (max-width: 513px) {
@@ -8090,11 +8127,11 @@
                     font-size: 14px;
                 }
 
-                .flutter-services{
+                .flutter-services {
                     height: 320px;
                 }
 
-                .flutter-services .ios-app-service-name{
+                .flutter-services .ios-app-service-name {
                     margin-top: 12px;
                     font-size: 14px;
                 }
@@ -8233,8 +8270,26 @@
                     font-size: 14px;
                 }
 
-                .flutter-services{
+                .flutter-services {
                     height: 380px;
+                }
+
+                .ui-ux-services-list .tech-use {
+                    height: 370px !important;
+                    max-height: 100%;
+                    width: 300px !important;
+                }
+
+                .solution-media {
+                    height: 400px;
+                    max-height: 100%;
+                    width: 300px;
+                    max-width: 100%;
+                }
+
+                .aso-media{
+                    width: 290px;
+                    max-width: 100%;
                 }
             }
 
