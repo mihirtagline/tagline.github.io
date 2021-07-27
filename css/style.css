@@ -5420,6 +5420,119 @@
                 list-style: inside disc !important;
             }
 
+            ul.app-features li {
+                position: relative;
+                padding: 5px 0px 5px 30px;
+            }
+
+            ul.app-features li::before {
+                content: " ";
+                background-image: url(../images/app-features-style.svg);
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                top: 8px;
+                left: 0;
+            }
+
+            .common-features ul li a {
+                background-color: transparent;
+                color: #000;
+            }
+
+            .common-features .nav-pills .nav-link.active,
+            .nav-pills .show>.nav-link {
+                color: #d85b1a;
+                background-color: transparent;
+            }
+
+            .common-features ul.app-features li::before {
+                top: 17px;
+            }
+
+            .common-features .app-features-left li {
+                padding: 5px 30px 5px 0px;
+            }
+
+            .common-features .app-features-left li::before {
+                left: 240px;
+
+            }
+
+            .common-feature-mobile {
+                display: none;
+            }
+
+            .app-feature-img,
+            .common-features .tab-pane a img {
+                filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
+            }
+
+            .panel-default>.panel-heading {
+                color: #333;
+                background-color: transparent;
+                border-color: #e4e5e7;
+                padding: 0;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                border-radius: 5px;
+                transition: all ease-in-out 0.3s;
+            }
+
+            .panel-default>.panel-heading a {
+                display: block;
+                padding: 10px 15px;
+                color: black;
+                font-size: 18px;
+            }
+
+            .panel-default>.panel-heading a:after {
+                content: "";
+                position: relative;
+                top: 1px;
+                display: inline-block;
+                font-family: 'Glyphicons Halflings';
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                float: right;
+                transition: transform .25s linear;
+                -webkit-transition: -webkit-transform .25s linear;
+            }
+
+            /* .panel-default>.panel-heading a[aria-expanded="true"] {
+                background-color: #fff;
+                border-radius: 5px;
+                transition: all ease-in-out 0.3s;
+            } */
+
+            .panel-default>.panel-heading a[aria-expanded="true"]:after {
+                content: "\2212";
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+
+            .panel-default>.panel-heading a[aria-expanded="false"]:after {
+                content: "\002b";
+                -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+            }
+
+            .panel-body {
+                background-color: #FFFFFF;
+            }
+
+            .faq {
+                background-color: #f3f3f3;
+            }
+
             @media(max-width:1900px) {
                 .aboutus-bg::before {
                     width: 400px;
@@ -5654,6 +5767,11 @@
                 .ror-service {
                     height: 280px;
                 }
+
+                .advantage-taxi-app {
+                    height: 380px !important;
+                    max-height: 100%;
+                }
             }
 
             @media only screen and (min-width: 768px) and (max-width: 800px) {
@@ -5828,6 +5946,10 @@
                     max-height: 100%;
                 }
 
+                .common-features .app-features-left li::before {
+                    left: 220px;
+                }
+
             }
 
             @media only screen and (min-width: 768px) and (max-width: 800px) {
@@ -5848,6 +5970,19 @@
                 .ourservices-bg .services-boxs {
                     height: 530px;
                     max-height: 100%;
+                }
+
+                .common-features .app-features-left li::before {
+                    left: 205px;
+                }
+
+                .common-features .app-features-left li {
+                    padding: 5px 5px 5px 0px;
+                }
+
+                ul.app-features li {
+                    position: relative;
+                    padding: 5px 0px 5px 5px;
                 }
             }
 
@@ -6204,6 +6339,18 @@
                     margin-top: 10px;
                     text-align: center;
                 }
+
+                .app-feature-img {
+                    text-align: center;
+                }
+
+                .panel-default>.panel-heading a {
+                    font-size: 15px;
+                }
+
+                .panel-body{
+                    font-size: 15px;
+                }
             }
 
             @media (max-width: 440px) {
@@ -6269,6 +6416,14 @@
 
                 .ror-service .ios-app-service-name {
                     font-size: 14px;
+                }
+
+                .panel-default>.panel-heading a {
+                    font-size: 12px;
+                }
+
+                .panel-body{
+                    font-size: 12px;
                 }
             }
 
@@ -7455,12 +7610,66 @@
                 .seo-process-includes {
                     width: 100%;
                 }
+
+                .btn-left,
+                .btn-right {
+                    display: none;
+                }
+
+                .common-feature-main {
+                    display: none;
+                }
+
+                .common-feature-mobile {
+                    display: block !important;
+                }
+
+                #slideshow {
+                    margin: 50px auto;
+                    position: relative;
+                    width: 418px;
+                    max-width: 100%;
+                    height: 739px;
+                    max-height: 100%;
+                    padding: 10px;
+                    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+                }
+
+                #slideshow>div {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    right: 10px;
+                    bottom: 10px;
+                }
+
+                .advantage-taxi-app {
+                    height: 250px !important;
+                    max-height: 100%;
+                    flex-direction: column;
+                }
+
+                .advantage-taxi-app .ios-app-service-name {
+                    text-align: center;
+                    margin-top: 5px;
+                }
             }
 
             @media (max-width: 630px) {
                 .client-logo {
                     width: 200px;
                 }
+
+                .advantage-taxi-app {
+                    height: 280px !important;
+                    max-height: 100%;
+                }
+
+                .advantage-taxi-app .ios-app-service-name {
+                    text-align: center;
+                    margin-top: 5px;
+                }
+
             }
 
             @media (max-width: 575px) {
@@ -7964,6 +8173,24 @@
                     height: 300px;
                 }
 
+                .advantage-taxi-app {
+                    height: 300px !important;
+                    max-height: 100%;
+                }
+
+                .advantage-taxi-app .ios-app-service-name {
+                    text-align: center;
+                    margin-top: 5px;
+                }
+
+                .panel-default>.panel-heading a {
+                    font-size: 13px;
+                }
+                
+                .panel-body{
+                    font-size: 13px;
+                }
+
             }
 
             @media (max-width: 513px) {
@@ -8136,6 +8363,16 @@
                     font-size: 14px;
                 }
 
+                .advantage-taxi-app {
+                    height: 330px !important;
+                    max-height: 100%;
+                }
+
+                .advantage-taxi-app .ios-app-service-name {
+                    text-align: center;
+                    margin-top: 5px;
+                }
+
             }
 
             @media (max-width: 380px) {
@@ -8287,9 +8524,18 @@
                     max-width: 100%;
                 }
 
-                .aso-media{
+                .aso-media {
                     width: 290px;
                     max-width: 100%;
+                }
+
+                .advantage-taxi-app {
+                    height: 330px !important;
+                    max-height: 100%;
+                }
+
+                .advantage-taxi-app .ios-app-service-name {
+                    font-size: 14px;
                 }
             }
 
