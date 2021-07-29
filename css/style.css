@@ -5462,7 +5462,8 @@
 
             }
 
-            .common-feature-mobile {
+            .common-feature-mobile,
+            .user-food-app {
                 display: none;
             }
 
@@ -6498,6 +6499,25 @@
                     bottom: 0;
                     left: 0;
                     right: 0;
+                }
+
+                #slideshow {
+                    margin: auto auto;
+                    position: relative;
+                    width: 418px;
+                    max-width: 100%;
+                    height: 700px;
+                    max-height: 100%;
+                    padding: 10px;
+                    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+                }
+
+                #slideshow>div {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0
                 }
             }
 
@@ -7690,11 +7710,13 @@
                     display: none;
                 }
 
-                .common-feature-main {
+                .common-feature-main,
+                .food-app-main {
                     display: none;
                 }
 
-                .common-feature-mobile {
+                .common-feature-mobile,
+                .user-food-app {
                     display: block !important;
                 }
 
@@ -8646,6 +8668,24 @@
                     bottom: 0;
                     left: 0;
                     right: 0;
+                }
+                #slideshow {
+                    margin: auto auto;
+                    position: relative;
+                    width: 418px;
+                    max-width: 100%;
+                    height: 630px;
+                    max-height: 100%;
+                    padding: 10px;
+                    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+                }
+
+                #slideshow>div {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0
                 }
             }
 
