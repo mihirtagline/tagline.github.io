@@ -22,6 +22,8 @@
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -41,7 +43,7 @@
 <body>
 	<a href="#" class="getquote-btn" data-toggle="modal" data-target="#getquote-popup">getquote</a>
 
-	<header>
+	<header class="bg-light">
 		<div class="container">
 			<nav class="nav">
 				<a href="/" class="logo m-xl-0 m-lg-0 m-md-0 m-sm-auto m-auto">
@@ -76,9 +78,9 @@
 											class="fas fa-window-restore icon"></i> Web
 										Development</a>
 									<ul class="web-dev-submenu overflow-wrap">
-										<li><a class="dropdown-item" href="angular-js.html">AngularJs Development</a>
+										<li><a class="dropdown-item" href="angular-js.html">AngularJS Development</a>
 										</li>
-										<li><a class="dropdown-item" href="node-js.html">NodeJs Development</a></li>
+										<li><a class="dropdown-item" href="node-js.html">Node.js Development</a></li>
 										<li><a class="dropdown-item" href="django.html">Django Development</a></li>
 										<li><a class="dropdown-item" href="react-js.html">React js Development</a></li>
 										<li><a class="dropdown-item" href="python-dev.html">Python Development</a></li>
@@ -97,7 +99,7 @@
 										<li><a class="dropdown-item" href="seo.html">SEO Services</a></li>
 										<li><a class="dropdown-item" href="sem-service.html">SMO Services</a></li>
 										<li><a class="dropdown-item" href="ppc-service.html">PPC Services</a></li>
-                                        <li><a class="dropdown-item" href="aso.html">ASO Services</a></li>
+										<li><a class="dropdown-item" href="aso.html">ASO Services</a></li>
 
 									</ul>
 								</li>
@@ -120,10 +122,14 @@
 							<ul class="solution-submenu">
 								<li class="sector">
 									<ul class="solution-sector-submenu">
-										<li><a class="dropdown-item" href="taxi-app-solution.html">Taxi App Solution</a></li>
-										<li><a class="dropdown-item" href="event-planning-app.html">Event Management App Solution</a></li>
-										<li><a class="dropdown-item" href="food-delivery-app.html">Food Delivery App Solution</a></li>
-										<li><a class="dropdown-item" href="#">Demo 4</a></li>
+										<li><a class="dropdown-item" href="taxi-app-solution.html">Taxi App Solution</a>
+										</li>
+										<li><a class="dropdown-item" href="event-planning-app.html">Event Management App
+												Solution</a></li>
+										<li><a class="dropdown-item" href="food-delivery-app.html">Food Delivery App
+												Solution</a></li>
+										<li><a class="dropdown-item" href="healthcare-app-solution.html">Health Care App
+												Solution</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -138,7 +144,8 @@
 								<li><a class="dropdown-item" href="aboutus.html"><i class="fas fa-users"></i>
 										About Us</a>
 								</li>
-								<li><a class="dropdown-item" href="business-development.html"><i class="fas fa-file-code"></i>
+								<li><a class="dropdown-item" href="business-development.html"><i
+											class="fas fa-file-code"></i>
 										Development Methodology</a></li>
 								<li><a class="dropdown-item" href="career.html"><i class="fas fa-briefcase"></i>
 										Career</a></li>
@@ -214,9 +221,9 @@
 											<ul class="webdev-submenu mx-auto">
 												<li>
 													<ul class="webdev-submenu-body mt-1">
-														<li><a class="dropdown-item" href="#">AngularJs Development</a>
+														<li><a class="dropdown-item" href="#">AngularJS Development</a>
 														</li>
-														<li><a class="dropdown-item" href="#">NodeJs Development</a>
+														<li><a class="dropdown-item" href="#">Node.js Development</a>
 														</li>
 														<li><a class="dropdown-item" href="flutter.html">Flutter
 																Development</a></li>
@@ -266,7 +273,8 @@
 											<ul class="digital-submenu mx-auto">
 												<li>
 													<ul class="digital-submenu-body mt-1">
-														<li><a class="dropdown-item" href="ui-ux-design.html"> UI/UX Design</a></li>
+														<li><a class="dropdown-item" href="ui-ux-design.html"> UI/UX
+																Design</a></li>
 													</ul>
 												</li>
 											</ul>
@@ -327,12 +335,12 @@
 
 	<div id="overlay"></div>
 
-	<section class="banner-bg background_bg" data-img-src="images/banner-img1.png">
+	<section class="banner-bg background_bg position-relative" data-img-src="images/main-header-bg.jpg">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-12 col-sm-6">
 					<div class="content">
-						<h5 class="anim2">A Place Where Your IDEAS transform into REALITY</h5>
+						<h5>A Place Where Your IDEAS transform into REALITY</h5>
 						<h1 class="anim2 anim-typewriter typewrite" data-period="2000"
 							data-type='[ "Smart solution for hard problem", "Customized software is Key to Progress" ]'>
 						</h1>
@@ -342,12 +350,58 @@
 				</div>
 			</div>
 		</div>
+		<div class="container aboutus-bg position-absolute">
+			<div class="row client-box p-4 align-items-center">
+				<div class="col-12 col-md-3 text-center">
+					<div class="review-boxs anim2">
+						<h3>150<span>+</span></h3>
+						<div class="star-boxs justify-content-center">
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="25.748" height="25.748"
+									viewBox="0 0 25.748 25.748">
+									<path
+										d="M25.681,10.221A1.379,1.379,0,0,0,24.5,9.239l-7.432-.7L14.133,1.358a1.347,1.347,0,0,0-2.517,0L8.677,8.535l-7.433.7a1.382,1.382,0,0,0-1.177.982,1.467,1.467,0,0,0,.4,1.517l5.617,5.141L4.429,24.493a1.459,1.459,0,0,0,.532,1.474,1.313,1.313,0,0,0,1.5.068l6.41-4,6.408,4a1.316,1.316,0,0,0,1.5-.068,1.46,1.46,0,0,0,.532-1.474l-1.656-7.614,5.617-5.14a1.469,1.469,0,0,0,.4-1.518Zm0,0"
+										transform="translate(0 -0.491)" /></svg></span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="25.748" height="25.748"
+									viewBox="0 0 25.748 25.748">
+									<path
+										d="M25.681,10.221A1.379,1.379,0,0,0,24.5,9.239l-7.432-.7L14.133,1.358a1.347,1.347,0,0,0-2.517,0L8.677,8.535l-7.433.7a1.382,1.382,0,0,0-1.177.982,1.467,1.467,0,0,0,.4,1.517l5.617,5.141L4.429,24.493a1.459,1.459,0,0,0,.532,1.474,1.313,1.313,0,0,0,1.5.068l6.41-4,6.408,4a1.316,1.316,0,0,0,1.5-.068,1.46,1.46,0,0,0,.532-1.474l-1.656-7.614,5.617-5.14a1.469,1.469,0,0,0,.4-1.518Zm0,0"
+										transform="translate(0 -0.491)" /></svg></span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="25.748" height="25.748"
+									viewBox="0 0 25.748 25.748">
+									<path
+										d="M25.681,10.221A1.379,1.379,0,0,0,24.5,9.239l-7.432-.7L14.133,1.358a1.347,1.347,0,0,0-2.517,0L8.677,8.535l-7.433.7a1.382,1.382,0,0,0-1.177.982,1.467,1.467,0,0,0,.4,1.517l5.617,5.141L4.429,24.493a1.459,1.459,0,0,0,.532,1.474,1.313,1.313,0,0,0,1.5.068l6.41-4,6.408,4a1.316,1.316,0,0,0,1.5-.068,1.46,1.46,0,0,0,.532-1.474l-1.656-7.614,5.617-5.14a1.469,1.469,0,0,0,.4-1.518Zm0,0"
+										transform="translate(0 -0.491)" /></svg></span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="25.748" height="25.748"
+									viewBox="0 0 25.748 25.748">
+									<path
+										d="M25.681,10.221A1.379,1.379,0,0,0,24.5,9.239l-7.432-.7L14.133,1.358a1.347,1.347,0,0,0-2.517,0L8.677,8.535l-7.433.7a1.382,1.382,0,0,0-1.177.982,1.467,1.467,0,0,0,.4,1.517l5.617,5.141L4.429,24.493a1.459,1.459,0,0,0,.532,1.474,1.313,1.313,0,0,0,1.5.068l6.41-4,6.408,4a1.316,1.316,0,0,0,1.5-.068,1.46,1.46,0,0,0,.532-1.474l-1.656-7.614,5.617-5.14a1.469,1.469,0,0,0,.4-1.518Zm0,0"
+										transform="translate(0 -0.491)" /></svg></span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="25.748" height="25.748"
+									viewBox="0 0 25.748 25.748">
+									<path
+										d="M25.681,10.221A1.379,1.379,0,0,0,24.5,9.239l-7.432-.7L14.133,1.358a1.347,1.347,0,0,0-2.517,0L8.677,8.535l-7.433.7a1.382,1.382,0,0,0-1.177.982,1.467,1.467,0,0,0,.4,1.517l5.617,5.141L4.429,24.493a1.459,1.459,0,0,0,.532,1.474,1.313,1.313,0,0,0,1.5.068l6.41-4,6.408,4a1.316,1.316,0,0,0,1.5-.068,1.46,1.46,0,0,0,.532-1.474l-1.656-7.614,5.617-5.14a1.469,1.469,0,0,0,.4-1.518Zm0,0"
+										transform="translate(0 -0.491)" /></svg></span>
+						</div>
+						<p class="mb-0">Satisfied clients</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-9 heading client-info">
+					<h2 class="anim1">Our Satified Client</h2>
+					<p class="anim1 mb-0">Client&#39;s trust is our top concern for fill gaps between us for scaling up
+						the
+						business in market competition . we truly engaged with core value of our clients and extremely
+						satisfied their hypothesised object with accurate solutions. We faithfully to maintain remote
+						control relationships by clients personal and professional evolution. And Always willing to
+						serve them our best approaches for solutions.</p>
+				</div>
+			</div>
+		</div>
 
 	</section>
 
-	<section class="aboutus-bg">
+	<!-- <section class="aboutus-bg">
 		<div class="container">
-			<div class="row">
+			<div class="row client-box">
 				<div class="col-12 col-sm-3">
 					<div class="review-boxs anim2">
 						<h3>150<span>+</span></h3>
@@ -391,20 +445,21 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="ourservices-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<h5 class="anim2 text-dark">Our Services</h5>
-					<h2 class="anim2 text-default">Find the right offers for you</h2>
+				<div class="col-12 text-center">
+					<h4 class="anim2 text-dark mb-1">Our Services</h4>
+					<div class="divider my-3"></div>
+					<h2 class="anim2 text-default mb-4">Find the right offers for you</h2>
 				</div>
 				<div class="offered-services col-md-6 col-xl-4 col-lg-6">
 					<div class="services-boxs anim2">
 						<div class="top">
 							<div class="icon">
-								<svg id="blog" xmlns="http://www.w3.org/2000/svg" width="64.286" height="60"
+								<!-- <svg id="blog" xmlns="http://www.w3.org/2000/svg" width="64.286" height="60"
 									viewBox="0 0 64.286 60">
 									<g id="Group_12" data-name="Group 12">
 										<g id="Group_11" data-name="Group 11">
@@ -444,25 +499,28 @@
 												height="2.143" fill="#d85b1a" />
 										</g>
 									</g>
-								</svg>
+								</svg> -->
+								<img src="images/mobile-development.png" alt="Mobile-development">
 							</div>
 							<h3>Mobile Development</h3>
 						</div>
-						<p>At Tagline Infotech, We have a dedicated Android and iOS mobile app development team. Our
+						<p class="service-description">At Tagline Infotech, We have a dedicated Android and iOS mobile
+							app development team. Our
 							team has excellent strength in each area of react-native, swift, objective-c, KOTLIN, Java
-							SDK, flutter, and cross-platform. They build very cost-effective tailored mobile apps for
+							SDK, flutter, and cross-platform.
+							<!-- They build very cost-effective tailored mobile apps for
 							all business objectives in the vast Digital world. Before delivering the final result, our
-							testers thoroughly test each set of tasks.
+							testers thoroughly test each set of tasks. -->
 						</p>
-
 						<a href="mobile-developement.html" class="read-more">Read More</a>
+
 					</div>
 				</div>
 				<div class="offered-services col-md-6 col-xl-4 col-lg-6">
 					<div class="services-boxs anim5">
 						<div class="top">
 							<div class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+								<!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
 									<g id="Graphic_Design-Sketch-Editor-Tools-Blueprint"
 										data-name="Graphic Design-Sketch-Editor-Tools-Blueprint"
 										transform="translate(-2 -2)">
@@ -498,16 +556,20 @@
 										<path id="Path_68" data-name="Path 68" d="M23,17h2v2H23Z" fill="#d85b1a" />
 										<path id="Path_69" data-name="Path 69" d="M23,21h2v2H23Z" fill="#d85b1a" />
 									</g>
-								</svg>
+								</svg> -->
+								<img src="images/ui-ux-design.png" alt="Ui/Ux Design">
 							</div>
 							<h3>UI/UX Design</h3>
 						</div>
-						<p>Here at Tagline, we make the user experience a smooth trip. Our design principles are always
+						<p class="service-description">Here at Tagline, we make the user experience a smooth trip. Our
+							design principles are always
 							to put the user first, create straightforward, easy-to-navigate interfaces, and provide a
-							smooth end-to-end experience. We also operate as an extension of a company's or startup's UX
+							smooth end-to-end experience.
+							<!-- We also operate as an extension of a company's or startup's UX
 							team, providing a profound grasp of the business, design, and technical elements to create
-							digital products with excellent user experiences that support the company's goals.</p>
-						<a href="mobile-developement.html" class="read-more">Read More</a>
+							digital products with excellent user experiences that support the company's goals. -->
+						</p>
+						<a href="ui-ux-design.html" class="read-more">Read More</a>
 
 					</div>
 				</div>
@@ -515,7 +577,7 @@
 					<div class="services-boxs anim1">
 						<div class="top">
 							<div class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+								<!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
 									<g id="search" transform="translate(0 0)">
 										<path id="Path_70" data-name="Path 70"
 											d="M51.881,50.512A29.945,29.945,0,0,0,51.871,9.5l2.047-2.047a2.857,2.857,0,0,0,1.244.291,2.9,2.9,0,1,0-2.9-2.9,2.857,2.857,0,0,0,.291,1.244L50.5,8.129a29.938,29.938,0,0,0-36.829-3.29h-9.8A3.875,3.875,0,0,0,0,8.71V51.291a3.875,3.875,0,0,0,3.871,3.871h9.791a29.968,29.968,0,0,0,32.494.1L49.8,58.914a3.7,3.7,0,1,0,5.239-5.239ZM55.162,3.871a.968.968,0,1,1-.968.968A.97.97,0,0,1,55.162,3.871ZM30,1.936A27.96,27.96,0,0,1,49.135,9.5L46.729,11.9a2.844,2.844,0,0,0-2.925.255l-5.21-3.647a2.876,2.876,0,0,0,.116-.769,2.9,2.9,0,1,0-2.9,2.9,2.878,2.878,0,0,0,1.681-.545l5.21,3.647a2.876,2.876,0,0,0-.116.769,2.9,2.9,0,0,0,5.806,0,2.857,2.857,0,0,0-.291-1.244L50.5,10.866a28.011,28.011,0,0,1,.009,38.277L44.2,42.835a15.348,15.348,0,0,0,2.2-7.028h9.727V33.871H54.194V18.387H48.387V33.871H46.452V24.194H40.646v9.677H38.71V18.387H32.9v1.1a15.768,15.768,0,0,0-1.935-.135V8.71A3.875,3.875,0,0,0,27.1,4.839H17.588A27.953,27.953,0,0,1,30,1.936ZM46.452,14.516a.968.968,0,1,1-.968-.968A.97.97,0,0,1,46.452,14.516ZM36.775,7.742a.968.968,0,1,1-.968-.968A.97.97,0,0,1,36.775,7.742ZM15.533,35.807H5.807V26.129h12.37a15.389,15.389,0,0,0-2.692,8.71c0,.327.029.646.049.968ZM30.968,21.291a13.738,13.738,0,0,1,1.935.154v1.949a11.77,11.77,0,0,0-1.935-.167A11.613,11.613,0,1,0,42.532,35.807h1.935a13.541,13.541,0,1,1-13.5-14.516ZM40.6,35.807A9.783,9.783,0,1,1,32.9,25.378v8.493H30.968v1.935Zm-5.757-1.935V20.323h1.935V33.871Zm7.742,0V26.129h1.935v7.742Zm7.742,0V20.323h1.935V33.871ZM1.936,8.71A1.937,1.937,0,0,1,3.871,6.775H27.1A1.937,1.937,0,0,1,29.033,8.71v3.871H1.936Zm0,5.806h27.1V19.49a15.437,15.437,0,0,0-9.28,4.7H3.871V37.742h11.9a15.381,15.381,0,0,0,.5,1.935H3.871v1.935H17.066a15.57,15.57,0,0,0,2.687,3.871H1.936Zm1.935,38.71a1.937,1.937,0,0,1-1.935-1.935V47.42h20.04a15.368,15.368,0,0,0,7.057,2.769v1.1A1.937,1.937,0,0,1,27.1,53.226ZM30,58.065a27.968,27.968,0,0,1-12.407-2.9h9.5a3.875,3.875,0,0,0,3.871-3.871v-.968a15.365,15.365,0,0,0,8-2.249L44.75,53.86A27.935,27.935,0,0,1,30,58.065Zm22.423,0a1.758,1.758,0,0,1-1.251-.519L40.582,46.955a15.592,15.592,0,0,0,2.5-2.5L53.676,55.044a1.77,1.77,0,0,1-1.252,3.02Zm0,0"
@@ -535,20 +597,21 @@
 										<path id="Path_77" data-name="Path 77" d="M144,168h1.935v1.935H144Zm0,0"
 											transform="translate(-126.58 -147.677)" fill="#d85b1a" />
 									</g>
-								</svg>
+								</svg> -->
+								<img src="images/web-app-development.png" alt="Web-dev">
 							</div>
 							<h3>Web Application Development</h3>
 						</div>
-						<p>Tagline Infotech is a web application development company with offices in India and the
+						<p class="service-description">Tagline Infotech is a web application development company with
+							offices in India and the
 							United States. Our experienced developer team creates custom web applications based on the
-							client's ideas, utilizing their technical knowledge in ROR, Node Js, React Js, Angular Js,
+							client's ideas.
+							<!-- , utilizing their technical knowledge in ROR, Node Js, React Js, Angular Js,
 							Python, and other technologies to create highly effective, highly secure software web
-							applications for your business enterprise.
+							applications for your business enterprise. -->
 
 						</p>
-						<div class="mt-3 pt-4">
-							<a href="mobile-developement.html" class="read-more">Read More</a>
-						</div>
+						<a href="web-development.html" class="read-more">Read More</a>
 
 					</div>
 				</div>
@@ -556,7 +619,7 @@
 					<div class="services-boxs anim2">
 						<div class="top">
 							<div class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+								<!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
 									<g id="Outline" transform="translate(-16 -16)">
 										<path id="Path_33" data-name="Path 33"
 											d="M42,173a3,3,0,0,1,3-3H56v-2H45a5.006,5.006,0,0,0-5,5v6h2Z"
@@ -605,16 +668,21 @@
 											d="M67,432H49.414a4.385,4.385,0,0,0-3.121,1.293,2.4,2.4,0,0,1-1.707.707H39.414a2.4,2.4,0,0,1-1.707-.707A4.385,4.385,0,0,0,34.586,432H17a1,1,0,0,0-1,1v3a4,4,0,0,0,4,4H64a4,4,0,0,0,4-4v-3A1,1,0,0,0,67,432Zm-1,4a2,2,0,0,1-2,2H20a2,2,0,0,1-2-2v-2H34.586a2.4,2.4,0,0,1,1.707.707A4.385,4.385,0,0,0,39.414,436h5.172a4.385,4.385,0,0,0,3.121-1.293A2.4,2.4,0,0,1,49.414,434H66Z"
 											transform="translate(0 -364)" fill="#d85b1a" />
 									</g>
-								</svg>
+								</svg> -->
+								<img src="images/digital-marketing-service.png" alt="digital-marketing">
 							</div>
 							<h3>Digital Marketing</h3>
 						</div>
-						<p>It's a step ahead in providing IT solutions throughout the world. Our industry's finest and
+						<p class="service-description">It's a step ahead in providing IT solutions throughout the world.
+							Our industry's finest and
 							most seasoned digital marketers have created a diverse range of digital marketing solutions
-							to meet various business needs and financial restrictions. We can assist you in the
+							to meet various business needs and financial restrictions.
+							<!-- We can assist you in the
 							worldwide expansion of your company's operations through SEO, SEM, PPC, email marketing,
-							video hosting, content development, website analytics, and other methods.</p>
-						<a href="mobile-developement.html" class="read-more">Read More</a>
+							video hosting, content development, website analytics, and other methods. -->
+						</p>
+
+						<a href="digital-marketing.html" class="read-more">Read More</a>
 
 					</div>
 				</div>
@@ -622,7 +690,7 @@
 					<div class="services-boxs anim5">
 						<div class="top">
 							<div class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="60" height="49.355"
+								<!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="49.355"
 									viewBox="0 0 60 49.355">
 									<g id="website-design" transform="translate(-8 -56)">
 										<path id="Path_24" data-name="Path 24"
@@ -653,17 +721,22 @@
 											d="M448.968,273.935h.968a.968.968,0,1,0,0-1.935h-.968a.968.968,0,0,0,0,1.935Z"
 											transform="translate(-386.774 -189.871)" fill="#d85b1a" />
 									</g>
-								</svg>
+								</svg> -->
+								<img src="images/web-designing.png" alt="web-designing">
 							</div>
 							<h3>Website Design</h3>
 						</div>
-						<p>We are committed to offering outstanding web design services that will assist you in
+						<p class="service-description">We are committed to offering outstanding web design services that
+							will assist you in
 							establishing a competitive online presence. By building unique website design solutions, we
-							advance both the clients' and the company's paths. In doing so, we ensure that the website
+							advance both the clients' and the company's paths.
+							<!-- In doing so, we ensure that the website
 							design reflects the client's products and services. It has a significant sketch, word press,
 							adobe Dreamweaver, envisions studio, photoshop, and bluefish illustrator layout of the front
 							look for that reason, so that one may quickly grasp the actual message by accessing the
-							website.</p>
+							website. -->
+						</p>
+
 						<a href="mobile-developement.html" class="read-more">Read More</a>
 
 					</div>
@@ -672,7 +745,7 @@
 					<div class="services-boxs anim1">
 						<div class="top">
 							<div class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="69.697" height="60"
+								<!-- <svg xmlns="http://www.w3.org/2000/svg" width="69.697" height="60"
 									viewBox="0 0 69.697 60">
 									<g id="branding" transform="translate(0 -35.622)">
 										<g id="Group_29" data-name="Group 29" transform="translate(0 68.364)">
@@ -719,17 +792,21 @@
 												transform="translate(-222.142 -180.68)" fill="#d85b1a" />
 										</g>
 									</g>
-								</svg>
+								</svg> -->
+								<img src="images/logo-designing.png" alt="logo-design">
 							</div>
 							<h3>Logo Design</h3>
 						</div>
-						<p>Our Logo Design Services will provide your company with a brand image that will stand out in
-							the eyes of your consumers and clients and make visual communication more understandable. As
+						<p class="service-description">Our Logo Design Services will provide your company with a brand
+							image that will stand out in
+							the eyes of your consumers and clients and make visual communication more understandable.
+							<!-- As
 							a result, we promise to produce a custom-made logo design using tools that are specifically
-							tailored to your business marketing.</p>
-						<div class="mt-5 pt-5">
-							<a href="mobile-developement.html" class="read-more">Read More</a>
-						</div>
+							tailored to your business marketing. -->
+						</p>
+
+						<a href="mobile-developement.html" class="read-more">Read More</a>
+
 					</div>
 				</div>
 				<div class="col-12 text-center">
@@ -748,30 +825,30 @@
 						<h2 class="anim2 text-default font-weight-bold">Our Technologies</h2>
 					</div>
 					<ul class="nav nav-tabs anim5 technologies-tab" id="myTab" role="tablist">
-						<li><a class="active" id="python-tab" data-toggle="tab" href="#python" role="tab"
-								aria-controls="python" aria-selected="true">Python</a></li>
-						<li><a id="RubyOnRails-tab" data-toggle="tab" href="#RubyOnRails" role="tab"
-								aria-controls="RubyOnRails" aria-selected="false">RubyOnRails</a></li>
-						<li><a id="java-tab" data-toggle="tab" href="#java" role="tab" aria-controls="java"
-								aria-selected="false">Java Script</a></li>
-						<li><a id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile"
-								aria-selected="false">Mobile</a></li>
-						<li><a id="database-tab" data-toggle="tab" href="#database" role="tab" aria-controls="database"
-								aria-selected="false">Database</a></li>
+						<li class="border-right"><a class="active" id="python-tab" data-toggle="tab" href="#python"
+								role="tab" aria-controls="python" aria-selected="true">Python</a></li>
+						<li class="border-right"><a id="RubyOnRails-tab" data-toggle="tab" href="#RubyOnRails"
+								role="tab" aria-controls="RubyOnRails" aria-selected="false">RubyOnRails</a></li>
+						<li class="border-right"><a id="java-tab" data-toggle="tab" href="#java" role="tab"
+								aria-controls="java" aria-selected="false">Java Script</a></li>
+						<li class="border-right"><a id="mobile-tab" data-toggle="tab" href="#mobile" role="tab"
+								aria-controls="mobile" aria-selected="false">Mobile</a></li>
+						<li class="border-right"><a id="database-tab" data-toggle="tab" href="#database" role="tab"
+								aria-controls="database" aria-selected="false">Database</a></li>
 						<li><a id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design"
 								aria-selected="false">Design</a></li>
 					</ul>
 					<div class="tab-content ourtechnologies-bg-body" id="myTabContent">
 						<div class="tab-pane show active" id="python" role="tabpanel" aria-labelledby="python-tab">
-							<div class="logos-boxs">
-								<div class="img anim6"><img src="images/python-logo-img(2).png" alt="Python"></div>
+							<div class="logos-boxs justify-content-center">
+								<div class="img anim6"><img src="images/python-logo-img.png" alt="Python"></div>
 								<div class="img anim6"><img src="images/python-logo-img2.png" alt="Python"></div>
 								<div class="img anim6"><img src="images/python-logo-img3.png" alt="Python"></div>
 								<div class="img anim6"><img src="images/python-logo-img4.png" alt="Python"></div>
 							</div>
 						</div>
 						<div class="tab-pane" id="RubyOnRails" role="tabpanel" aria-labelledby="RubyOnRails-tab">
-							<div class="logos-boxs">
+							<div class="logos-boxs justify-content-center">
 								<div class="img"><img src="images/rails-logo-img.png" alt="RubyOnRails"></div>
 								<div class="img"><img src="images/rails-logo-img6.png" alt="RubyOnRails"></div>
 								<div class="img"><img src="images/rails-logo-img3.png" alt="RubyOnRails"></div>
@@ -786,7 +863,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="java" role="tabpanel" aria-labelledby="java-tab">
-							<div class="logos-boxs">
+							<div class="logos-boxs justify-content-center">
 								<div class="img"><img src="images/js-logo-img.png" alt="Java Script"></div>
 								<div class="img"><img src="images/js-logo-img2.png" alt="Java Script"></div>
 								<div class="img"><img src="images/js-logo-img3.png" alt="Java Script"></div>
@@ -796,7 +873,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
-							<div class="logos-boxs">
+							<div class="logos-boxs justify-content-center">
 								<div class="img"><img src="images/mobile-logo-img(2).png" alt="Mobile"></div>
 								<div class="img"><img src="images/mobile-logo-img2(2).png" alt="Mobile"></div>
 								<div class="img"><img src="images/mobile-logo-img3(2).png" alt="Mobile"></div>
@@ -806,7 +883,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="design" role="tabpanel" aria-labelledby="design-tab">
-							<div class="logos-boxs">
+							<div class="logos-boxs justify-content-center">
 								<div class="img"><img src="images/design-logo-img(2).png" alt="Design"></div>
 								<div class="img"><img src="images/design-logo-img2(2).png" alt="Design"></div>
 								<div class="img"><img src="images/design-logo-img3(2).png" alt="Design"></div>
@@ -815,7 +892,7 @@
 							</div>
 						</div>
 						<div class="tab-pane" id="database" role="tabpanel" aria-labelledby="database-tab">
-							<div class="logos-boxs">
+							<div class="logos-boxs justify-content-center">
 								<div class="img"><img src="images/data-logo-img.png" alt="Database"></div>
 								<div class="img"><img src="images/data-logo-img2.png" alt="Database"></div>
 								<div class="img"><img src="images/data-logo-img3.png" alt="Database"></div>
@@ -830,360 +907,45 @@
 		</div>
 	</section>
 
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<div class="heading">
-						<h2>We have the experience</h2>
-						<p>We campaign team of synergy from individual and set up the business with change + positive
-							progressive frame of mind in every aspect of work line. We satisfied our clients with this
-							approach and gain unbelievable success within short period of time.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md-2 col-sm-4 col-6 anim4">
-							<div class="languages_box">
-								<div class="languages_logo">
-									<a href="https://www.businessofapps.com/marketplace/YOURPROFILE">
-										<img src="images/1.png" alt="Businessof app" />
-									</a>
-								</div>
-								<h6>Businessof app</h6>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-6 anim4">
-							<div class="languages_box">
-								<div class="languages_logo">
-									<a href="https://www.appfutura.com/web-developers/india" target="_blank">
-										<img src="images/2.png" alt="App futura" />
-									</a>
-								</div>
-								<h6>App futura</h6>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-6 anim4">
-							<div class="languages_box">
-								<div class="languages_logo">
-									<a href="https://www.softwareworld.co/top-custom-software-development-companies/"
-										target="_blank">
-										<img src="images/3.png" alt="Software world">
-									</a>
-								</div>
-								<h6>Software world</h6>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-6 anim4">
-							<div class="languages_box">
-								<div class="languages_logo">
-									<a target="_blank" href="https://www.goodfirms.co/app-development-software/">
-										<img src="images/4.png" alt="GoodFirms Badge">
-									</a>
-								</div>
-								<h6>Good Firms</h6>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-6 anim4">
-							<div class="languages_box">
-								<div class="languages_logo">
-									<a href="https://www.upwork.com/ag/taglineinfotech/">
-										<img src="images/5.png" alt="upwork" draggable="false">
-									</a>
-								</div>
-								<h6>Upwork</h6>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-4 col-6 anim4">
-							<div class="languages_box">
-								<div class="languages_logo">
-									<a href="https://clutch.co/profile/taglineinfotech">
-										<img src="images/6.png" alt="clutch" draggable="false">
-									</a>
-								</div>
-								<h6>Clutch</h6>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<section class="experience-bg mt-5 overflow-hidden">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-lg-12 mx-auto py-4">
+				<div class="col-12 col-lg-12 mx-auto">
 					<div class="experience-box">
 						<h2 class="anim2 text-default">We have the experience</h2>
 						<p class="text-center anim1">We campaign team of synergy from individual and set up the business
 							with change + positive progressive frame of mind in every aspect of work line. We satisfied
 							our clients with this approach and gain unbelievable success within short period of time.
 						</p>
-						<div class="row">
-							<div class="col-12 col-lg-6">
-								<h3 class="anim2">Successful campaigns</h3>
-								<h6 class="anim2">We campaign team of synergy from individual and set up the business
-									with change + positive progressive frame of mind in every aspect of work line. We
-									satisfied our clients with this approach and gain unbelievable success within short
-									period of time. </h6>
-							</div>
-							<div class="col-12 col-lg-6">
-								<div class="row">
-									<div class="our-work col-12 col-lg-6 border-right border-bottom">
-										<div class="brands-boxs anim1">
-											<h3>3+</h3>
-											<p>Years of Experience</p>
-										</div>
-									</div>
-									<div class="our-work col-12 col-lg-6 border-bottom d-lg-flex flex-lg-wrap">
-										<div class="brands-boxs anim1">
-											<h3>75+</h3>
-											<p>Our Employees</p>
-										</div>
-									</div>
-									<div class="our-work col-12 col-lg-6 border-right">
-										<div class="brands-boxs anim1">
-											<h3>200+</h3>
-											<p>Worked on Projects</p>
-										</div>
-									</div>
-									<div class="our-work col-12 col-lg-6 d-lg-flex flex-lg-wrap">
-										<div class="brands-boxs anim1">
-											<h3>60K+</h3>
-											<p>Freelance Hours</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="row">		
-				<div class="col-12">
-					<div class="testimonial-carousel owl-carousel">
-						<div class="item">
-							13232
-						</div>
-						<div class="item">
-							<div class="img anim2">
-								<img src="images/client_steve.png" alt="client_steve">	
-							</div>
-							<div class="content">
-								<p class="anim4">The team has delivered an impressive product that&#39;s endowed with many different functionalities. In the ongoing engagement, Tagline Infotech has never encountered a problem that they couldn&#39;t tackle. They&#39;ve proved to be flexible and responsive partners that the client can continue to rely on.</p>
-								<h4 class="anim4">Steve Lamar</h4>
-								<h6 class="anim4">CEO, Promoprep</h6>
-							</div>
-						</div>
-						<div class="item">
-							<div class="img anim2">
-								<img src="images/client_justin.png" alt="client_justin">	
-							</div>
-							<div class="content">
-								<p class="anim4">Although the project is still underway, TaglineInfotech has established themselves as reliable and experienced development partners. In the past, they&#39;ve delivered high-quality work and have built a strong partnership. They work around the clock when needed and are always communicative.</p>
-								<h4 class="anim4">Justin Hall</h4>
-								<h6 class="anim4">CEO, SupplementSnoop</h6>
-							</div>
-						</div>
-						<div class="item">
-							<div class="img anim2">
-								<img src="images/client_walker.png" alt="client_walker">	
-							</div>
-							<div class="content">
-								<p class="anim4">Bipin is a very responsive full-stack software developer with excellent written and verbal communication skills. He&#39;s able to self-manage his time well and understands feature requests and project management tools well. I&#39;d happily work with Bipin again in the future and I plan on doing so.</p>
-								<h4 class="anim4">Ben Walker</h4>
-								<h6 class="anim4">CEO, Flow Custom Business Software</h6>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
 		</div>
-	</section>
-
-	<section class="case-studies mt-5">
-		<div class="container">
-			<h2 class="anim2 text-default text-center font-weight-bold mb-5">Case Studies</h2>
-			<ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-				<li class="nav-item">
-					<a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
-						aria-controls="pills-home" aria-selected="true">All</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="pills-mobile-tab" data-toggle="pill" href="#pills-mobile" role="tab"
-						aria-controls="pills-mobile" aria-selected="false">Mobile</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab"
-						aria-controls="pills-web" aria-selected="false">Web</a>
-				</li>
-			</ul>
-			<div class="tab-content text-xl-left text-lg-left text-md-left text-sm-left text-center"
-				id="pills-tabContent">
-				<div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
-
-					<div class="row">
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/recognize-application.jpg" alt="quote">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											Recognize Application
-										</p>
-										<p class="case-study-description">Recognition, manage nominations, offer
-											rewards, &
-											automate service anniversaries.
-											By developing such a recognized application.</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">Recognize Application</h5>
-								</div>
-							</a>
-						</div>
-
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/hashtaginvesting.jpg" alt="quote" class="rounded">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											Hashtag Investing
-										</p>
-										<p class="case-study-description">Qualitative , reliable, and easy to interface
-											new
-											feature oriented Mobile application development</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">Hashtag Investing</h5>
-								</div>
-							</a>
-						</div>
-
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/OTF-fitness.jpg" alt="quote" class="rounded">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											OTF Fitness
-										</p>
-										<p class="case-study-description">we provide easy to read workout and daily
-											beast
-											summary and exercises based on the duration and schedule.</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">OTF Fitness</h5>
-								</div>
-							</a>
-						</div>
-
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/supplement-snoop.jpg" alt="quote" class="rounded">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											Supplement Snoop
-										</p>
-										<p class="case-study-description">We can help you to build out an online health
-											and
-											fitness application to improve your health.
-
-										</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">Supplement Snoop</h5>
-								</div>
-							</a>
-						</div>
+		<div class="letstalk-bg our-successful-projects">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-3 py-4 expertize">
+						<h4 class="it">60</h4><span>+</span>
+						<p>IT Professionals</p>
 					</div>
-
-				</div>
-				<div class="tab-pane fade" id="pills-mobile" role="tabpanel" aria-labelledby="pills-mobile-tab">
-					<div class="row">
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/yoshoppers.jpg" alt="quote">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											Yoshoppers
-										</p>
-										<p class="case-study-description">Your all in one online shopping cart is
-											here……..!
-										</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">Yoshoppers</h5>
-								</div>
-							</a>
-						</div>
-
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/my-limo.jpg" alt="quote">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											My Limo Time Application
-										</p>
-										<p class="case-study-description">We could help you to design an AFFILIATE CAB
-											BOOKING application as per your mindset.
-										</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">My Limo</h5>
-								</div>
-							</a>
-						</div>
+					<div class="col-md-3 py-4 expertize align-items-center">
+						<h4 class="pro">200</h4><span>+</span>
+						<p>Projects Completed</p>
+					</div>
+					<div class="col-md-3 py-4 expertize">
+						<h4 class="hours">45</h4><span>K+</span>
+						<p>Freelance Hours</p>
+					</div>
+					<div class="col-md-3 py-4 expertize">
+						<h4 class="exp">3</h4><span>+</span>
+						<p>Years Of Experience</p>
 					</div>
 				</div>
-				<div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
-					<div class="row">
-
-						<div class="case-study col-md-3 col-sm-6 col-12">
-							<a href="portfolio.html">
-								<div class="case-study-cover position-relative">
-									<img src="images/promoprep.jpg" alt="quote">
-									<div class="case-study-info position-absolute">
-										<p class="case-study-title">
-											PromoPrep
-										</p>
-										<p class="case-study-description">Enhance all marketing activities by
-											collaborating with all the executive teams of marketing with our customized
-											centralized calendar software solution.
-										</p>
-									</div>
-								</div>
-								<div class="">
-									<h5 class="case-study-title-main">Promoprep</h5>
-								</div>
-							</a>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
-			<div class="view-more-btn">
-				<a href="portfolio.html" class="align-self-center">View More <i class="fal fa-long-arrow-right"></i></a>
 			</div>
 		</div>
 	</section>
 
-	<section class="mt-5 our-clients">
+	<section class="our-clients bg-light">
 		<div class="container">
 			<div class="row mb-3">
 				<div class="col-md-12 heading">
@@ -1286,289 +1048,549 @@
 		</div>
 	</section>
 
-	<!-- TESTIMONIALS -->
-	<section class="testimonials mt-5">
+	<section class="case-studies mt-5">
 		<div class="container">
-			<div class="experience-box mb-5">
+			<h2 class="anim2 text-default text-center font-weight-bold mb-5">Case Studies</h2>
+			<ul class="nav nav-pills mb-3 case-studies-tabs justify-content-center" id="pills-tab" role="tablist">
+				<li class="nav-item border-right">
+					<a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+						aria-controls="pills-home" aria-selected="true">All</a>
+				</li>
+				<li class="nav-item border-right">
+					<a class="nav-link" id="pills-mobile-tab" data-toggle="pill" href="#pills-mobile" role="tab"
+						aria-controls="pills-mobile" aria-selected="false">Mobile</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab"
+						aria-controls="pills-web" aria-selected="false">Web</a>
+				</li>
+			</ul>
+			<div class="tab-content text-xl-left text-lg-left text-md-left text-sm-left text-center"
+				id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+
+					<div class="row">
+						<div class="case-study position-relative col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/recognize-application.jpg" alt="quote">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												Recognize Application
+											</h5>
+											<p class="case-study-description">Recognition, manage nominations, offer
+												rewards, &
+												automate service anniversaries.
+												By developing such a recognized application.</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="case-study col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/hashtaginvesting.jpg" alt="quote" class="rounded">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												Hashtag Investing
+											</h5>
+											<p class="case-study-description">Qualitative , reliable, and easy to
+												interface
+												new
+												feature oriented Mobile application development</p>
+										</div>
+									</div>
+								</div>
+
+							</a>
+						</div>
+
+						<div class="case-study col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/OTF-fitness.jpg" alt="quote" class="rounded">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												OTF Fitness
+											</h5>
+											<p class="case-study-description">we provide easy to read workout and daily
+												beast
+												summary and exercises based on the duration and schedule.</p>
+										</div>
+									</div>
+								</div>
+
+							</a>
+						</div>
+
+						<div class="case-study col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/supplement-snoop.jpg" alt="quote" class="rounded">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												Supplement Snoop
+											</h5>
+											<p class="case-study-description">We can help you to build out an online
+												health
+												and
+												fitness application to improve your health.
+
+											</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="tab-pane fade" id="pills-mobile" role="tabpanel" aria-labelledby="pills-mobile-tab">
+					<div class="row">
+						<div class="case-study position-relative col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/yoshoppers.jpg" alt="quote">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												Yoshoppers
+											</h5>
+											<p class="case-study-description">Your all in one online shopping cart is
+												here……..!
+											</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="case-study col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/my-limo.jpg" alt="quote">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												My Limo Time Application
+											</h5>
+											<p class="case-study-description">We could help you to design an AFFILIATE
+												CAB
+												BOOKING application as per your mindset.
+											</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+					<div class="row">
+
+						<div class="case-study col-md-3 col-sm-6 col-12">
+							<a href="portfolio.html">
+								<div class="case-study-cover position-relative">
+									<img src="images/promoprep.jpg" alt="quote">
+									<div class="case-study-info position-absolute">
+										<div class="case-study-info-text">
+											<h5 class="case-study-title">
+												PromoPrep
+											</h5>
+											<p class="case-study-description">Enhance all marketing activities by
+												collaborating with all the executive teams of marketing with our
+												customized
+												centralized calendar software solution.
+											</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="view-more-btn mt-4">
+				<a href="portfolio.html" class="align-self-center">View More <i class="fal fa-long-arrow-right"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- TESTIMONIALS -->
+
+	<section class="p-5 bg-light testimonial-section mt-5">
+		<div class="container">
+			<div class="heading text-center">
 				<span class="anim2">Testimonial</span>
 				<h2 class="anim2 text-default">What's Our Client Say</h2>
 			</div>
+			<div class="row align-items-center">
+				<div class="col-md-6">
+					<div class="testimonials_left">
+						<ul class="testimonials_circle">
+							<li>
+								<a href="javascript:;" title="Nick Konechny" data-slide="1" class="active test-img">
+									<img class="lazy" src="images/client_steve.png"
+										alt="A trainer and student mobile application developed for AK Microblading training of the UK. "
+										width="71" height="71">
+								</a><i class="fas fa-quote-left"></i>
+							</li>
+							<li>
+								<a href="javascript:;" title="Zia Mahmood" data-slide="2" class="test-img">
+									<img class="lazy" src="images/client_justin.png"
+										alt="A live streaming app development for the UK based startup " width="71"
+										height="71">
+								</a><i class="fas fa-quote-left"></i>
+							</li>
+							<li>
+								<a href="javascript:;" title="Scott Etherington" data-slide="3" class="test-img">
+									<img class="lazy" src="images/client_ramsy.png"
+										alt="An on-demand food delivery application developed for earning rewards on every order."
+										width="71" height="71">
+								</a><i class="fas fa-quote-left"></i>
+							</li>
+							<li>
+								<a href="javascript:;" title="Mukul Verma" data-slide="4" class="test-img">
+									<img class="lazy" src="images/client_fabio.png"
+										alt="Do you have this in mind- hockey app is offered by which company? yes, Intelivita developed a hockey mobile game app for a remote mobile game developer."
+										width="71" height="71">
+								</a><i class="fas fa-quote-left"></i>
+							</li>
+							<li>
+								<a href="javascript:;" title="Jack Parkin" data-slide="5" class="test-img">
+									<img class="lazy" src="images/client_walker.png"
+										alt="Instant messaging chat app development service for a UK based entrepreneur."
+										width="71" height="71">
+								</a><i class="fas fa-quote-left"></i>
+							</li>
+							<li>
+								<a href="javascript:;" title="Tref Griffiths" data-slide="6" class="test-img">
+									<img class="lazy" src="images/client_ravi.png"
+										alt="an award-winning crime-solving adventure mobile game app developed and played by over 250,000 budding detectives"
+										width="71" height="71">
+								</a><i class="fas fa-quote-left"></i>
+							</li>
+						</ul>
+						<div class="testimonials_privew">
+							<div><img id="testimonials_privew" class="lazy" src="images/client_steve.png"
+									alt="app development companies"></div>
+							<i class="fas fa-quote-left"></i>
+						</div>
+					</div>
 
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="customers-testimonials" class="owl-carousel">
-						<div class="item">
-							<div class="shadow-effect">
-								<i class="fas fa-quote-left"></i>
-								<p>The team has delivered an impressive product that&#39;s endowed with many different
-									functionalities. In the ongoing engagement, Tagline Infotech has never encountered a
-									problem that they couldn&#39;t tackle. They&#39;ve proved to be flexible and
-									responsive partners that the client can continue to rely on.</p>
+				</div>
+				<div class="col-md-6">
+					<div class="testimonials_text">
+						<div class="testimonials_text_slider">
+							<div class="testimonial-text-section" data-index="1">
+								<div class="testimonials_text_box">
+									<div class="testimonials-arrow"></div>
+									<i class="fas fa-quote-left"></i>
+									<p>The team has delivered an impressive product that's endowed with many different
+										functionalities. In the ongoing engagement, Tagline infotech has never
+										encountered a problem that they couldn't tackle. They've proved to be flexible
+										and responsive partners that the client can continue to rely on.</p>
+									<span><strong>Steve Lamar</strong>, CEO, Promoprep</span>
+								</div>
 							</div>
-							<div class="client-detail">
-								<img src="images/client_steve.png" alt="client_steve">
-								<h4>Steve Lamar</h4>
-								<h6>CEO, Promoprep</h6>
-							</div>
-						</div>
-						<div class="item">
-							<div class="shadow-effect">
-								<i class="fas fa-quote-left"></i>
-								<p>Although the project is still underway, TaglineInfotech has established themselves as
-									reliable and experienced development partners. In the past, they&#39;ve delivered
-									high-quality work and have built a strong partnership. They work around the clock
-									when needed and are always communicative.</p>
 
+							<div class="testimonial-text-section" data-index="2">
+								<div class="testimonials_text_box">
+									<div class="testimonials-arrow"></div>
+									<i class="fas fa-quote-left"></i>
+									<p>Although the project is still underway, TaglineInfotech has established
+										themselves as reliable and experienced development partners. In the past,
+										they've delivered high-quality work and have built a strong partnership. They
+										work around the clock when needed and are always communicative.</p>
+									<span><strong>Justin Hall</strong>, CEO, SupplementSnoop</span>
+								</div>
 							</div>
-							<div class="client-detail">
-								<img src="images/client_justin.png" alt="client_justin">
-								<h4>Justin Hall</h4>
-								<h6>CEO, SupplementSnoop</h6>
+							<div class="testimonial-text-section" data-index="3">
+								<div class="testimonials_text_box">
+									<div class="testimonials-arrow"></div>
+									<i class="fas fa-quote-left"></i>
+									<p>The project managed to surpass the expectations of the company's management, as
+										the team integrated extra features into the build. The team was able to meet all
+										their milestones. The communication and rapport between both parties was good.
+									</p>
+									<span><strong>Ramsey Ajram</strong>, Head of Product, Beans</span>
+								</div>
+							</div>
+							<div class="testimonial-text-section" data-index="4">
+								<div class="testimonials_text_box">
+									<div class="testimonials-arrow"></div>
+									<i class="fas fa-quote-left"></i>
+									<p>TaglineInfotech managed to finish the demo successfully and in a timely manner.
+										The team was able to provide great and direct communication throughout the
+										project. They were able to utilize new technologies that are available in the
+										development industry.</p>
+									<span><strong>Fabio</strong>, Co-founder, Ticketing Software Company</span>
+								</div>
+							</div>
+							<div class="testimonial-text-section" data-index="5">
+								<div class="testimonials_text_box">
+									<div class="testimonials-arrow"></div>
+									<i class="fas fa-quote-left"></i>
+									<p>Bipin is a very responsive full-stack software developer with excellent written
+										and verbal communication skills. He's able to self-manage his time well and
+										understands feature requests and project management tools well. I'd happily work
+										with Bipin again in the future and I plan on doing so.</p>
+									<span><strong>Ben Walker</strong>, CEO, Flow Custom Business Software</span>
+								</div>
+							</div>
+							<div class="testimonial-text-section" data-index="6">
+								<div class="testimonials_text_box">
+									<div class="testimonials-arrow"></div>
+									<i class="fas fa-quote-left"></i>
+									<p>While the project has yet to launch, internal stakeholders noted that the
+										programming has been delivered successfully and the project is right on track.
+										TaglineInfotech used an Agile iterative methodology throughout the process. They
+										were communicative and worked in a timely manner.</p>
+									<span><strong>Ravi Shrivastav</strong>, Partner, Akemona Inc.</span>
+								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="shadow-effect">
-								<i class="fas fa-quote-left"></i>
-								<p>Bipin is a very responsive full-stack software developer with excellent written and
-									verbal communication skills. He&#39;s able to self-manage his time well and
-									understands feature requests and project management tools well. I&#39;d happily work
-									with Bipin again in the future and I plan on doing so.</p>
-							</div>
-							<div class="client-detail">
-								<img src="images/client_walker.png" alt="client_walker">
-								<h4>Ben Walker</h4>
-								<h6>CEO, Flow Custom Business Software</h6>
-							</div>
-						</div>
-						<!-- <div class="item">
-              <div class="shadow-effect">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-        
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-            </div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="blogs mt-5">
-		<!-- <div class="blogs-carousel" data-animation="fadeIn" data-animation-delay="0.1s">
-		
-			<div class="container">
-
-				
-
-				<div class="carousel_slider owl-carousel owl-theme" data-dots="false" data-nav="true" data-margin="10"
-					data-loop="true" data-autoplay="true"
-					data-responsive='{"0":{"items": "1"}, "767":{"items": "3"}, "991":{"items": "3"}, "1199":{"items": "4"}}'>
-
-					<div>
-						<div class="blog-card position-relative rounded">
-							<a href="blog-detail.html">
-								<div class="blog-cover">
-									<img src="images/blog-5.png" alt="quote" class="rounded-top">
-								</div>
-								<div class="reviews p-3">
-									<p class="published-date text-uppercase my-1">18 june 2021</p>
-									<h5 class="stamp position-relative review-text">COVID-19: Mobile App Development –
-										A Boon Or A Curse</h5>
-								</div>
-								<div class="button position-absolute">
-									<a href="blog-detail.html"><i class="fas fa-arrow-right"></i></a>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div>
-						<div class="blog-card position-relative rounded">
-							<a href="blog-detail.html">
-								<div class="blog-cover">
-									<img src="images/blog-6.png" alt="quote" class="rounded-top">
-								</div>
-								<div class="reviews p-3">
-									<p class="published-date text-uppercase my-1">18 june 2021</p>
-									<h5 class="stamp position-relative review-text">What’s New In Laravel 9.0 (LTS)?
-									</h5>
-								</div>
-								<div class="button position-absolute">
-									<a href="blog-detail.html"><i class="fas fa-arrow-right"></i></a>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div>
-						<div class="blog-card position-relative rounded">
-							<a href="blog-detail.html">
-								<div class="blog-cover">
-									<img src="images/blog-7.png" alt="quote" class="rounded-top">
-								</div>
-								<div class="reviews p-3">
-									<p class="published-date text-uppercase my-1">18 june 2021</p>
-									<h5 class="stamp position-relative review-text">How Can Artificial Intelligence Aid
-										Your Social Media Marketing Strategy?</h5>
-								</div>
-								<div class="button position-absolute">
-									<a href="blog-detail.html"><i class="fas fa-arrow-right"></i></a>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div>
-						<div class="blog-card position-relative rounded">
-							<a href="blog-detail.html">
-								<div class="blog-cover">
-									<img src="images/blog-8.png" alt="quote" class="rounded-top">
-								</div>
-								<div class="reviews p-3">
-									<p class="published-date text-uppercase my-1">18 june 2021</p>
-									<h5 class="stamp position-relative review-text">COVID-19: Mobile App Development –
-										A Boon Or A Curse</h5>
-								</div>
-								<div class="button position-absolute">
-									<a href="blog-detail.html"><i class="fas fa-arrow-right"></i></a>
-								</div>
-							</a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div> -->
-
+	<section class="mt-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2 class="mb-5 anim2 font-weight-bold text-default">Our Blogs</h2>
-				</div>
-			</div>
-			<div class="home-blog">
-				<div class="row">
-					<div class="col-md-6 mb-md-0">
-						<div class="blog-card slider-blog-card">
-							<a href="javascript:void(0);" class="blog-img-overlay"><img
-									src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"
-									alt="tech-blog-1" class="img-fluid" />
-							</a>
-							<div class="blog-caption blog-slider-caption">
-								<a href="javascript:void(0)" class="slider-tag">technology</a>
-								<h3>Angular Vs React Js: What To Choose For Your Development?</h3>
-								<div class="meta-wrapper slider-caption-bloghome">
-									<span class="author_post">
-										<img src="https://secure.gravatar.com/avatar/a546c6c90a2c352cf9aeeabd431f3bd0?s=30&amp;d=mm&amp;r=g"
-											alt="avatar" class="avatar avatar-30 photo lazyloaded" />
-										<a href="javascript:void(0)">Beena</a>
-									</span>
-									<span class="date_post blog-detail-post"><i class="far fa-calendar-alt"></i>
-										June 2, 2020</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 home-blog-left">
-						<div class="blog-card ">
-							<a href="javascript:void(0);" class="blog-img-overlay"><img src="images/blog-grid-1.jpg"
-									alt="blog-grid-1" class="img-fluid" />
-							</a>
-							<div class="blog-caption blog-slider-caption">
-								<a href="javascript:void(0)" class="slider-tag">technology</a>
-								<h6>Angular Vs React Js: What To Choose For Your Development?</h6>
-								<div class="meta-wrapper slider-caption-bloghome">
-									<span class="author_post">
-										<img src="https://secure.gravatar.com/avatar/a546c6c90a2c352cf9aeeabd431f3bd0?s=30&amp;d=mm&amp;r=g"
-											alt="avatar" class="avatar avatar-30 photo lazyloaded" />
-										<a href="javascript:void(0)">Beena</a>
-									</span>
-									<span class="date_post blog-detail-post"><i class="far fa-calendar-alt"></i>
-										June 2, 2020</span>
-								</div>
-							</div>
-						</div>
-
-						<div class="blog-card mb-0">
-							<a href="javascript:void(0);" class="blog-img-overlay"><img src="images/tech-blog-3.jpg"
-									alt="tech-blog-3" class="img-fluid" />
-							</a>
-							<div class="blog-caption blog-slider-caption">
-								<a href="javascript:void(0)" class="slider-tag">technology</a>
-								<h6>Angular Vs React Js: What To Choose For Your Development?</h6>
-								<div class="meta-wrapper slider-caption-bloghome">
-									<span class="author_post">
-										<img src="https://secure.gravatar.com/avatar/a546c6c90a2c352cf9aeeabd431f3bd0?s=30&amp;d=mm&amp;r=g"
-											alt="avatar" class="avatar avatar-30 photo lazyloaded" />
-										<a href="javascript:void(0)">Beena</a>
-									</span>
-									<span class="date_post blog-detail-post"><i class="far fa-calendar-alt"></i>
-										June 2, 2020</span>
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-3 home-blog-right">
-						<div class="blog-card ">
-							<a href="javascript:void(0);" class="blog-img-overlay"><img src="images/blog-grid-1.jpg"
-									alt="blog-grid-1" class="img-fluid" />
-							</a>
-							<div class="blog-caption blog-slider-caption">
-								<a href="javascript:void(0)" class="slider-tag">technology</a>
-								<h6>Angular Vs React Js: What To Choose For Your Development?</h6>
-								<div class="meta-wrapper slider-caption-bloghome">
-									<span class="author_post">
-										<img src="https://secure.gravatar.com/avatar/a546c6c90a2c352cf9aeeabd431f3bd0?s=30&amp;d=mm&amp;r=g"
-											alt="avatar" class="avatar avatar-30 photo lazyloaded" />
-										<a href="javascript:void(0)">Beena</a>
-									</span>
-									<span class="date_post blog-detail-post"><i class="far fa-calendar-alt"></i>
-										June 2, 2020</span>
-								</div>
-							</div>
-						</div>
-
-						<div class="blog-card mb-0">
-							<a href="javascript:void(0);" class="blog-img-overlay"><img src="images/tech-blog-3.jpg"
-									alt="tech-blog-3" class="img-fluid" />
-							</a>
-							<div class="blog-caption blog-slider-caption">
-								<a href="javascript:void(0)" class="slider-tag">technology</a>
-								<h6>Angular Vs React Js: What To Choose For Your Development?</h6>
-								<div class="meta-wrapper slider-caption-bloghome">
-									<span class="author_post">
-										<img src="https://secure.gravatar.com/avatar/a546c6c90a2c352cf9aeeabd431f3bd0?s=30&amp;d=mm&amp;r=g"
-											alt="avatar" class="avatar avatar-30 photo lazyloaded" />
-										<a href="javascript:void(0)">Beena</a>
-									</span>
-									<span class="date_post blog-detail-post"><i class="far fa-calendar-alt"></i>
-										June 2, 2020</span>
-								</div>
-							</div>
-						</div>
-
+				<div class="col-12 text-center">
+					<div class="heading">
+						<h2>Award & Trust winning Mobile App & Web Development company</h2>
+						<p>We campaign team of synergy from individual and set up the business with change + positive
+							progressive frame of mind in every aspect of work line. We satisfied our clients with this
+							approach and gain unbelievable success within short period of time.</p>
 					</div>
 				</div>
 			</div>
-			<div class="view-more-btn my-4">
-				<a href="blog.html" class="align-self-center">View More <i class="fal fa-long-arrow-right"></i></a>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-2 col-sm-4 col-6 anim4">
+							<div class="languages_box">
+								<div class="languages_logo">
+									<a href="https://www.businessofapps.com/marketplace/YOURPROFILE">
+										<img src="images/1.png" alt="Businessof app" />
+									</a>
+								</div>
+								<h6>Businessof app</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 col-6 anim4">
+							<div class="languages_box">
+								<div class="languages_logo">
+									<a href="https://www.appfutura.com/web-developers/india" target="_blank">
+										<img src="images/2.png" alt="App futura" />
+									</a>
+								</div>
+								<h6>App futura</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 col-6 anim4">
+							<div class="languages_box">
+								<div class="languages_logo">
+									<a href="https://www.softwareworld.co/top-custom-software-development-companies/"
+										target="_blank">
+										<img src="images/3.png" alt="Software world">
+									</a>
+								</div>
+								<h6>Software world</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 col-6 anim4">
+							<div class="languages_box">
+								<div class="languages_logo">
+									<a target="_blank" href="https://www.goodfirms.co/app-development-software/">
+										<img src="images/4.png" alt="GoodFirms Badge">
+									</a>
+								</div>
+								<h6>Good Firms</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 col-6 anim4">
+							<div class="languages_box">
+								<div class="languages_logo">
+									<a href="https://www.upwork.com/ag/taglineinfotech/">
+										<img src="images/5.png" alt="upwork" draggable="false">
+									</a>
+								</div>
+								<h6>Upwork</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 col-6 anim4">
+							<div class="languages_box">
+								<div class="languages_logo">
+									<a href="https://clutch.co/profile/taglineinfotech">
+										<img src="images/6.png" alt="clutch" draggable="false">
+									</a>
+								</div>
+								<h6>Clutch</h6>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+	</section>
+
+	<section class="blogs mt-5 bg-light p-5">
+		<div class="blogs-carousel" data-animation="fadeIn" data-animation-delay="0.1s">
+
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12 text-center">
+						<h2 class="mb-5 anim2 font-weight-bold text-default"
+							style="transform: translate(0px, 0px) scale(1, 1); opacity: 1; transition: all 800ms ease 0s;">
+							Our Blogs</h2>
+					</div>
+
+					<div class="col-xl-3 col-lg-6 col-md-6 mt-3">
+						<div class="blog-card position-relative rounded">
+							<a href="blog-detail.html">
+								<div class="blog-cover">
+									<img src="images/blog-cover-1.png" alt="quote">
+								</div>
+								<div class="reviews px-3 py-2">
+									<h5 class="blog-card-title">DigiBox: India’s own cloud service
+									</h5>
+									<p class="meta-desc">Digibox is India’s first-ever cloud service platform launched
+										by Niti Aayog to
+										support Prime Minister Narendra Modi’s vision of ‘Atmanirbhar Bharat’</p>
+
+									<div class="blog-post_meta-wrap border-top">
+										<div class="meta-wrapper pt-3 pb-2">
+											<span class="author_post">
+												<img class="avatar" src="images/client_fabio.png" alt="Paul Josh">
+												<a href="#">Paul Josh</a>
+											</span>
+											<span class="date_post">June 18, 2021</span>
+										</div>
+										<div class="blog-post_info-wrap">
+											<div class="share_post-container">
+												<i class="fas fa-arrow-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-6 col-md-6 mt-3">
+						<div class="blog-card position-relative rounded">
+							<a href="blog-detail.html">
+								<div class="blog-cover">
+									<img src="images/blog-cover-2.png" alt="quote">
+								</div>
+								<div class="reviews px-3 py-2">
+									<h5 class="blog-card-title">Top most prominent features of
+										CodeIgniter 2021
+									</h5>
+									<p class="meta-desc">CodeIgniter is an Application Development Framework – a toolkit
+										– for people who build websites using PHP. Here are some features of CodeIgniter
+										framework</p>
+
+									<div class="blog-post_meta-wrap border-top">
+										<div class="meta-wrapper pt-3 pb-2">
+											<span class="author_post">
+												<img class="avatar" src="images/client_fabio.png" alt="Paul Josh">
+												<a href="#">Paul Josh</a>
+											</span>
+											<span class="date_post">June 18, 2021</span>
+										</div>
+										<div class="blog-post_info-wrap">
+											<div class="share_post-container">
+												<i class="fas fa-arrow-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-6 col-md-6 mt-3">
+						<div class="blog-card position-relative rounded">
+							<a href="blog-detail.html">
+								<div class="blog-cover">
+									<img src="images/blog-cover-3.png" alt="quote">
+								</div>
+								<div class="reviews px-3 py-2">
+									<h5 class="blog-card-title">Choose a better one Laravel v/s CodeIgniter
+									</h5>
+									<p class="meta-desc">Laravel v/s CodeIgniter is the most famous difference of the
+										PHP framework. </p>
+
+									<div class="blog-post_meta-wrap border-top">
+										<div class="meta-wrapper pt-3 pb-2">
+											<span class="author_post">
+												<img class="avatar" src="images/client_fabio.png" alt="Paul Josh">
+												<a href="#">Paul Josh</a>
+											</span>
+											<span class="date_post">June 18, 2021</span>
+										</div>
+										<div class="blog-post_info-wrap">
+											<div class="share_post-container">
+												<i class="fas fa-arrow-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-6 col-md-6 mt-3">
+						<div class="blog-card position-relative rounded">
+							<a href="blog-detail.html">
+								<div class="blog-cover">
+									<img src="images/blog-cover-4.png" alt="quote">
+								</div>
+								<div class="reviews px-3 py-2">
+									<h5 class="blog-card-title">Angular Vs React Js: What To Choose For Your
+										Development?
+									</h5>
+									<p class="meta-desc pt-2">There are so many differences between Angular and React as
+										Front-end developing languages.</p>
+
+									<div class="blog-post_meta-wrap border-top">
+										<div class="meta-wrapper pt-3 pb-2">
+											<span class="author_post">
+												<img class="avatar" src="images/client_fabio.png" alt="Paul Josh">
+												<a href="#">Paul Josh</a>
+											</span>
+											<span class="date_post">June 18, 2021</span>
+										</div>
+										<div class="blog-post_info-wrap">
+											<div class="share_post-container">
+												<i class="fas fa-arrow-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
 	</section>
 
 	<section class="pt-5 pb-5 contact-form-bg">
@@ -1926,6 +1948,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"
 		integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/skroll.js"></script>
 	<script src="js/main.js"></script>
 
@@ -2015,6 +2038,66 @@
 				$("#getquote-popup").modal('show');
 			}, 5000);
 		});
+	</script>
+
+	<script>
+		var peoples = document.querySelector(".it");
+		var projects = document.querySelector(".pro");
+		let count = 1;
+
+		setInterval(() => {
+			if (count <= 59) {
+				count++;
+				peoples.innerText = count;
+			}
+		}, 10)
+
+		setInterval(() => {
+			if (count <= 199) {
+				count++;
+				projects.innerText = count;
+			}
+		}, 10)
+	</script>
+
+	<script>
+		var workHours = document.querySelector(".hours");
+		var experiance = document.querySelector(".exp")
+
+		let counter = 1;
+		setInterval(() => {
+			if (counter <= 44) {
+				counter++;
+				workHours.innerText = counter;
+			}
+		}, 30)
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$(".testimonial-section").length && ($(".testimonials_text_slider").slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: !1,
+				fade: !1,
+				autoplay: !0,
+				autoplaySpeed: 4e3
+			}), $(".testimonials_circle a[data-slide]").click(function (e) {
+				e.preventDefault(), $(".test-img").hasClass("active") && $(".test-img").removeClass(
+					"active"), $(this).addClass("active");
+				var s = $(".test-img.active img").attr("src"),
+					i = $(".test-img.active + i").attr("class");
+				$(".testimonials_privew img").attr("src", s), $(".testimonials_privew i").attr("class",
+					i);
+				var a = $(this).data("slide");
+				$(".testimonials_text_slider").slick("slickGoTo", a - 1)
+			}), $(".test-img a").click(function (e) {
+				e.preventDefault()
+			}), $(".testimonials_text_slider").on("afterChange", function (e, s, i, a) {
+				$(".testimonials_circle a[data-slide=" + (i + 1) + "]").trigger("click");
+				$(".test-img.active img").attr("src")
+			}))
+		})
 	</script>
 </body>
 

@@ -77,9 +77,9 @@
                                             class="fas fa-window-restore icon"></i> Web
                                         Development</a>
                                     <ul class="web-dev-submenu overflow-wrap">
-                                        <li><a class="dropdown-item" href="angular-js.html">AngularJs Development</a>
+                                        <li><a class="dropdown-item" href="angular-js.html">AngularJS Development</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="node-js.html">NodeJs Development</a></li>
+                                        <li><a class="dropdown-item" href="node-js.html">Node.js Development</a></li>
                                         <li><a class="dropdown-item" href="django.html">Django Development</a></li>
                                         <li><a class="dropdown-item" href="react-js.html">React js Development</a></li>
                                         <li><a class="dropdown-item" href="python-dev.html">Python Development</a></li>
@@ -124,9 +124,11 @@
                                         <li><a class="dropdown-item" href="taxi-app-solution.html">Taxi App Solution</a>
                                         </li>
 
-                                        <li><a class="dropdown-item" href="event-planning-app.html">Even Management App Solution</a></li>
-                                        <li><a class="dropdown-item" href="food-delivery-app.html">Food Delivery App Solution</a></li>
-                                        <li><a class="dropdown-item" href="#">Demo 4</a></li>
+                                        <li><a class="dropdown-item" href="event-planning-app.html">Even Management App
+                                                Solution</a></li>
+                                        <li><a class="dropdown-item" href="food-delivery-app.html">Food Delivery App
+                                                Solution</a></li>
+                                        <li><a class="dropdown-item" href="healthcare-app-solution.html">Health Care App Solution</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -214,9 +216,9 @@
                                             <ul class="webdev-submenu mx-auto">
                                                 <li>
                                                     <ul class="webdev-submenu-body mt-1">
-                                                        <li><a class="dropdown-item" href="#">AngularJs Development</a>
+                                                        <li><a class="dropdown-item" href="#">AngularJS Development</a>
                                                         </li>
-                                                        <li><a class="dropdown-item" href="#">NodeJs Development</a>
+                                                        <li><a class="dropdown-item" href="#">Node.js Development</a>
                                                         </li>
                                                         <li><a class="dropdown-item" href="flutter.html">Flutter
                                                                 Development</a></li>
@@ -421,11 +423,18 @@
             <div class="row">
                 <div class="col-md-12 text-center heading">
                     <h3>Features of the Taxi Booking Mobile Application</h3>
-                    <p>Tagline Infotech uses a step-by-step approach to optimize your website in order to reduce risks,
-                        create traffic and leads, and rank high in search results. The Process includes analyzing your
-                        website, keyword research, and competitor analysis, content development based on target keywords
-                        and market analysis, website optimization, monitoring and assessment of the optimized website,
-                        gathering reports and plan out strategies, and maintenance. </p>
+                    <p>In today's growing internet world, people can receive various services delivered to their homes,
+                        ranging from online meal delivery to taxi booking via smartphone apps. People choose services
+                        that require less involvement and allow them to do everything on their mobile devices. Taxi
+                        booking mobile app is an example of a service that saves you time and money by providing
+                        user-friendly applications for your mobile devices.</p>
+                    <p>GPS tracking, Maps and Routes, ETA, real-time statuses, reservation for somebody, fare estimator,
+                        current position, and so on are some of the crucial elements that a taxi booking app includes
+                        for its clients.
+                        Trip requests, accepting a ride, cancel a ride, Alerts, Notifications, fuel station locating,
+                        route selection, and the explanation for cancellation are among the functions available for
+                        driver apps.
+                    </p>
                 </div>
             </div>
 
@@ -1711,15 +1720,15 @@
     </script>
 
     <script>
-        $("#slideshow > div:gt(0)").hide();
+        $(".slideshow > div:gt(0)").hide();
 
         setInterval(function () {
-            $('#slideshow > div:first')
+            $('.slideshow > div:first')
                 .fadeOut(1000)
                 .next()
                 .fadeIn(1000)
                 .end()
-                .appendTo('#slideshow');
+                .appendTo('.slideshow');
         }, 3000);
     </script>
 
