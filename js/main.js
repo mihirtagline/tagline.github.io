@@ -15,8 +15,8 @@
                 center: $carousel.data("center"),
                 nav: $carousel.data("nav"),
                 rewind: $carousel.data("rewind"),
-                navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
-                autoplay: $carousel.data("autoplay"),
+                navText: ['<i class="fal fa-long-arrow-left fs-5 navigator"></i>', '<i class="fal fa-long-arrow-right fs-5 navigator"></i>'],
+                autoplay: $carousel.data("auto-play"),
                 animateIn: $carousel.data("animate-in"),
                 animateOut: $carousel.data("animate-out"),
                 autoplayTimeout: $carousel.data("autoplay-timeout"),
@@ -31,6 +31,7 @@
     });
 
 })(jQuery);
+
 
 $(window).scroll(function () {
     if ($(window).scrollTop() >= 20) {
@@ -432,25 +433,4 @@ stickybits('.sidebar', {
 alert();
 
 // ---testimonial script---
-
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1,
-            nav: true
-        },
-        600: {
-            items: 3,
-            nav: false
-        },
-        1000: {
-            items: 5,
-            nav: true,
-            loop: false
-        }
-    }
-})
 
