@@ -648,9 +648,22 @@ body.open .outer-menu .menu-list {
 .banner-bg {
     display: block;
     position: relative;
+    min-height: 800px;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.banner-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(218, 100, 39);
+    background: linear-gradient(90deg, rgba(218, 100, 39, 1) 0%, rgba(0, 212, 255, 0) 100%);
+    z-index: 0;
 }
 
 .carousel_slider {
@@ -683,14 +696,14 @@ body.open .outer-menu .menu-list {
 .banner-bg .content {
     width: 100%;
     position: relative;
-    padding: 18em 0 18em;
+    padding: 10em 0 10em;
     z-index: 1;
 }
 
 .banner-bg .content h5 {
     display: block;
     font-size: 16px;
-    color: #D85B1A;
+    color: #fff;
     font-weight: 600;
     line-height: 1;
     margin-bottom: 20px;
@@ -714,35 +727,42 @@ body.open .outer-menu .menu-list {
 
 .banner-bg .content h1 {
     display: block;
-    font-size: 50px;
-    color: #000;
-    margin: auto;
-    font-weight: 400;
-}
-
-.banner-bg .content h1 span {
-    font-weight: 700;
+    font-size: 80px;
+    color: #666;
+    font-weight: 900;
+    margin: 0 0 40px;
+    height: 288px;
 }
 
 .banner-bg .content h1>span {
-    color: #D85B1A;
+    color: #fff;
 }
 
 .banner-bg .content h1>span>span {
-    color: #D85B1A;
+    color: #fff;
 }
 
 .banner-bg .content p {
     display: block;
     font-size: 16px;
-    color: rgb(182, 182, 182);
-    margin: auto;
-    padding: 30px 0px;
+    color: #fff;
+    margin: 0px 0 40px;
     line-height: 30px;
+    width: 64%;
     font-weight: 500;
 }
 
-.banner-bg .content .get-in-touch-btn a {
+.banner-background {
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 100%;
+}
+
+.background_bg {
+    background-repeat: no-repeat;
+}
+
+/* .banner-bg .content .get-in-touch-btn a {
     display: inline-block;
     width: 10vw;
     font-size: 20px;
@@ -775,7 +795,7 @@ i.fas.fa-phone-alt.call-icon::after {
     border-radius: 50%;
     padding: 32px;
     opacity: 0.5;
-}
+} */
 
 .mobile-no-info a {
     text-decoration: none;
@@ -961,7 +981,7 @@ i.fas.fa-phone-alt.call-icon::after {
     /* padding: 90px 0 50px 0; */
     display: block;
     /* position: relative; */
-    bottom: -110px;
+    bottom: -108px;
     right: 0;
     left: 0;
     z-index: 2;
@@ -1068,9 +1088,9 @@ i.fas.fa-phone-alt.call-icon::after {
 .client-box {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.56);
 }
 
 .client-info h2 {
@@ -1081,6 +1101,11 @@ i.fas.fa-phone-alt.call-icon::after {
 .client-info p {
     font-size: 18px;
     line-height: 30px;
+}
+
+.ourservices-bg {
+    position: relative;
+    margin: 180px 0 90px 0;
 }
 
 .ourservices-bg .border-right {
@@ -2240,6 +2265,7 @@ footer .sales-box a {
     display: block;
     position: relative;
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .about-bg:before {
@@ -2273,19 +2299,12 @@ footer .sales-box a {
     z-index: 3;
 }
 
-.about-bg .img img {
-    width: 100px;
-    max-width: 100%;
-    display: block;
-    border-radius: 15px;
-}
-
 .about-bg h4 {
-    display: block;
-    margin-bottom: 20px;
+    display: inline-block;
+    margin: auto;
     font-size: 24px;
     color: #332D2A;
-    line-height: 1;
+    /* line-height: 1; */
     font-weight: 700;
 }
 
@@ -2579,7 +2598,7 @@ footer .sales-box a {
 
 .about-bg .career-services p {
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     line-height: 1.7;
     margin: 0 0 30px;
@@ -3058,41 +3077,12 @@ footer .sales-box a {
     text-align: center
 }
 
-.background_bg {
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-}
-
-.banner-bg.background_bg::after {
-    content: '';
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background: #f3f7fd;
-    border-radius: 10px;
-    top: -150px;
-    right: -340px;
-    transform: rotate(45deg);
-    z-index: -1;
-}
-
 .bg_banner {
     background-size: cover;
 }
 
 .overlay_bg {
     position: relative;
-}
-
-.overlay_bg:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .service_overlay_bg:before {
@@ -4875,8 +4865,6 @@ ul.dot_list li {
     transition: all ease-in-out 0.5s;
 }
 
-.offered-services:hover {}
-
 .our-work {
     transition: all ease-in-out 0.5s;
 }
@@ -5900,6 +5888,50 @@ ul.app-features li::before {
     transform: translateX(5px)
 }
 
+
+.details a {
+    color: #DA6427 !important;
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+    text-transform: lowercase;
+    display: block;
+}
+
+.details h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.details h5 {
+    color: #DA6427 !important;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact-us-form .form-container {
+    box-shadow: none;
+}
+
+.apply-now-btn {
+    background-color: #DA6427;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 4px;
+    right: 70px;
+    top: 10px;
+    text-decoration: none !important;
+    transition: all ease-in-out 0.5s;
+}
+
+.apply-now-btn:hover {
+    background-color: transparent;
+    border: 2px solid #DA6427;
+    color: #DA6427;
+    transition: all ease-in-out 0.5s;
+}
+
 @media(max-width:1900px) {
     .aboutus-bg::before {
         width: 400px;
@@ -6214,10 +6246,6 @@ ul.app-features li::before {
         font-size: 14px;
     }
 
-    .service.dropdown .dropdown-menu {
-        left: -193px !important;
-    }
-
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
@@ -6249,6 +6277,7 @@ ul.app-features li::before {
         height: 250px;
         max-height: 100%;
     }
+
 }
 
 @media (min-width: 991px) and (max-width: 1183px) {
@@ -6807,6 +6836,10 @@ ul.app-features li::before {
         overflow: hidden;
         padding-top: 25px
     }
+
+    .about-bg::before {
+        display: none;
+    }
 }
 
 @media (max-width: 440px) {
@@ -6954,7 +6987,8 @@ ul.app-features li::before {
     }
 
     .banner-bg .content h1 {
-        font-size: 40px;
+        font-size: 70px;
+        height: 255px;
     }
 
     .banner-bg .content p {
@@ -6963,6 +6997,7 @@ ul.app-features li::before {
 
     .aboutus-bg {
         padding: 50px 0 30px 0;
+        bottom: -180px;
     }
 
     .aboutus-bg::before {
@@ -6986,6 +7021,10 @@ ul.app-features li::before {
         font-size: 20px;
         line-height: 2;
         margin: 0 0 30px;
+    }
+
+    .ourservices-bg {
+        margin: 170px 0 70px 0;
     }
 
     .ourservices-bg h2 {
@@ -7068,10 +7107,6 @@ ul.app-features li::before {
     .blog-card-title {
         height: 65px;
         max-height: 100%;
-    }
-
-    .banner-bg .content .get-in-touch-btn a {
-        font-size: 15px;
     }
 
     i.fas.fa-phone-alt.call-icon {
@@ -7179,16 +7214,16 @@ ul.app-features li::before {
     }
 
     .banner-bg .content {
-        padding: 12em 0 8em;
+        padding: 120px 0 0;
     }
 
     .banner-bg .content h1 {
-        font-size: 30px;
+        font-size: 56px;
+        height: 204px;
     }
 
     .banner-bg .content p {
-        font-size: 14px;
-        padding: 20px 0;
+        margin: 0px 0 50px;
     }
 
     .aboutus-bg p {
@@ -7499,7 +7534,13 @@ ul.app-features li::before {
     }
 
     .banner-bg .content h1 {
-        font-size: 30px;
+        font-size: 42px;
+        margin: 0 0 20px;
+        height: 154px;
+    }
+
+    .banner-bg .content p {
+        margin: 0px 0 20px;
     }
 
     .banner-bg .follow-boxs h5 {
@@ -8051,6 +8092,10 @@ ul.app-features li::before {
         margin: auto 10px;
     }
 
+    .contact-us-form .quick-contact-form {
+        margin: 0px;
+    }
+
     .case-study-title-main {
         font-size: 15px;
         margin: 20px auto;
@@ -8213,19 +8258,19 @@ ul.app-features li::before {
         border-radius: 5px;
     }
 
-    .banner-bg .content h1 {
+    /* .banner-bg .content h1 {
         font-size: 45px;
     }
 
     .banner-bg .content p {
         font-size: 17px;
-    }
+    } */
 
     .mobile-no-info h4 a {
         font-size: 25px;
     }
 
-    .banner-bg .content .get-in-touch-btn a {
+    /* .banner-bg .content .get-in-touch-btn a {
         font-size: 16px;
         width: 25vw;
     }
@@ -8233,16 +8278,21 @@ ul.app-features li::before {
 
     .banner-bg .content {
         padding: 5em 0 5em;
-    }
+    } */
 
     .build-business p,
     .build-business h3 {
         text-align: center;
     }
 
-    .ourservices-bg {
-        padding: 20px !important;
+    .ourservices-bg .border-right {
+        border-right: 0px !important;
     }
+
+    .ourservices-bg {
+        padding: 10px !important;
+    }
+
 }
 
 @media (max-width: 630px) {
@@ -8555,8 +8605,8 @@ ul.app-features li::before {
     }
 
     .career-bg .card .card-header {
-        padding: 15px 15px 15px 30px;
-        font-size: 18px;
+        padding: 15px;
+        font-size: 12px;
     }
 
     .career-bg .card .card-body {
@@ -8815,6 +8865,16 @@ ul.app-features li::before {
         max-width: 100%;
     }
 
+    .about-bg h4 {
+        font-size: 20px;
+    }
+
+    .apply-now-btn {
+        padding: 5px;
+        font-size: 12px;
+        top: 12px;
+    }
+
 }
 
 @media (max-width: 513px) {
@@ -8834,7 +8894,11 @@ ul.app-features li::before {
     }
 
     .aboutus-bg {
-        bottom: -160px;
+        bottom: -210px;
+    }
+
+    .ourservices-bg {
+        margin: 200px 0 70px 0;
     }
 }
 
@@ -8845,6 +8909,7 @@ ul.app-features li::before {
     }
 
     .banner-bg .content p {
+        margin: 0px 0 20px;
         line-height: 25px;
     }
 
@@ -9030,9 +9095,9 @@ ul.app-features li::before {
         padding: 10px !important;
     }
 
-    .banner-bg .content p {
+    /* .banner-bg .content p {
         font-size: 12px;
-    }
+    } */
 
     .mobile-no-info h4 a {
         font-size: 15px;
@@ -9046,26 +9111,17 @@ ul.app-features li::before {
         display: none;
     }
 
-    .banner-bg .content .get-in-touch-btn a {
-        font-size: 14px;
-        width: 29vw;
-    }
-
     .aboutus-bg p {
         font-size: 12px;
     }
 
-    .banner-bg.background_bg::after {
-        content: '';
-        position: absolute;
-        width: 350px;
-        height: 350px;
-        background: #f3f7fd;
-        border-radius: 10px;
-        top: -150px;
-        right: -170px;
-        transform: rotate(45deg);
-        z-index: -1;
+    .about-bg h4 {
+        font-size: 16px;
+    }
+
+    .apply-now-btn {
+        right: 50px;
+        top: 8px;
     }
 }
 
@@ -9283,12 +9339,11 @@ ul.app-features li::before {
     }
 
     .banner-bg .content h1 {
-        font-size: 21px;
+        font-size: 25px;
     }
 
     .banner-bg .content p {
-        font-size: 10px;
-        padding: 10px 0;
+        font-size: 14px;
     }
 
     .banner-bg .content h1 {
@@ -9312,10 +9367,6 @@ ul.app-features li::before {
         margin-bottom: 5px;
     }
 
-    .ourservices-bg .services-boxs p {
-        line-height: 20px;
-    }
-
     .banner-bg .content .get-in-touch-btn a {
         font-size: 11px;
         width: 30vw;
@@ -9330,8 +9381,19 @@ ul.app-features li::before {
         padding-left: 0 !important;
     }
 
-    .ourservices-bg {
-        padding: 20px 0px !important;
+    .ourservices-bg .services-boxs p {
+        line-height: 20px;
+    }
+
+    .apply-now-btn {
+        padding: 4px;
+        font-size: 10px;
+        top: 8px;
+        right: 45px;
+    }
+
+    .about-bg h4 {
+        font-size: 13px;
     }
 }
 

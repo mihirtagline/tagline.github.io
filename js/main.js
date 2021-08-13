@@ -434,3 +434,11 @@ alert();
 
 // ---testimonial script---
 
+
+
+$ (document).ready(function() {   
+    if ($ .cookie("#popup_1_2") == null) {
+         $('#getquote-popup').modal('show');
+    $ .cookie("popup_1_2", "2");
+ }
+});
