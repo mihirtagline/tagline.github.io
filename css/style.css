@@ -6199,6 +6199,11 @@ ul.app-features li::before {
         max-height: 100%;
     }
 
+    .testing-services {
+        height: 230px;
+        max-height: 100%;
+    }
+
     .react-native-service {
         height: 350px;
         max-height: 100%;
@@ -6634,6 +6639,16 @@ ul.app-features li::before {
         height: 325px;
     }
 
+    .testing-services {
+        flex-direction: column;
+        height: 245px;
+    }
+
+    .testing-services .ios-app-service-name {
+        text-align: center;
+        margin-top: 10px;
+    }
+
     .react-services {
         flex-direction: column;
         height: 240px;
@@ -6839,6 +6854,14 @@ ul.app-features li::before {
 
     .about-bg::before {
         display: none;
+    }
+
+    .experience-box h2,
+    .case-studies h2,
+    .blogs h2,
+    .our-clients h2,
+    .tagline-family h2 {
+        font-size: 35px;
     }
 }
 
@@ -7671,7 +7694,8 @@ ul.app-features li::before {
         margin: 0px 0 10px;
     }
 
-    .experience-bg p {
+    .experience-bg p,
+    .build-business p {
         margin: 0 0 30px;
         font-size: 14px;
     }
@@ -7905,7 +7929,7 @@ ul.app-features li::before {
     }
 
     .ourservices-bg h2 {
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 25px;
     }
 
@@ -8875,6 +8899,16 @@ ul.app-features li::before {
         top: 12px;
     }
 
+    ul.mobiledev-submenu-body li,
+    ul.webdev-submenu-body li,
+    ul.digital-submenu-body li,
+    ul.design-submenu-body li,
+    ul.solution-submenu-mobile-accordian li,
+    ul.company-submenu-mobile-accordian li {
+        list-style: none !important;
+    }
+
+
 }
 
 @media (max-width: 513px) {
@@ -9028,6 +9062,10 @@ ul.app-features li::before {
         height: 350px !important;
     }
 
+    .testing-services {
+        height: 300px !important;
+    }
+
     .django-services {
         flex-direction: column !important;
         height: 400px !important;
@@ -9123,6 +9161,20 @@ ul.app-features li::before {
         right: 50px;
         top: 8px;
     }
+
+    .experience-box h2,
+    .case-studies h2,
+    .blogs h2,
+    .our-clients h2,
+    .tagline-family h2 {
+        font-size: 30px;
+    }
+
+    .ourservices-bg h2,
+    .ourservices-bg h4 {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -9168,14 +9220,14 @@ ul.app-features li::before {
     .service-menu-mobile a,
     .solution-submenu-mobile a,
     .company-submenu-mobile-accordian a {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .mobiledev-submenu-body li a,
     .webdev-submenu-body li a,
     .digital-submenu-body li a {
-        padding: 10px 0 0 0px !important;
-        font-size: 10px;
+        padding: 10px 0 0px 13px !important;
+        font-size: 12px;
     }
 
     ul.mobiledev-submenu-body li,
@@ -9207,6 +9259,10 @@ ul.app-features li::before {
         height: 370px !important;
         padding: 5px 8px !important;
         font-size: 15px !important;
+    }
+
+    .testing-services {
+        height: 290px !important;
     }
 
     .ourservices-bg .services-boxs p {
