@@ -434,11 +434,24 @@ alert();
 
 // ---testimonial script---
 
+$(document).ready(function () {
+    if ($.cookie("#popup_1_2") == null) {
+        $('#getquote-popup').modal('show');
+        $.cookie("popup_1_2", "2");
+    }
+});
 
 
-$ (document).ready(function() {   
-    if ($ .cookie("#popup_1_2") == null) {
-         $('#getquote-popup').modal('show');
-    $ .cookie("popup_1_2", "2");
- }
+$(document).ready(function () {
+    $('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
+
+$(document).ready(function () {
+    $(".megamenu").on("click", function (e) {
+        e.stopPropagation();
+    });
 });

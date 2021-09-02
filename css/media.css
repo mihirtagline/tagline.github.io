@@ -1,0 +1,4121 @@
+@media(max-width:1900px) {
+    .aboutus-bg::before {
+        width: 400px;
+        height: 400px;
+        top: -150px;
+        right: 0;
+    }
+}
+
+@media (max-width: 1600px) {
+    .casestudies-bg h6 {
+        width: 70%;
+    }
+}
+
+@media(max-width:1440px) {
+    .container {
+        max-width: 1240px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .banner-background {
+        background-size: auto 90%;
+    }
+
+    .banner-bg .content h1 {
+        font-size: 70px;
+        height: 255px;
+    }
+
+    .banner-bg .content p {
+        width: 100%;
+    }
+
+    .seo-title h1,
+    .seo-title p,
+    .react-native-title h1,
+    .react-native-title p,
+    .hashtag-app-title h1,
+    .hashtag-app-title p,
+    .care-clinic-title h1,
+    .care-clinic-title p,
+    .dare-drop-title h1,
+    .dare-drop-title p,
+    .supplement-title h1,
+    .supplement-title p,
+    .otf-title h1,
+    .otf-title p {
+        padding-bottom: 35px;
+    }
+
+    .single-service.postid-693 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-689 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-696 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-698 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-700 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-701 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-702 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-703 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-704 .section_portfolio_detail.react-native-detail {
+        padding: 45px 0px;
+    }
+
+    .portfolio-info.banner-sec h1 {
+        font-size: 35px;
+    }
+
+    .portfolio-info.banner-sec p {
+        margin-bottom: 1rem !important;
+        font-size: 22px;
+    }
+
+    .aboutus-bg {
+        padding: 50px 0 30px 0;
+        bottom: -180px;
+    }
+
+    .aboutus-bg::before {
+        width: 400px;
+        height: 400px;
+        top: -150px;
+        right: 0;
+    }
+
+    .aboutus-bg::after {
+        left: -450px;
+    }
+
+    .aboutus-bg h5 {
+        margin-bottom: 30px;
+    }
+
+    .aboutus-bg p {
+        font-size: 16px;
+        line-height: 2;
+        margin: 0 0 30px;
+    }
+
+    .ourservices-bg {
+        margin: 170px 0 70px 0;
+    }
+
+    .ourservices-bg h2 {
+        font-size: 34px;
+        margin-bottom: 45px;
+    }
+
+    .ourservices-bg .services-boxs .top .icon {
+        width: 50px;
+    }
+
+    .ourservices-bg .services-boxs .top .icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ourservices-bg .services-boxs .top h3 {
+        font-size: 20px;
+        width: -moz-calc(100% - 50px);
+        width: -webkit-calc(100% - 50px);
+        width: calc(100% - 50px);
+    }
+
+    .ourservices-bg .services-boxs p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .experience-bg .owl-carousel .item .content p {
+        font-size: 20px;
+    }
+
+    .experience-bg .owl-carousel .item .content h4 {
+        font-size: 20px;
+    }
+
+    .experience-bg .owl-carousel .item .content h6 {
+        font-size: 16px;
+    }
+
+    .testimonials_privew {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #ec7323;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    .testimonial-section {
+        padding: 10px !important;
+    }
+
+    .letstalk-bg h2 {
+        font-size: 30px;
+    }
+
+    footer .menu-boxs .menu-list.help-box {
+        padding: 0 50px;
+    }
+
+    footer .help-box h5 {
+        font-size: 20px !important;
+    }
+
+    footer .menu-boxs .menu-list.company-box {
+        padding: 0 50px;
+    }
+
+    footer .menu-boxs .menu-list.gettouch-box {
+        padding: 0 0 0 50px;
+    }
+
+    .services-bg p {
+        font-size: 16px;
+    }
+
+    .services-bg ul li {
+        margin-bottom: 30px;
+    }
+
+    .services-bg::before {
+        right: -470px;
+    }
+
+    .services-bg::after {
+        left: -430px;
+    }
+
+    .subpage-banner .img {
+        min-height: 450px;
+    }
+
+    .blog-card-title {
+        height: 65px;
+        max-height: 100%;
+    }
+
+    i.fas.fa-phone-alt.call-icon {
+        font-size: 15px;
+    }
+
+    i.fas.fa-phone-alt.call-icon::after {
+        top: -7px;
+        left: -8px;
+        padding: 30px;
+    }
+
+    .contact-form-bg:after {
+        content: '';
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: #F9F3E1;
+        border-radius: 50%;
+        bottom: 10px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .meta-wrapper .date_post {
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .meta-wrapper a {
+        font-size: 10px;
+    }
+
+    .button {
+        background-color: #d85b1a;
+        padding: 10px 20px;
+        top: 42.5%;
+        right: 0;
+    }
+
+    .react-native-service {
+        height: 250px;
+        max-height: 100%;
+    }
+
+    .django-services {
+        height: 300px;
+        max-height: 100%;
+    }
+}
+
+@media(min-width: 991px) and (max-width: 1440px) {
+    .react-native-detail {
+        padding: 27px 0 !important;
+    }
+
+    .single-service.postid-696 .react-native-detail {
+        padding: 45px 0 !important;
+    }
+
+    .single-service.postid-696 .react-native-detail {
+        padding: 45px 0;
+    }
+
+    .single-service.postid-696 .react-native-detail {
+        padding: 45px 0;
+    }
+
+    .single-service.postid-703 .react-native-detail {
+        padding: 95px 0px !important;
+    }
+
+    .single-service.postid-2411 .section_portfolio_detail.react-native-detail {
+        padding: 70px 0px !important;
+    }
+
+    .section_portfolio_detail,
+    .bg_banner {
+        padding: 150px 0 150px;
+        margin-top: 96px;
+        position: relative;
+    }
+
+    .single-service.postid-2476 .react-native-detail {
+        padding: 45px 0px !important;
+    }
+
+    .single-service.postid-2502 .react-native-detail {
+        padding: 53px 0px !important;
+    }
+}
+
+@media(max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .btn {
+        padding: 10px 30px 10px 20px;
+        font-size: 14px;
+    }
+
+    .btn.btn-light::before,
+    .btn.btn-default:before {
+        width: 25px;
+        height: 15px;
+        background-size: 100% auto;
+        right: -10px;
+    }
+
+    .btn.btn-info::before {
+        width: 25px;
+        height: 15px;
+        background-size: 100% auto;
+        right: -10px;
+    }
+
+    header.fixed-header .logo {
+        max-width: 150px;
+    }
+
+    .outer-menu .hamburger {
+        padding: 15px 15px 20px 30px;
+        border-radius: 0 0 0 70px;
+        width: 90px;
+        height: 76px;
+    }
+
+    .outer-menu .checkbox-toggle {
+        width: 70px;
+        height: 56px;
+    }
+
+    header.fixed-header .outer-menu .hamburger {
+        padding: 15px 15px 15px 30px;
+        width: 70px;
+        height: 57px;
+    }
+
+    .outer-menu .menu-list>div>ul>li>a {
+        font-size: 30px;
+        padding: 20px 0 20px 38px;
+    }
+
+    .banner-bg .content {
+        padding: 250px 0 0;
+    }
+
+    .banner-bg .content h1 {
+        font-size: 56px;
+        height: 204px;
+    }
+
+    .banner-bg .content p {
+        margin: 0px 0 50px;
+    }
+
+    .aboutus-bg p {
+        font-size: 16px;
+    }
+
+    .about-bg::before {
+        width: 400px;
+        height: 400px;
+        top: -150px;
+        right: 0;
+    }
+
+    .aboutus-bg::after {
+        width: 400px;
+        height: 400px;
+        bottom: -400px;
+        left: -150px;
+    }
+
+    .services-bg::before {
+        width: 400px;
+        height: 400px;
+        top: -150px;
+        right: 0;
+    }
+
+    .services-bg::after {
+        width: 400px;
+        height: 400px;
+        bottom: -400px;
+        left: -150px;
+    }
+
+    .about-bg::before {
+        width: 400px;
+        height: 400px;
+        top: -150px;
+        right: 0;
+    }
+
+    .about-bg.career-bg::after {
+        width: 400px;
+        height: 400px;
+        bottom: 0px;
+        top: auto;
+        left: -150px;
+    }
+
+    .ourservices-bg h2 {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+    .ourservices-bg .services-boxs {
+        padding: 20px;
+    }
+
+    .ourservices-bg .services-boxs .top .icon {
+        width: 40px;
+    }
+
+    .ourservices-bg .services-boxs .top h3 {
+        font-size: 18px;
+        width: -moz-calc(100% - 40px);
+        width: -webkit-calc(100% - 40px);
+        width: calc(100% - 40px);
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li a {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+
+    .casestudies-bg h6 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .casestudies-bg::before {
+        border-radius: 0 100px 0 0;
+        height: 340px;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content h5 {
+        font-size: 18px;
+    }
+
+    .experience-bg h2 {
+        font-size: 36px;
+    }
+
+    .experience-box h3 {
+        font-size: 26px;
+        margin: 0 0 15px;
+    }
+
+    .experience-bg p.main {
+        font-size: 14px;
+    }
+
+    .experience-bg h4 {
+        margin: 0px 0 20px;
+        font-size: 22px;
+    }
+
+    .experience-bg p {
+        font-size: 16px;
+    }
+
+    .experience-bg .successful-box {
+        margin-bottom: 40px;
+    }
+
+    .experience-bg .successful-box span {
+        font-size: 30px;
+    }
+
+    .experience-bg .successful-box p {
+        font-size: 14px;
+    }
+
+    .experience-bg .owl-carousel .item {
+        padding: 60px 80px;
+    }
+
+    .experience-bg .owl-carousel .item .img {
+        width: 240px;
+    }
+
+    .experience-bg .owl-carousel .item .content {
+        width: -moz-calc(100% - 240px);
+        width: -webkit-calc(100% - 240px);
+        width: calc(100% - 240px);
+        padding: 0 0 0 40px;
+    }
+
+    .experience-bg .owl-carousel .item .content p {
+        font-size: 16px;
+        margin: 0 0 20px;
+    }
+
+    .experience-bg .owl-carousel .item .content p::before {
+        top: -40px;
+        font-size: 40px;
+    }
+
+    .experience-bg .owl-carousel .item .content h4 {
+        font-size: 18px;
+    }
+
+    .experience-bg .owl-carousel .item .content h6 {
+        font-size: 14px;
+    }
+
+    .experience-bg .owl-carousel .item .img::before {
+        right: -60px;
+        top: -60px;
+        width: 145px;
+        height: 145px;
+    }
+
+    .experience-bg .owl-carousel .item .img::after {
+        left: -60px;
+        bottom: -60px;
+        width: 145px;
+        height: 145px;
+    }
+
+    .experience-bg .owl-carousel .owl-dots {
+        left: 100px;
+        bottom: 10px;
+    }
+
+    .letstalk-bg h2 {
+        margin: 0px;
+        font-size: 24px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+        margin: 55px 0 25px;
+    }
+
+    footer ul {
+        margin: 0px 0 45px;
+    }
+
+    footer ul li a {
+        line-height: 2.2;
+        font-size: 14px;
+    }
+
+    footer .menu-boxs .menu-list.help-box {
+        padding: 0 50px;
+    }
+
+    footer .menu-boxs .menu-list.company-box {
+        padding: 0 40px;
+    }
+
+    footer .menu-boxs .menu-list.gettouch-box {
+        padding: 0 0 0 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer .btn.btn-link {
+        font-size: 14px;
+    }
+
+    footer .logo {
+        padding: 19px 0px;
+    }
+
+    footer .copyright {
+        font-size: 14px;
+        padding: 25px 0px;
+    }
+
+    .services-bg h4 {
+        font-size: 20px;
+    }
+
+    .services-bg p {
+        font-size: 16px;
+    }
+
+    .services-bg ul li {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .subpage-banner .img {
+        min-height: 300px;
+    }
+
+    .subpage-banner .content::after {
+        top: -130px;
+        right: -160px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .subpage-banner .content p {
+        width: 100%;
+    }
+
+    .portfolio-bg #portfolio .item .content .icon {
+        top: 20px;
+        right: 20px;
+    }
+
+    .portfolio-bg #portfolio .item .content .title {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .portfolio-bg #portfolio .item .content .title h5 {
+        font-size: 20px;
+    }
+
+    .portfolio-bg #portfolio .item .content .title p {
+        font-size: 16px;
+    }
+
+    .heading h2 {
+        font-size: 40px;
+    }
+
+    .heading h3 {
+        font-size: 40px;
+    }
+
+    .client-info h2 {
+        font-size: 30px;
+    }
+
+    .languages_logo {
+        min-height: 107px;
+    }
+
+    .icon_box .icon {
+        max-width: 100px;
+        -ms-flex: 0 0 100px;
+        flex: 0 0 100px;
+    }
+
+    .blog-home-container {
+        max-width: 1160px;
+    }
+
+    .blog_text h1 {
+        font-size: 24px;
+    }
+
+    .location {
+        font-size: 20px !important;
+        width: 75%;
+    }
+
+    .about-title p {
+        font-size: 15px;
+    }
+
+    .features-of-daredrop-description {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .gathering-backgrond {
+        min-height: auto;
+    }
+
+    .exclusive-solution-derived {
+        padding: 15px;
+    }
+
+    .technology-experience {
+        width: 25px;
+        height: 25px;
+    }
+
+    .case-study-title-main {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .seo-title p {
+        font-size: 20px;
+    }
+
+    .seo-title h1,
+    .seo-title p {
+        padding-bottom: 40px;
+    }
+
+    .seo-title h1 {
+        font-size: 40px;
+    }
+
+    .seo-portfolio-detail {
+        padding: 40px 0px;
+    }
+
+    .sem-portfolio-detail {
+        padding: 10px 0;
+    }
+
+    .sem-title p {
+        font-size: 20px;
+    }
+
+    .sem-title h1,
+    .sem-title p {
+        padding-bottom: 35px;
+    }
+
+    .sem-title h1 {
+        font-size: 40px;
+    }
+
+    .appriciation-title h3 {
+        width: 85%;
+    }
+
+    .our-team {
+        padding: 15px !important;
+    }
+
+    .testimonials_circle li:nth-child(2) {
+        transform: translate(-30%, 40%)
+    }
+
+    .testimonials_circle li:nth-child(3) {
+        transform: translate(46%, -50%)
+    }
+
+    .testimonials_circle li:nth-child(4) {
+        transform: translate(-30%, -40%)
+    }
+
+    .testimonials_circle li:nth-child(6) {
+        transform: translate(30%, -40%)
+    }
+
+    .testimonials_circle li:nth-child(7) {
+        transform: translate(-46%, -50%)
+    }
+
+    .testimonials_circle li:nth-child(8) {
+        transform: translate(30%, 40%)
+    }
+
+    .expertize h4,
+    .expertize span {
+        font-weight: 700;
+        font-size: 22px;
+        display: inline-block;
+    }
+
+    .view-more-btn a {
+        line-height: 0px;
+    }
+
+    .view-more-btn {
+        width: 25%;
+    }
+
+    .banner-bg .content .get-in-touch-btn a {
+        font-size: 12px;
+        width: 13vw;
+    }
+
+    .mobile-no-info h4 a {
+        font-size: 20px;
+    }
+
+    .ios-app-service-name {
+        font-size: 15px;
+    }
+
+    header ul.menu-list li a {
+        padding: 10px 12px;
+        color: #000;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    header .logo img {
+        width: 170px;
+        max-width: 100%;
+        display: block;
+    }
+
+    .button {
+        background-color: #d85b1a;
+        padding: 5px 15px;
+        top: 32%;
+        right: 0;
+    }
+
+    .subscribe h3 {
+        font-size: 25px;
+    }
+
+    #subscribe-form .quote-btn {
+        width: 50%;
+    }
+
+    .django-services {
+        height: 380px !important;
+        max-height: 100%;
+    }
+
+    .services-bg:before {
+        right: 0px !important;
+    }
+
+    .services-bg:after {
+        left: -130px !important;
+    }
+
+    .development-services .service-block {
+        height: 325px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .custom-col-lg-size {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .icon_box {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+        max-height: 100%;
+        transition: all 0.5s ease-in-out 0s;
+    }
+
+    .android-services {
+        height: 270px;
+    }
+
+    .cta_small_section .heading * {
+        font-size: 20px;
+    }
+
+    .team-main .name-post {
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0 3px 15px rgb(0 0 0 / 8%);
+        width: 100%;
+        left: 23px;
+        border-radius: 8px;
+        height: 450px;
+    }
+
+    footer .gettouch-box a,
+    footer .hr-box a,
+    footer .sales-box a {
+        font-size: 11px !important;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:1199px) {
+
+    .android-services,
+    .ios-service {
+        height: 205px;
+        max-height: 100%;
+    }
+
+    .react-native-service {
+        height: 350px;
+        max-height: 100%;
+    }
+
+    .python-services {
+        height: 330px;
+        max-height: 100%;
+    }
+
+    .flutter-services {
+        height: 350px;
+    }
+
+    .ror-service {
+        height: 280px;
+    }
+
+    .advantage-taxi-app {
+        height: 380px !important;
+        max-height: 100%;
+    }
+
+    #slideshow2 {
+        position: relative;
+        width: 450px;
+        max-width: 100%;
+        height: 450px;
+        max-height: 100%;
+        filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+    }
+
+    #slideshow2>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media(min-width: 1036px) and (max-width:1199px) {
+    ul.testimonials_circle {
+        margin-left: 0px;
+    }
+
+    .testimonials_privew {
+        position: absolute;
+        left: 50%;
+    }
+}
+
+@media(min-width: 991px) and (max-width: 1183px) {
+    .button {
+        background-color: #d85b1a;
+        padding: 5px 15px;
+        top: 47.2%;
+        right: 0;
+    }
+}
+
+@media(max-width: 1035px) {
+    .service.dropdown .dropdown-menu {
+        left: -160px !important;
+    }
+
+    .testimonials_left {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .testimonials_circle {
+        height: 400px;
+        width: 400px
+    }
+}
+
+@media(max-width:991px) {
+
+    ul,
+    ol {
+        margin: 0 !important;
+    }
+
+    .yo-shoppers-video-content {
+        position: relative;
+        top: 0;
+        transform: inherit;
+    }
+
+    .footer .menu-list {
+        min-height: auto !important;
+    }
+
+    .service.dropdown .dropdown-menu {
+        left: -178px !important;
+    }
+
+    .button {
+        background-color: #d85b1a;
+        padding: 5px 15px;
+        top: 47.2%;
+        right: 0;
+    }
+
+    .view-more-btn {
+        width: 25%;
+    }
+
+    .case-study-title-main {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .sem-portfolio-detail {
+        padding: 100px 0;
+    }
+
+    #subscribe-form {
+        width: 90%;
+        margin: auto;
+    }
+
+    .client-logo {
+        width: 150px;
+    }
+
+    .location {
+        width: 70%;
+    }
+
+    .our-team {
+        padding: 10px !important;
+    }
+
+    .wave {
+        background: url(../images/wave.svg);
+        width: 100%;
+        height: 100%;
+        max-height: 16.8rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -12.5rem;
+        background-repeat: no-repeat;
+        background-position: center top;
+        z-index: 13;
+    }
+
+    .about-title p {
+        font-size: 16px;
+    }
+
+    .about-bg .career-services h2 {
+        font-size: 25px;
+    }
+
+    .about-bg .career-services p {
+        font-size: 16px;
+    }
+
+    .about-bg h4 {
+        font-size: 20px;
+    }
+
+    .django-services {
+        height: 410px !important;
+        max-height: 100%;
+    }
+
+    .common-features .app-features-left li::before {
+        left: 220px;
+    }
+
+    .testimonials_text_slider {
+        padding-left: 0
+    }
+
+    .client-box {
+        width: 90%;
+        margin: auto;
+    }
+
+    .detail-section p {
+        font-size: 14px;
+    }
+
+    #overlay {
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .apply-now-btn {
+        padding: 5px 10px;
+        right: 70px;
+        top: 13px;
+        font-size: 14px;
+    }
+
+    .arrow_list li {
+        font-size: 14px;
+    }
+
+    .top-android-company ul li {
+        font-size: 14px;
+    }
+
+    .our-solution h5 {
+        font-size: 18px;
+    }
+
+    .our-solution p {
+        font-size: 14px;
+    }
+
+    .seo-services h5 {
+        font-size: 18px;
+    }
+
+    .seo-services p {
+        font-size: 14px;
+    }
+
+    .seo-process-includes h4 {
+        font-size: 25px;
+    }
+
+    .team-main h2 {
+        font-size: 25px;
+    }
+
+    header ul.menu-list li {
+        margin: 0px;
+    }
+
+    header ul.menu-list li a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .outer-menu {
+        display: flex;
+        right: 0;
+    }
+
+    .outer-menu .menu-list>div>ul>li>a {
+        font-size: 22px;
+        padding: 10px 0 10px 28px;
+        width: 300px;
+        font-weight: 400;
+        color: #000;
+    }
+
+    header ul.menu-list {
+        display: none;
+    }
+
+    #overlay {
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .banner-bg .content h1 {
+        font-size: 45px;
+        margin: 0 0 20px;
+        height: 154px;
+    }
+
+    .banner-bg .content p {
+        margin: 0px 0 20px;
+    }
+
+    .banner-bg .follow-boxs h5 {
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    .banner-bg .follow-boxs ul li {
+        padding: 0 10px;
+    }
+
+    .banner-bg .follow-boxs ul li svg {
+        width: 20px;
+    }
+
+    .aboutus-bg .review-boxs h3 {
+        font-size: 40px;
+    }
+
+    .aboutus-bg .review-boxs .star-boxs {
+        margin-bottom: 10px;
+    }
+
+    .aboutus-bg .review-boxs .star-boxs span {
+        margin-right: 10px;
+    }
+
+    .aboutus-bg .review-boxs .star-boxs span svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .aboutus-bg .review-boxs p {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .aboutus-bg h5 {
+        margin-bottom: 20px;
+    }
+
+    .aboutus-bg p {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+
+    .about-bg .img {
+        margin-bottom: 50px;
+    }
+
+    .about-bg p {
+        font-size: 14px;
+    }
+
+    .about-bg .img img,
+    .experience-box h6 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .ourservices-bg .services-boxs p {
+        font-size: 14px;
+    }
+
+    .ourtechnologies-bg {
+        padding: 50px 0;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li a {
+        font-size: 14px;
+        padding: 15px 18px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .ourtechnologies-bg .logos-boxs .img {
+        width: 25%;
+    }
+
+    .casestudies-bg {
+        padding: 55px 0 30px 0;
+    }
+
+    .casestudies-bg h6 {
+        font-size: 16px;
+    }
+
+    .owl-carousel .owl-nav {
+        z-index: 9;
+        display: none;
+    }
+
+    .appriciation-images .owl-carousel .owl-nav,
+    .anniversary-images .owl-carousel .owl-nav {
+        display: block;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content {
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 10px 0 10px 10px;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content h5 {
+        font-size: 16px;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content .btn.btn-link {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content .btn.btn-link::before {
+        width: 12px;
+        height: 10px;
+        background-size: 100% auto;
+        right: 0px;
+    }
+
+    .experience-bg {
+        margin-bottom: 40px;
+    }
+
+    .experience-bg h2 {
+        font-size: 25px;
+    }
+
+    .experience-box .brands-boxs h3 {
+        font-size: 24px;
+    }
+
+    .experience-bg p.main {
+        margin: 0 0 30px;
+    }
+
+    .experience-bg h4 {
+        font-size: 20px;
+        margin: 0px 0 10px;
+    }
+
+    .experience-bg p {
+        margin: 0 0 30px;
+        font-size: 14px;
+    }
+
+    .experience-bg .owl-carousel .item {
+        padding: 60px 0;
+    }
+
+    .experience-bg .owl-carousel .item .img::after {
+        display: none;
+    }
+
+    .experience-bg .owl-carousel .owl-dots {
+        left: 0px;
+    }
+
+    .experience-bg .owl-carousel .owl-dots .owl-dot {
+        width: 20px;
+        height: 20px;
+        border-width: 2px;
+        box-shadow: inset 0 0 0 3px #fff;
+    }
+
+    .experience-bg .owl-carousel .owl-dots .owl-dot.active {
+        border-width: 2px;
+        box-shadow: inset 0 0 0 3px #fff;
+    }
+
+    .letstalk-bg {
+        padding: 25px 0px;
+    }
+
+    .letstalk-bg h2 {
+        font-size: 20px;
+    }
+
+    footer h3 {
+        margin: 35px 0 15px;
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin: 0 0 10px;
+    }
+
+    footer ul {
+        margin: 0px 0 25px;
+    }
+
+    footer ul li a {
+        font-size: 12px;
+    }
+
+    footer .logo {
+        padding: 10px 0px;
+    }
+
+    footer .logo img {
+        width: 20px;
+        height: auto;
+    }
+
+    footer .btn.btn-link {
+        font-size: 12px;
+    }
+
+    footer .menu-boxs .menu-list.help-box {
+        padding: 0 30px;
+    }
+
+    footer .menu-boxs .menu-list.company-box {
+        padding: 0 20px;
+    }
+
+    footer .copyright {
+        padding: 15px 0px;
+        font-size: 13px;
+    }
+
+    footer .btn.btn-link svg {
+        height: 15px;
+        width: 15px;
+        margin-right: 10px;
+    }
+
+    footer .follow-boxs ul li {
+        padding: 0 10px;
+    }
+
+    footer .follow-boxs h5 {
+        font-size: 14px;
+    }
+
+    .services-bg {
+        padding: 20px 0 100px;
+    }
+
+    .services-bg p {
+        font-size: 14px;
+    }
+
+    .services-bg .img {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    .services-bg .img img {
+        width: 100%;
+    }
+
+    .services-bg h4 {
+        margin-top: 50px;
+    }
+
+    .services-bg ul li {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .service-quote-section ul li {
+        font-size: 14px;
+    }
+
+    .subpage-banner {
+        padding: 80px 0 0 0;
+    }
+
+    .subpage-banner .img {
+        min-height: inherit;
+    }
+
+    .subpage-banner .content {
+        margin: 50px 0 0 0;
+    }
+
+    .subpage-banner .content:before {
+        display: none;
+    }
+
+    .subpage-banner .content:after {
+        left: -60px;
+        right: auto;
+        top: -190px;
+    }
+
+    .portfolio-bg {
+        padding: 0px 0 30px;
+    }
+
+    .portfolio-bg #filter-list {
+        margin-top: 60px;
+    }
+
+    .portfolio-bg #filter-list li {
+        font-size: 14px;
+        margin: 0 25px;
+    }
+
+    .portfolio-bg #portfolio .item .content .icon {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+    }
+
+    .portfolio-bg #portfolio .item .content .title {
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .portfolio-bg #portfolio .item .content .title h5 {
+        font-size: 16px;
+    }
+
+    .portfolio-bg #portfolio .item .content .title p {
+        font-size: 14px;
+    }
+
+    .about-bg .career-services {
+        margin: 80px 0 0;
+    }
+
+    .contact-bg {
+        padding: 50px 0;
+    }
+
+    .contact-bg iframe {
+        margin-top: 50px;
+    }
+
+    .heading h2 {
+        font-size: 25px;
+    }
+
+    .blog-row {
+        flex-flow: wrap-reverse;
+    }
+
+    .sidebar .widget+.widget {
+        display: none;
+    }
+
+    .list-nav {
+        margin: 50px 0;
+    }
+
+    .appriciation-images .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        font-size: 20px;
+    }
+
+    .client-info h2 {
+        font-size: 25px !important;
+    }
+
+    .build-business p {
+        font-size: 14px;
+    }
+
+    .build-business h3 {
+        font-size: 25px;
+    }
+
+    .testimonials_text_box p {
+        font-size: 14px;
+    }
+
+    .awards-recognition p {
+        font-size: 14px;
+    }
+
+    .ourservices-bg h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .experience-box h2,
+    .case-studies h2,
+    .blogs h2,
+    .our-clients h2,
+    .tagline-family h2 {
+        font-size: 25px;
+        margin: 0 0 10px !important;
+    }
+
+    .experience-box .brands-boxs p {
+        font-size: 14px;
+    }
+
+    .heading h3 {
+        font-size: 25px;
+    }
+
+    .content-section {
+        font-size: 14px;
+        margin-top: 5px !important;
+    }
+
+    .development-services p {
+        font-size: 14px;
+    }
+
+    .app-development-process p {
+        font-size: 14px;
+    }
+
+    .experience-box p {
+        font-size: 14px;
+    }
+
+    .dropdown:click .dropdown-menu {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .development-services .service-block {
+        height: 410px;
+    }
+
+    .development-services .service-block .ios-app-service-name {
+        font-size: 15px;
+    }
+
+    .top-android-company p,
+    development-services p,
+    app-development-process p {
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .drendrop-img img {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .gathring-header h3 {
+        font-size: 20px;
+        transform: translateY(-40%);
+    }
+
+    .challange-img img {
+        max-width: 50%;
+    }
+
+    #phone {
+        height: 96%;
+        margin: 10px auto 0px;
+    }
+
+    .ios-app-service-icon {
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
+    .jquery-services {
+        height: 250px;
+        max-height: 100%;
+    }
+
+    .case-study-description {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .testimonial {
+        padding: 20px 0;
+        margin: 20px 15px;
+    }
+
+    .testimonial .pic {
+        float: none;
+    }
+
+    .testimonial .testimonial-content {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .testimonial .testimonial-content:before {
+        z-index: 1;
+        top: -200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    header ul.menu-list li a {
+        padding: 7px !important;
+        font-size: 14px;
+    }
+
+    .service.dropdown .dropdown-menu {
+        left: -193px !important;
+    }
+
+    .testimonials_privew {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #ec7323;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    .testimonial-section {
+        padding: 10px !important;
+    }
+
+    header ul.menu-list li a {
+        padding: 7px !important;
+        font-size: 14px;
+    }
+
+    .service.dropdown .dropdown-menu {
+        left: -193px !important;
+    }
+
+    .common-features .app-features-left li::before {
+        left: 205px;
+    }
+
+    .common-features .app-features-left li {
+        padding: 5px 5px 5px 0px;
+    }
+
+    ul.app-features li {
+        position: relative;
+        padding: 5px 0px 5px 30px;
+    }
+
+    ul.event-app-feature li {
+        padding: 5px 0px 5px 25px;
+    }
+
+    .detail-section .row {
+        display: block;
+    }
+
+    .detail-section .row div {
+        width: 100%;
+        max-width: none;
+    }
+
+    .detail-section .row .detail-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .our-team .inner-block {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .case-study-title {
+        font-size: 10px;
+    }
+
+    .case-study-description {
+        font-size: 8px;
+    }
+
+    .about-title p {
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+
+    section.section.detail .heading {
+        margin-top: 30px;
+    }
+
+    section.section.detail {
+        padding: 20px 0px;
+    }
+
+}
+
+@media(max-width: 767px) {
+
+    .testimonials_privew {
+        width: 200px !important;
+        height: 200px !important;
+        position: absolute;
+        top: 50%;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        border: 2px solid #ec7323;
+        border-radius: 50%;
+        padding: 10px
+    }
+
+    .features-of-daredrop {
+        padding: 0 27px;
+    }
+
+    .gathring-header h3 {
+        font-size: 20px;
+        transform: translateY(-40%);
+    }
+
+    .what-is-daredrop {
+        text-align: left !important;
+    }
+
+    .what-is-daredrop p {
+        text-align: left !important;
+        font-size: 13px;
+    }
+
+    .online-challange-label h4 {
+        font-size: 22px;
+    }
+
+    .why-dare-drop {
+        text-align: left;
+    }
+
+    .why-dare-drop h3 {
+        font-size: 22px;
+    }
+
+    .why-dare-drop p {
+        text-align: left !important;
+        font-size: 16px;
+    }
+
+    .create-daredrop-description p {
+        text-align: left !important;
+        font-size: 16px;
+    }
+
+    .exclusive-solution-description span {
+        font-size: 16px;
+    }
+
+    .exclusive-solution-description p {
+        font-size: 16px;
+    }
+
+    .drendrop-img img {
+        margin-bottom: 20px;
+    }
+
+    .features-of-daredrop-description p {
+        text-align: left !important;
+        font-size: 13px;
+    }
+
+    .cta_small_section {
+        border-radius: 40px 0;
+    }
+
+    .features-of-daredrop-description h1 {
+        font-size: 20px;
+    }
+
+    .two-type-reservation li {
+        font-size: 16px;
+    }
+
+    .icon_content p:last-child {
+        font-size: 14px;
+    }
+
+    .icon_content p {
+        font-size: 16px !important;
+    }
+
+
+    .project-box {
+        padding: 20px;
+    }
+
+    #phone {
+        height: 96%;
+        margin: 10px auto 0px;
+    }
+
+    .meta-wrapper span a {
+        font-size: 14px;
+    }
+
+    .meta-wrapper .date_post {
+        font-size: 14px;
+    }
+
+    .blog-caption h2 a {
+        font-size: 18px;
+    }
+
+    .blog-caption {
+        padding: 5px 0px;
+    }
+
+    .comment-form {
+        padding: 0 !important;
+    }
+
+    .blog-section {
+        padding: 15px 0px;
+    }
+
+    .related-post-header a {
+        font-size: 18px;
+    }
+
+    .children {
+        margin-left: 0;
+    }
+
+    .form-company-titile,
+    .form-title {
+        text-align: center;
+    }
+
+    .form-company-titile {
+        font-size: 18px;
+    }
+
+    .form-title {
+        font-size: 30px;
+    }
+
+    .button {
+        background-color: #d85b1a;
+        padding: 5px 10px;
+        top: 74.7%;
+        right: 0;
+    }
+
+    footer .btn.btn-link {
+        margin-bottom: 15px !important;
+    }
+
+    .portfolio-info {
+        text-align: center;
+    }
+
+    .sem-workflow-description h4 {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    #subscribe-form .form-group {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #subscribe-form .quote-btn {
+        padding: 10px !important;
+        margin: auto;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #subscribe-form {
+        width: 100%;
+        margin: auto;
+    }
+
+    .appriciation-title h3 {
+        width: 65%;
+        margin: 25px auto;
+        font-weight: 700;
+    }
+
+    .life-title h1,
+    .about-title h1 {
+        font-size: 30px;
+    }
+
+    .team-img img {
+        width: 350px;
+    }
+
+    .mobile-dev-services-list .tech-use {
+        width: 290px !important;
+        height: 410px !important;
+    }
+
+    .android-services {
+        flex-direction: column;
+        height: 325px;
+    }
+
+    .react-services {
+        flex-direction: column;
+        height: 240px;
+    }
+
+    .react-services .ios-app-service-name {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .team-main {
+        text-align: center;
+    }
+
+    .team-main img {
+        margin: auto;
+    }
+
+    .wave {
+        display: none;
+    }
+
+    .about-title {
+        margin-top: 25px;
+    }
+
+    .location {
+        width: 100%;
+        font-size: 20px !important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .react-native-service {
+        flex-direction: column;
+    }
+
+    .react-native-service .ios-app-service-name {
+        text-align: center;
+    }
+
+    .django-services {
+        flex-direction: column !important;
+        height: 300px !important;
+        max-height: 100%;
+    }
+
+    .django-services .ios-app-service-name {
+        margin-top: 10px;
+        text-align: center !important;
+    }
+
+    .python-services {
+        flex-direction: column;
+        height: 250px;
+        max-height: 100%;
+    }
+
+    .python-services .ios-app-service-name {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .flutter-services {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .flutter-services .ios-app-service-name {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .ror-service {
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .ror-service .ios-app-service-name {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .app-feature-img {
+        text-align: center;
+    }
+
+    .panel-default>.panel-heading a {
+        font-size: 15px;
+    }
+
+    .panel-body {
+        font-size: 15px;
+    }
+
+    #slideshow2 {
+        position: relative;
+        width: 690px;
+        max-width: 100%;
+        height: 690px;
+        max-height: 100%;
+        filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+    }
+
+    #slideshow2>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .gym-employee-app {
+        display: block !important;
+        width: 690px !important;
+        max-width: 100%;
+        height: 790px !important;
+        max-height: 100%;
+    }
+
+    .gym-employe-app-main {
+        display: none;
+    }
+
+    #mobile-slideshow {
+        margin: auto auto;
+        position: relative;
+        width: 418px;
+        max-width: 100%;
+        height: 700px;
+        max-height: 100%;
+        padding: 10px;
+        filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+    }
+
+    #mobile-slideshow>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+
+    .testimonials_circle {
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+        width: 0
+    }
+
+    .testimonials_left {
+        width: 100%;
+        height: 200px;
+        margin: 0 0 30px
+    }
+
+    .testimonials_text_slider {
+        padding-left: 0px !important;
+        overflow: visible
+    }
+
+    .testimonials_text_box:before {
+        top: -25px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-top: none;
+        border-right: 20px solid transparent;
+        border-bottom: 25px solid #fff;
+        border-left: 20px solid transparent
+    }
+
+    .testimonials-arrow {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999
+    }
+
+    .testimonials_text_box {
+        padding: 15px
+    }
+
+    .testimonials-arrow:before {
+        transform: rotate(134deg);
+        width: 32px;
+        left: -1px;
+        top: -13px;
+        z-index: 999
+    }
+
+    .testimonials-arrow:after {
+        transform: rotate(50deg);
+        width: 30px;
+        left: 42%;
+        top: -13px;
+        z-index: 999
+    }
+
+    .testimonials_text {
+        overflow: hidden;
+        padding-top: 25px
+    }
+
+    .about-bg::before {
+        display: none;
+    }
+
+    .services-bg:before {
+        display: none;
+    }
+
+    header {
+        position: sticky;
+    }
+
+    header .logo {
+        max-width: 230px;
+    }
+
+    .ourservices-bg h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .ourservices-bg h4 {
+        font-size: 14px;
+    }
+
+    .ourservices-bg .services-boxs .top h3 {
+        font-size: 16px;
+    }
+
+    .ourservices-bg .services-boxs p {
+        margin: 0px;
+    }
+
+    .ourtechnologies-bg h5 {
+        margin-bottom: 35px;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li a {
+        padding: 12px 15px;
+        font-weight: 500;
+    }
+
+    .casestudies-bg {
+        padding: 35px 0 30px 0;
+    }
+
+    .casestudies-bg::before {
+        height: 270px;
+        border-radius: 0 50px 0 0;
+    }
+
+    .casestudies-bg h6 {
+        font-size: 14px;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content h5 {
+        width: 100%;
+    }
+
+    .experience-bg h2 {
+        font-size: 20px;
+    }
+
+    .experience-box .brands-boxs h3 {
+        font-size: 22px;
+        margin: 0 0 10px;
+    }
+
+    .experience-bg .successful-box {
+        margin-bottom: 30px;
+    }
+
+    .experience-bg .owl-carousel .item .content p {
+        font-size: 14px;
+    }
+
+    .experience-bg .owl-carousel .item .content h4 {
+        font-size: 16px;
+    }
+
+    .experience-bg .owl-carousel .item .content h6 {
+        font-size: 12px;
+    }
+
+    .experience-box h3 {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    .services-bg {
+        padding: 0 0 30px;
+        font-size: 14px;
+    }
+
+    .portfolio-bg #filter-list {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-bg #filter-list li {
+        margin: 0 12px;
+    }
+
+    .portfolio-title h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-title .portfolio_subtitle {
+        margin-bottom: 20px;
+    }
+
+    .portfolio-title p {
+        margin-bottom: 20px;
+    }
+
+    .portfolio-info {
+        text-align: center;
+    }
+
+    .section_portfolio_detail,
+    .bg_banner {
+        margin-top: 0px;
+        padding: 100px 0;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .heading h3 {
+        font-size: 20px;
+        margin: 22px 0px;
+    }
+
+    footer .menu-boxs .menu-list.company-box,
+    footer .menu-boxs .menu-list.gettouch-box,
+    footer .menu-boxs .menu-list.services-box,
+    footer .menu-boxs .menu-list.help-box,
+    .dot_list.col3_list li {
+        width: 50%;
+    }
+
+    footer .menu-boxs .menu-list.gettouch-box {
+        padding: 0 0 20px 20px;
+    }
+
+    footer .footer-details {
+        justify-content: center;
+    }
+
+    .nav-style1 .owl-nav .owl-prev,
+    .nav-style1 .owl-nav .owl-next {
+        top: -75px;
+    }
+
+    .content-wrap h4 {
+        font-size: 18px;
+    }
+
+    .icon-wrap img {
+        width: 45px;
+    }
+
+    .career-banner .content h1 {
+        font-size: 32px;
+    }
+
+    .career-banner {
+        height: 450px;
+    }
+
+    .service_overlay_bg:before {
+        top: 70px;
+        bottom: 70px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .icon-bar {
+        display: none;
+    }
+
+    .blog-header h2 {
+        font-size: 24px;
+    }
+
+    .blog_text h1 {
+        font-size: 24px;
+    }
+
+    .blog_text h2 {
+        font-size: 18px;
+    }
+
+    .blog-detail-wrapper {
+        display: block;
+    }
+
+    .blog-detail-wrapper span {
+        width: 50%;
+        display: inline;
+        padding-right: 38px;
+    }
+
+    .services li {
+        padding: 2px 0px;
+    }
+
+    .quick-contact-form {
+        margin: auto 10px;
+    }
+
+    .contact-us-form .quick-contact-form {
+        margin: 0px;
+    }
+
+    .case-study-title-main {
+        font-size: 15px;
+        margin: 20px auto;
+    }
+
+    .view-more-btn {
+        width: 25%;
+        margin: 30px auto;
+    }
+
+    .hr-box {
+        margin-bottom: 10px !important;
+    }
+
+    .sales-box {
+        margin-bottom: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li {
+        margin: 0px -1px;
+    }
+
+    .modal .modal-dialog {
+        max-width: 100% !important;
+        margin: auto;
+    }
+
+    .modal .modal-dialog .modal-content .modal-header .close {
+        top: 0;
+        right: 0;
+        background: #FFFFFF url(../images/close-img.png) center center no-repeat;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 0%);
+    }
+
+    .modal .modal-dialog .modal-content {
+        border-radius: 0px !important;
+    }
+
+    .modal .modal-dialog .modal-content .modal-body .form-group {
+        margin-bottom: 20px;
+    }
+
+    .modal .modal-dialog .modal-content {
+        padding: 35px;
+        border-top: none;
+    }
+
+    .jquery-services {
+        flex-direction: column;
+        height: 250px;
+        max-height: 100%;
+    }
+
+    .jquery-services .ios-app-service-name {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .python-services {
+        height: 300px;
+        max-height: 100%;
+    }
+
+    .seo-process-includes {
+        width: 100%;
+    }
+
+    .seo-process-includes h4 {
+        font-size: 20px;
+    }
+
+    .btn-left,
+    .btn-right {
+        display: none;
+    }
+
+    .common-feature-main,
+    .food-app-main {
+        display: none;
+    }
+
+    .common-feature-mobile,
+    .user-food-app {
+        display: block !important;
+    }
+
+    .slideshow {
+        margin: 50px auto;
+        position: relative;
+        width: 418px;
+        max-width: 100%;
+        height: 739px;
+        max-height: 100%;
+        padding: 10px;
+        filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+    }
+
+    .slideshow>div {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .advantage-taxi-app {
+        height: 250px !important;
+        max-height: 100%;
+        flex-direction: column;
+    }
+
+    .advantage-taxi-app .ios-app-service-name {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .case-study-cover {
+        margin-top: 20px;
+    }
+
+    .meta-desc {
+        font-size: 14px;
+        height: 80px;
+        max-height: 100%;
+    }
+
+    .blog-card-title {
+        height: 55px;
+        max-height: 100%;
+    }
+
+    .aboutus-bg p {
+        font-size: 13px;
+        margin: 0 0 20px;
+    }
+
+    .client-info h2 {
+        font-size: 20px !important;
+    }
+
+    .client-box {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutus-bg .review-boxs h3 {
+        font-size: 30px;
+    }
+
+    .aboutus-bg .review-boxs .star-boxs span svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .aboutus-bg .review-boxs .star-boxs {
+        margin-bottom: 0px;
+    }
+
+    .ourtechnologies-bg .logos-boxs .img img {
+        filter: grayscale(0%);
+        border: 1px solid #e7e7e7;
+        border-radius: 5px;
+    }
+
+    .mobile-no-info h4 a {
+        font-size: 25px;
+    }
+
+    .build-business p,
+    .build-business h3 {
+        text-align: center;
+    }
+
+    .ourservices-bg .border-right {
+        border-right: 0px !important;
+    }
+
+    .ourservices-bg {
+        padding: 10px !important;
+    }
+
+    .about-bg .career-services h2 {
+        font-size: 20px;
+    }
+
+    .about-bg .career-services p {
+        font-size: 14px;
+    }
+
+    .visionmission-box {
+        height: 310px;
+    }
+
+    .team-main h2 {
+        font-size: 20px;
+    }
+
+    .team-main p.team-heading {
+        font-size: 14px !important;
+        text-align: center;
+    }
+
+    .single-service.postid-693 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-689 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-696 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-700 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-701 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-702 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-703 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-704 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2411 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2476 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2490 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2502 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3875 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3890 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3912 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3927 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3939 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3957 .section_portfolio_detail.react-native-detail {
+        padding: 100px 0px;
+        margin-top: 0px;
+    }
+
+    section.section.detail {
+        padding: 20px 0px;
+    }
+
+    .single-service.postid-3875 section.top-android-company.service-quote-section h2 {
+        margin-bottom: 30px !important;
+    }
+
+    .client-logo-list ul,
+    .technology-sec ul.tech-use-list {
+        margin-left: 0px !important;
+    }
+
+    section.our-clients {
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+
+    section.left-detail-section .row,
+    .left-content .row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    section.left-detail-section .row .text-div {
+        margin-top: 30px;
+    }
+
+    .services-bg .advatages-img {
+        margin-bottom: 20px;
+    }
+
+    .development-services .service-block {
+        height: 300px;
+    }
+
+    section.left-detail-section .heading h2,
+    section.right-detail .heading h2 {
+        text-align: center;
+    }
+
+    .left-content .row .img-section {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section.section.work-section,
+    .single-service.postid-3875 section.section.detail,
+    .single-service.postid-3890 section.section.detail {
+        padding-bottom: 0px;
+    }
+
+    .our-clients span.divider {
+        margin-bottom: 18px !important;
+    }
+
+    section.seo-service-sec,
+    .page.page-id-3281 section.banner-sec,
+    .page.page-id-3589 section.banner-sec,
+    .page.page-id-3725 section.banner-sec,
+    .detail-section,
+    .detail-section .heading,
+    section.right-slider,
+    section.top-android-company.service-quote-section,
+    section.our-solution.services-block,
+    .single-service.postid-3912 section.app-development-process.workflow-section,
+    section.service-card,
+    .single.single-service.postid-3939 .seo-process {
+        margin-top: 0px !important;
+    }
+
+    section.seo-service-sec .heading,
+    section.right-slider .heading,
+    section.detail-2-section {
+        margin-top: 10px !important;
+    }
+
+    section.letstalk-bg,
+    section.right-detail .text-div,
+    section.service-quote-section .quote-section {
+        margin-top: 20px !important;
+    }
+
+    .service-card ul li {
+        margin-bottom: 5px !important;
+        font-size: 14px;
+    }
+
+    section.background_dreddrop p,
+    .heading p,
+    .features-of-daredrop-description span {
+        font-size: 14px;
+    }
+
+    .background_dreddrop {
+        padding: 20px 0px;
+    }
+
+    .ios-app-service-name h5 {
+        font-size: 16px;
+    }
+
+    .ios-app-service-name p {
+        padding-top: 0 !important;
+        font-size: 14px;
+    }
+
+    .detail-section p,
+    .detail-section ul li {
+        font-size: 14px;
+    }
+
+    section .left-sec-ol,
+    .content-section ul.content-list,
+    section.tools-section .framwork-list,
+    .client-logo-list ul,
+    .seo-process ul.seo-process-list,
+    .case-studies ul,
+    .seo-service-sec ul,
+    .services-block ul {
+        font-size: 14px;
+    }
+
+    .button-section {
+        margin-bottom: 3.5rem;
+    }
+
+    section.right-sec .img-div,
+    .left-detail-section .left-block {
+        text-align: center;
+    }
+
+    .common-features.desktop-feature {
+        display: none !important;
+    }
+
+    section.button-sec {
+        margin-top: 4.5rem !important;
+    }
+
+    .content-sec .inner-txt p {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    section.left-detail-section .left-block a {
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .client-logo {
+        width: 200px;
+    }
+
+    .advantage-taxi-app {
+        height: 280px !important;
+        max-height: 100%;
+    }
+
+    .advantage-taxi-app .ios-app-service-name {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    #slideshow2 {
+        position: relative;
+        width: 500px;
+        max-width: 100%;
+        height: 500px;
+        max-height: 100%;
+        filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+        margin: auto;
+    }
+
+    #slideshow2>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .banner-bg .content h1 {
+        font-size: 35px;
+    }
+
+    .banner-bg .content p {
+        font-size: 15px;
+    }
+
+    .banner-bg .content {
+        padding: 3em 0 2em;
+    }
+}
+
+@media (max-width: 575px) {
+    .getquote-btn {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    header .logo {
+        max-width: 150px;
+        padding: 10px;
+    }
+
+    header.fixed-header .logo {
+        max-width: 140px;
+        padding: 10px;
+    }
+
+    .outer-menu .hamburger {
+        width: 60px;
+        height: 46px;
+        padding: 15px 13px 20px 25px;
+    }
+
+    .outer-menu .checkbox-toggle {
+        width: 60px;
+        height: 46px;
+    }
+
+    header.fixed-header .outer-menu .hamburger {
+        width: 60px;
+        height: 46px;
+        padding: 15px 13px 20px 25px;
+    }
+
+    .outer-menu .hamburger .close-icon {
+        width: 20px;
+    }
+
+    .outer-menu .menu-list>div {
+        width: 80%;
+        height: 100%;
+    }
+
+    .banner-bg {
+        min-height: 500px;
+    }
+
+    .banner-background {
+        background-image: none !important;
+    }
+
+    .banner-bg .content {
+        padding: 90px 0 0;
+    }
+
+    .banner-bg .content h1 {
+        height: 106px;
+    }
+
+    .aboutus-bg {
+        padding: 30px 0px;
+    }
+
+    .aboutus-bg::before,
+    .services-bg::before {
+        width: 250px;
+        height: 250px;
+        top: -110px;
+    }
+
+    .aboutus-bg::after,
+    .services-bg::after {
+        width: 250px;
+        height: 250px;
+        bottom: -190px;
+        left: -130px;
+    }
+
+    .about-bg::before {
+        width: 250px;
+        height: 250px;
+        top: -110px;
+        right: 0;
+    }
+
+    .about-bg.career-bg::after {
+        width: 250px;
+        height: 250px;
+        bottom: 0px;
+        top: auto;
+        left: -130px;
+    }
+
+    .about-bg .career-services h2 {
+        font-size: 30px;
+    }
+
+    .about-bg .career-services {
+        margin: 50px 0 0;
+    }
+
+    .about-bg h4 {
+        font-size: 20px;
+    }
+
+    .apply-now-btn {
+        padding: 5px;
+        font-size: 12px;
+        top: 12px;
+    }
+
+    .ourservices-bg h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .ourservices-bg .border-right {
+        border-right: 0px !important;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li {
+        margin: 0 5px;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li a,
+    .case-studies .nav.nav-tabs li a {
+        padding: 7px 8px;
+        font-size: 15px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .ourtechnologies-bg .logos-boxs .img {
+        width: 50%;
+    }
+
+    .casestudies-bg h5 {
+        margin-bottom: 15px;
+    }
+
+    .casestudies-bg h6 {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box {
+        margin-bottom: 55px;
+    }
+
+    .casestudies-bg .owl-carousel .casestudies-box .content {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+    }
+
+    .experience-box .brands-boxs {
+        max-width: 100%;
+        padding: 20px 0;
+    }
+
+    .experience-bg p {
+        margin: 0 0 30px;
+        font-size: 12px;
+    }
+
+    .experience-bg h2 {
+        font-size: 25px;
+    }
+
+    .experience-bg .successful-box {
+        margin-bottom: 20px;
+    }
+
+    .experience-box h2,
+    .case-studies h2,
+    .blogs h2,
+    .our-clients h2,
+    .tagline-family h2 {
+        font-size: 20px;
+        margin: 0 0 15px !important;
+    }
+
+    .experience-bg .brands-boxs h3,
+    .experience-bg .successful-box span,
+    .experience-bg .owl-carousel .item .content h6,
+    .letstalk-bg,
+    footer .logo {
+        text-align: center;
+    }
+
+    .experience-bg .owl-carousel .item .img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .experience-bg .owl-carousel .item .img::before {
+        display: none;
+    }
+
+    .experience-bg .owl-carousel .item .content {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+
+    .experience-bg .owl-carousel .item .content p::before {
+        top: -30px;
+        font-size: 30px;
+    }
+
+    .experience-bg .owl-carousel .owl-dots {
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .letstalk-bg h2 {
+        display: block;
+        margin: 0 0 20px;
+    }
+
+    footer h3 {
+        margin: 25px 0 15px;
+    }
+
+    footer .border-right {
+        border-right: 0px !important;
+    }
+
+    footer .menu-boxs .menu-list.help-box,
+    footer .menu-boxs .menu-list.company-box,
+    footer .menu-boxs .menu-list.gettouch-box {
+        width: 100%;
+        padding: 0;
+    }
+
+    footer .menu-boxs .menu-list.gettouch-box {
+        padding-bottom: 30px;
+    }
+
+    footer .copyright {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    footer .follow-boxs {
+        width: 100%;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    footer .menu-boxs .menu-list.services-box,
+    .services-bg ul li,
+    .dot_list.half_list li,
+    .dot_list.col3_list li {
+        width: 100%;
+    }
+
+    .subpage-banner .content {
+        margin: 40px 0 0 0;
+    }
+
+    .subpage-banner .content h1 {
+        font-size: 34px;
+        margin: 0 0 20px;
+    }
+
+    .subpage-banner .content p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .subpage-banner .content::after {
+        width: 180px;
+        height: 180px;
+        top: -120px;
+        left: -40px;
+    }
+
+    .portfolio-bg #filter-list li {
+        margin: 12px 0;
+        width: 33.33%;
+        text-align: center;
+    }
+
+    .career-bg .card .card-header {
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .career-bg .card .card-body {
+        padding: 30px 30px 15px;
+    }
+
+    .career-bg .card .card-body h4 {
+        font-size: 18px;
+    }
+
+    .contact-bg ul.details {
+        padding: 40px 0px;
+    }
+
+    .portfolio-title .portfolio_subtitle {
+        font-size: 20px;
+    }
+
+    .section_portfolio_detail,
+    .bg_banner {
+        padding: 50px 0;
+    }
+
+    .section {
+        padding: 50px 0;
+    }
+
+    .heading h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .heading h3 {
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+
+    .about-bg .career-services {
+        margin: 50px 0 0;
+    }
+
+    .nav-style1 .owl-nav .owl-prev,
+    .nav-style1 .owl-nav .owl-next {
+        top: 50%;
+        right: 10px;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .nav-style1 .owl-nav .owl-prev {
+        right: auto;
+        left: 10px;
+    }
+
+    .tm-icon_box {
+        justify-content: flex-start;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .service_overlay_bg:before {
+        top: 30px;
+        bottom: 30px;
+    }
+
+    .cta_small_section:before {
+        font-size: 150px;
+    }
+
+    .scrollup {
+        max-width: 40px;
+    }
+
+    .blog-detail-wrapper span a {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    .blog-detail-wrapper .comments_post {
+        margin-left: 0;
+    }
+
+    .blog-detail-wrapper .date_post {
+        margin-left: 8px;
+    }
+
+    .blog-detail-wrapper .date_post,
+    .blog-detail-wrapper .comments_post a i {
+        font-size: 13px;
+    }
+
+    .slider-caption h2 {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .form-company-titile {
+        font-size: 15px;
+    }
+
+    .form-title {
+        font-size: 22px;
+    }
+
+    .quick-contact-form h3 {
+        font-size: 22px;
+    }
+
+    .quick-contact-form input,
+    .quick-contact-form textarea {
+        font-size: 12px;
+    }
+
+    ul.service-submenu-mobile-accordian,
+    ul.solution-submenu-mobile-accordian,
+    ul.company-submenu-mobile-accordian {
+        padding: 0px 15px !important;
+    }
+
+    .view-more-btn {
+        width: 55%;
+        margin: 30px auto;
+    }
+
+    .digital-marketing-service .solution-media {
+        height: 460px;
+        max-height: 100%;
+        width: 350px;
+        max-width: 100%;
+    }
+
+    .digital-marketing-service {
+        padding: 35px;
+    }
+
+    .seo-title h1,
+    .seo-title p,
+    .react-native-title h1,
+    .react-native-title p {
+        padding-bottom: 20px;
+    }
+
+    .seo-title h1,
+    .react-native-title h1,
+    .hashtag-app-title h1,
+    .care-clinic-title h1,
+    .dare-drop-title h1 {
+        font-size: 30px;
+    }
+
+    .seo-title p,
+    .react-native-title p,
+    .hashtag-app-title p,
+    .care-clinic-title p,
+    .dare-drop-title p {
+        font-size: 15px;
+    }
+
+    .bounceimg img {
+        width: 200px;
+    }
+
+    .life-title h1 {
+        font-size: 25px;
+    }
+
+    .tagline-family p {
+        font-size: 12px;
+    }
+
+    .appriciation-title h3 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .team-info h4 {
+        font-size: 22px;
+    }
+
+    .team-info p {
+        font-size: 12px;
+    }
+
+    .team-img img {
+        width: 225px;
+    }
+
+    .tech-use {
+        height: 134px !important;
+        max-height: 100% !important;
+        width: 134px !important;
+        max-width: 100% !important;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .location {
+        width: 100%;
+        font-size: 14px !important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .react-native-service {
+        height: 350px;
+        max-height: 100%;
+    }
+
+    .django-services {
+        flex-direction: column !important;
+        height: 330px !important;
+        max-height: 100%;
+    }
+
+    .ui-ux-services-list .tech-use {
+        height: 370px !important;
+        max-height: 100%;
+        width: 370px !important;
+    }
+
+    .ror-service {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .advantage-taxi-app {
+        height: 300px !important;
+        max-height: 100%;
+    }
+
+    .advantage-taxi-app .ios-app-service-name {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .panel-default>.panel-heading a {
+        font-size: 13px;
+    }
+
+    .panel-body {
+        font-size: 13px;
+    }
+
+    .client-info h2 {
+        font-size: 25px !important;
+    }
+
+    .client-box {
+        padding: 5px !important;
+    }
+
+    .case-study-cover {
+        margin: 20px auto auto;
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .team-main p.bio {
+        font-size: 14px !important;
+    }
+
+
+    .services-bg:before {
+        right: 0px !important;
+    }
+
+    .services-bg:after {
+        left: -130px !important;
+    }
+
+    .portfolio-info.banner-sec .req-quote {
+        margin-right: 0px !important;
+    }
+
+    .single-service.postid-693 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-689 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-696 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-700 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-701 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-702 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-703 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-704 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2411 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2476 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2490 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-2502 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3875 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3890 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3912 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3927 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3939 .section_portfolio_detail.react-native-detail,
+    .single-service.postid-3957 .section_portfolio_detail.react-native-detail {
+        padding: 50px 0px;
+        margin-top: 0px;
+    }
+
+    .development-services .service-block {
+        height: 330px;
+    }
+
+    .testimonial-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .home .heading h2 {
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 557px) {
+    .client-logo-list ul li.client-logo-bg {
+        margin: 1.5rem 0px 0px 0px !important;
+    }
+}
+
+@media (max-width: 513px) {
+    .ourtechnologies-bg .nav.nav-tabs li a {
+        padding: 7px 8px;
+        font-size: 12px;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .technologies-tab {
+        margin-bottom: 10px;
+    }
+
+    .jquery-services {
+        height: 300px;
+        max-height: 100%;
+    }
+
+    .aboutus-bg {
+        bottom: -210px;
+    }
+
+    .ourservices-bg {
+        margin: 200px 0 70px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-bg .content h1 {
+        height: auto;
+        font-size: 30px;
+    }
+
+    .banner-bg .content p {
+        margin: 0px 0 20px;
+        line-height: 25px;
+    }
+
+    .portfolio-title h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .icon_box .icon {
+        max-width: 80px;
+        -ms-flex: 0 0 80px;
+        flex: 0 0 80px;
+    }
+
+    .icon_box .icon img {
+        padding: 20px;
+    }
+
+    .shadow_img {
+        padding: 10px;
+    }
+
+    .ourservices-bg p.dont-text {
+        padding: 0 0 20px 0;
+        margin: 10px 0 20px;
+    }
+
+    .experience-box h2,
+    .case-studies h2,
+    .blogs h2,
+    .our-clients h2,
+    .tagline-family h2 {
+        font-size: 20px;
+    }
+
+    .experience-bg h2 {
+        font-size: 20px;
+    }
+
+    .experience-box h3 {
+        font-size: 18px;
+    }
+
+    .experience-box h6 {
+        font-size: 16px;
+    }
+
+    .about-bg .career-services h2,
+    .career-banner .content h1 {
+        font-size: 18px;
+    }
+
+    .about-bg .career-services {
+        margin: 30px 0 0;
+    }
+
+    .about-bg h4 {
+        font-size: 16px;
+    }
+
+    .apply-now-btn {
+        right: 50px;
+        top: 8px;
+    }
+
+    .career-banner {
+        height: 350px;
+    }
+
+    .development-serices .col-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .icon_box {
+        display: block
+    }
+
+    .icon_box {
+        height: 320px;
+        max-height: 100%;
+    }
+
+    .icon_box .icon {
+        float: none;
+        margin: 0 auto 10px;
+    }
+
+    .icon_content {
+        text-align: center;
+    }
+
+    .form-company-titile {
+        font-size: 12px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .quick-contact-form h3 {
+        font-size: 20px;
+    }
+
+    .quick-contact-form input,
+    .quick-contact-form textarea {
+        font-size: 12px;
+    }
+
+    #getquote-btn,
+    #getquote-btn2 {
+        background-color: #D85B1A;
+        color: #fff;
+        border-radius: 5px;
+        transition: all ease-in-out 0.5s;
+        cursor: pointer;
+        padding: 10px !important;
+        width: 70%;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .client-logo {
+        width: 170px;
+    }
+
+    .android-services {
+        height: 350px !important;
+    }
+
+    .django-services {
+        flex-direction: column !important;
+        height: 400px !important;
+        max-height: 100%;
+    }
+
+    .django-services .ios-app-service-name {
+        font-size: 14px;
+    }
+
+    .flutter-services {
+        height: 320px;
+    }
+
+    .flutter-services .ios-app-service-name {
+        margin-top: 12px;
+        font-size: 14px;
+    }
+
+    .advantage-taxi-app {
+        height: 340px !important;
+        max-height: 100%;
+    }
+
+    .advantage-taxi-app .ios-app-service-name {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .testimonial-section {
+        padding: 50px 0px !important;
+    }
+
+    .testimonials_text_box {
+        font-size: 14px;
+    }
+
+    .testimonials_text_box strong {
+        color: #ec7323;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .meta-desc {
+        font-size: 14px;
+        height: 120px;
+        max-height: 100%;
+    }
+
+    .blog-card-title {
+        height: 80px;
+        max-height: 100%;
+    }
+
+    .meta-wrapper .date_post {
+        font-size: 12px;
+    }
+
+    .meta-wrapper a,
+    .share_post-container i {
+        font-size: 12px;
+    }
+
+    .blogs {
+        padding: 10px !important;
+    }
+
+    .mobile-no-info h4 a {
+        font-size: 15px;
+    }
+
+    i.fas.fa-phone-alt.call-icon {
+        font-size: 12px;
+    }
+
+    i.fas.fa-phone-alt.call-icon::after {
+        display: none;
+    }
+
+    .aboutus-bg p {
+        font-size: 13px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .heading h3 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .development-services .service-block {
+		height: 400px;
+	}
+
+	.development-services .service-block .ios-app-service-name {
+		font-size: 16px;
+	}
+
+	.development-services .service-block .ios-app-service-name p {
+		padding-top: 10px !important;
+	}
+}
+
+@media (max-width: 440px) {
+    .overlay-caption h4 {
+        font-size: 14px;
+    }
+
+    .overlay-caption p {
+        font-size: 12px;
+    }
+
+    .overlay-caption {
+        padding: 10px;
+    }
+
+    .read-more-btn {
+        padding: 8px 15px;
+    }
+
+    .project-box {
+        padding: 15px 10px;
+    }
+
+    .section_portfolio_detail.background_bg {
+        background-size: cover !important;
+    }
+
+    .iphone {
+        transform: scale(0.5) translateX(-95%);
+        right: -47%;
+        margin: -180px auto;
+    }
+
+    .react-services {
+        height: 300px;
+    }
+
+    .python-services {
+        height: 360px !important;
+        max-height: 100%;
+    }
+
+    .python-services .ios-app-service-name {
+        font-size: 14px;
+    }
+
+    .ror-service {
+        height: 330px !important;
+    }
+
+    .ror-service .ios-app-service-name {
+        font-size: 14px;
+    }
+
+    .panel-default>.panel-heading a {
+        font-size: 12px;
+    }
+
+    .panel-body {
+        font-size: 12px;
+    }
+
+    #slideshow2 {
+        position: relative;
+        width: 450px !important;
+        max-width: 100%;
+        height: 450px !important;
+        max-height: 100%;
+        filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+        margin: auto;
+    }
+
+    #slideshow2>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #mobile-slideshow {
+        width: 450px !important;
+        max-width: 100%;
+        height: 585px;
+        max-height: 100%;
+    }
+
+    .slideshow {
+        margin: auto auto;
+        position: relative;
+        width: 418px;
+        max-width: 100%;
+        height: 700px;
+        max-height: 100%;
+        padding: 10px;
+        filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+    }
+
+    .slideshow>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+
+    .sem-solution .solution-media {
+        height: 420px;
+        max-height: 100%;
+        width: 350px;
+        max-width: 100%;
+    }
+
+    .sem-solution .solution-media p {
+        font-size: 14px;
+    }
+
+    .ourservices-bg .services-boxs p {
+        font-size: 13px !important;
+    }
+
+    .contact-form-bg:after {
+        display: none;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .portfolio-title h1 {
+        font-size: 22px;
+    }
+
+    .portfolio-title .portfolio_subtitle {
+        font-size: 18px;
+    }
+
+    .heading h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .heading h3 {
+        font-size: 18px;
+        margin: 22px 0px;
+    }
+
+    .experience-bg h2 {
+        font-size: 18px;
+    }
+
+    .experience-bg p {
+        margin: 0 0 30px;
+        font-size: 12px;
+    }
+
+    .app_btn img {
+        max-width: 130px;
+    }
+
+    .about-bg h4 {
+        font-size: 13px;
+    }
+
+    .apply-now-btn {
+        padding: 4px;
+        font-size: 10px;
+        top: 8px;
+        right: 45px;
+    }
+
+    .career-banner {
+        height: 300px;
+    }
+
+    .form-title {
+        font-size: 17px;
+    }
+
+    .quick-contact-form h3 {
+        font-size: 17px;
+    }
+
+    .outer-menu .menu-list>div>ul>li>a {
+        font-size: 18px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .service-menu-mobile a,
+    .solution-submenu-mobile a,
+    .company-submenu-mobile-accordian a {
+        font-size: 12px;
+    }
+
+    .mobiledev-submenu-body li a,
+    .webdev-submenu-body li a,
+    .digital-submenu-body li a {
+        padding: 10px 0 0 0px !important;
+        font-size: 10px;
+    }
+
+    ul.mobiledev-submenu-body li,
+    ul.webdev-submenu-body li,
+    ul.digital-submenu-body li,
+    ul.design-submenu-body li,
+    ul.solution-submenu-mobile-accordian li,
+    ul.company-submenu-mobile-accordian li {
+        list-style: none !important;
+    }
+
+    .digital-marketing-service .solution-media {
+        height: 500px;
+        max-height: 100%;
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .modal .modal-dialog .modal-content {
+        padding: 20px;
+        border-top: none;
+    }
+
+    .client-logo {
+        width: 120px;
+    }
+
+    .android-services {
+        height: 370px !important;
+        padding: 5px 8px !important;
+        font-size: 15px !important;
+    }
+
+    .ourservices-bg h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .ourservices-bg .services-boxs p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .ourservices-bg .services-boxs a.read-more {
+        font-size: 14px;
+    }
+
+    .react-services {
+        height: 350px;
+    }
+
+    .ror-services .react-services {
+        height: 370px;
+    }
+
+    .visionmission-box {
+        height: 430px;
+        max-height: 100%;
+    }
+
+    .team-main .name-post {
+        height: 360px;
+    }
+
+    .react-native-service {
+        height: 390px;
+        max-height: 100%;
+    }
+
+    .react-native-service .ios-app-service-name {
+        font-size: 14px;
+    }
+
+    .jquery-services {
+        height: 320px;
+        max-height: 100%;
+    }
+
+    .jquery-services .ios-app-service-name {
+        font-size: 14px;
+    }
+
+    .flutter-services {
+        height: 380px;
+    }
+
+    .ui-ux-services-list .tech-use {
+        height: 370px !important;
+        max-height: 100%;
+        width: 300px !important;
+    }
+
+    .solution-media {
+        height: 400px;
+        max-height: 100%;
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .aso-media {
+        width: 290px;
+        max-width: 100%;
+    }
+
+    .advantage-taxi-app {
+        height: 350px !important;
+        max-height: 100%;
+    }
+
+    .advantage-taxi-app .ios-app-service-name {
+        font-size: 14px;
+    }
+
+    #slideshow2 {
+        position: relative;
+        width: 350px !important;
+        max-width: 100%;
+        height: 350px !important;
+        max-height: 100%;
+        filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+        margin: auto;
+    }
+
+    #slideshow2>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .slideshow {
+        margin: auto auto;
+        position: relative;
+        width: 418px;
+        max-width: 100%;
+        height: 68n0px;
+        max-height: 100%;
+        padding: 10px;
+        filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+    }
+
+    .slideshow>div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+
+    #mobile-slideshow {
+        width: 450px !important;
+        max-width: 100%;
+        height: 680px !important;
+        max-height: 100%;
+    }
+
+    .sem-solution .solution-media {
+        height: 420px;
+        max-height: 100%;
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .banner-bg .content h5 {
+        font-size: 13px;
+    }
+
+    .banner-bg .content h1 {
+        font-size: 25px;
+    }
+
+    .banner-bg .content p {
+        font-size: 14px;
+    }
+
+    .banner-bg .content h1 {
+        margin: 0 0 8px;
+    }
+
+    .banner-bg .content h5 {
+        margin-bottom: 15px;
+    }
+
+    .client-box {
+        padding: 0px !important;
+    }
+
+    .aboutus-bg p {
+        line-height: 17px;
+        padding-bottom: 11px;
+    }
+
+    .aboutus-bg .review-boxs .star-boxs {
+        margin-bottom: 5px;
+    }
+
+    .banner-bg .content .get-in-touch-btn a {
+        font-size: 11px;
+        width: 30vw;
+        padding: 10px 10px;
+    }
+
+    .mobile-no {
+        padding: 0px 10px !important;
+    }
+
+    .mobile-no-info {
+        padding-left: 0 !important;
+    }
+
+    section.background_dreddrop p,
+    .heading p,
+    .features-of-daredrop-description span {
+        font-size: 12px;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs {
+        margin: 0;
+    }
+
+    .ourtechnologies-bg .nav.nav-tabs li a,
+    .case-studies .nav.nav-tabs li a {
+        font-size: 12px;
+    }
+
+    .testimonials_text_box {
+        font-size: 12px;
+    }
+
+    .testimonials_text_box strong {
+        color: #ec7323;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .testimonials_text_box span {
+        font-size: 12px;
+    }
+
+    .seo-process-includes h4 {
+        font-size: 18px;
+    }
+
+    .visionmission-box {
+        height: 310px;
+        max-height: 100%;
+    }
+
+}
