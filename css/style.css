@@ -5842,24 +5842,24 @@ ul.app-features li::before {
     font-size: 0.88em;
 }
 
-.error-main{
+.error-main {
     background-color: #FCB82F;
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.error-main h1{
+.error-main h1 {
     color: #fff;
     font-size: 50px;
 }
 
-.error-main p{
+.error-main p {
     color: #fff;
     font-size: 18px;
 }
 
-.error-main a{
+.error-main a {
     display: block;
     background-color: #ec7323;
     color: #fff;
@@ -5936,6 +5936,10 @@ ul.app-features li::before {
     .django-services {
         height: 380px !important;
         max-height: 100%;
+    }
+
+    .error-main a {
+        width: 25%;
     }
 
 }
@@ -6481,6 +6485,10 @@ ul.app-features li::before {
         width: 100%;
     }
 
+    .error-main a {
+        width: 35%;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 800px) {
@@ -6925,6 +6933,10 @@ ul.app-features li::before {
     .our-clients h2,
     .tagline-family h2 {
         font-size: 35px;
+    }
+
+    .w-50 {
+        width: 100% !important;
     }
 }
 
@@ -8339,6 +8351,10 @@ ul.app-features li::before {
     .banner-bg .content {
         padding: 170px 0 0;
     }
+
+    .error-main a {
+        width: 55%;
+    }
 }
 
 @media (max-width: 630px) {
@@ -8919,6 +8935,25 @@ ul.app-features li::before {
 
     .little-title p {
         font-size: 15px !important;
+    }
+
+    .error-main a {
+        width: 85%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .error-main {
+        height: 70vh;
+    }
+
+    .error-main p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .error-main h1 {
+        font-size: 30px;
     }
 }
 
