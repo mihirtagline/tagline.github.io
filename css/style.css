@@ -5734,6 +5734,26 @@ ul.app-features li::before {
     margin-left: 15px;
 }
 
+.timeline-bg {
+    position: relative;
+    padding: 15px;
+}
+
+.timeline-bg::after {
+    content: " ";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url(../images/life-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 5%;
+    z-index: -1;
+}
+
 .timeline:before {
     /* vertical line*/
     content: "";
@@ -6031,6 +6051,12 @@ ul.app-features li::before {
     }
 }
 
+@media (max-width: 1024px) and (min-width: 991px) {
+    .timeline:before {
+        left: 42px;
+    }
+}
+
 @media only screen and (max-width: 980px) {
     .testimonial {
         padding: 20px 0;
@@ -6164,6 +6190,19 @@ ul.app-features li::before {
 
     .mobile-no-info h4 a {
         font-size: 20px;
+    }
+
+    .timeline__text--left-img,
+    .timeline__text--right-img {
+        width: 70%;
+    }
+
+    .timeline__content .timeline__year {
+        font-size: 18px;
+    }
+
+    .timeline__info {
+        top: 25%;
     }
 
 }
@@ -6402,6 +6441,15 @@ ul.app-features li::before {
 
     header .menu-list {
         display: none;
+    }
+
+    .timeline:before {
+        left: 37px;
+    }
+
+    .timeline__text--left-img,
+    .timeline__text--right-img {
+        width: 100%;
     }
 
 }
@@ -8836,7 +8884,13 @@ ul.app-features li::before {
         list-style: none !important;
     }
 
+    .life-title h4 {
+        font-size: 18px;
+    }
 
+    .little-title p {
+        font-size: 15px !important;
+    }
 }
 
 @media (max-width: 513px) {
