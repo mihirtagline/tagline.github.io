@@ -539,7 +539,7 @@ body.open .outer-menu .menu-list {
     visibility: visible;
     right: 0;
     transition: all ease-in-out 0.5s;
-
+    display: block;
 }
 
 .outer-menu .menu-list {
@@ -4234,12 +4234,44 @@ ul.dot_list li {
     left: 0;
 }
 
-.blog-section {
-    padding: 35px 55px;
+.section_portfolio_detail.background_bg.overlay_bg.blog-section.blog-section {
+    position: relative;
+    padding: 155px 55px;
+    z-index: 0;
+    text-align: center;
 }
 
-.blog-section::before {
-    background-color: rgba(0, 0, 0, 0.9);
+.section_portfolio_detail.background_bg.overlay_bg.blog-section.blog-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #d85b1a;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.blog-banner h1,
+.blog-banner p {
+    position: relative;
+    color: #fff;
+    z-index: 5;
+}
+
+.blog-banner h1 {
+    padding: 10px 0px;
+    border-bottom: 2px solid #fff;
+    width: min-content;
+    text-align: center;
+    margin: auto;
+}
+
+.blog-banner p {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 0
 }
 
 .blog-slider-caption {
@@ -5641,6 +5673,10 @@ ul.app-features li::before {
     justify-content: space-around
 }
 
+.blog-page_meta-wrap {
+    align-items: center;
+}
+
 .meta-wrapper {
     display: flex;
     align-items: center
@@ -5677,6 +5713,15 @@ ul.app-features li::before {
 .blog-card:hover .blog-post_info-wrap i {
     transition: all ease-in-out 0.5s;
     transform: translateX(5px)
+}
+
+.blog-page-card:hover .blog-post_info-wrap i {
+    transform: translateX(0px)
+}
+
+.blog-page-card .blog-post_info-wrap i {
+    font-size: 18px;
+    vertical-align: middle;
 }
 
 
@@ -5964,7 +6009,7 @@ ul.app-features li::before {
 }
 
 @media (min-width: 1024px) {
-    section {
+    section.timeline {
         padding: 0 250px;
     }
 
@@ -6236,6 +6281,13 @@ ul.app-features li::before {
 
     .timeline__info {
         top: 25%;
+    }
+
+    .section_portfolio_detail.background_bg.overlay_bg.blog-section.blog-section {
+        position: relative;
+        padding: 45px 55px;
+        z-index: 0;
+        text-align: center;
     }
 
 }
@@ -6938,6 +6990,14 @@ ul.app-features li::before {
     .w-50 {
         width: 100% !important;
     }
+
+    .blog-banner h1 {
+        font-size: 20px;
+    }
+
+    .blog-banner p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -7061,6 +7121,10 @@ ul.app-features li::before {
 
     .contact-form-bg:after {
         display: none;
+    }
+
+    .blog-banner p {
+        font-size: 12px;
     }
 
 }
@@ -8954,6 +9018,13 @@ ul.app-features li::before {
 
     .error-main h1 {
         font-size: 30px;
+    }
+
+    .section_portfolio_detail.background_bg.overlay_bg.blog-section.blog-section {
+        position: relative;
+        padding: 10px;
+        z-index: 0;
+        text-align: center;
     }
 }
 

@@ -430,7 +430,6 @@ stickybits('.sidebar', {
     stickyBitStickyOffset: 100
 });
 
-alert();
 
 // ---testimonial script---
 
