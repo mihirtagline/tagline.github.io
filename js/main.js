@@ -431,6 +431,17 @@ stickybits('.sidebar', {
 });
 
 
+$(document).ready(function () {
+    $('.social_dropdown_wrap .open_drop_button').click(function () {
+        $('.social_dropdown').toggleClass('social_dropdown_wrap--animate');
+    })
+})
+
+$("html").click(function (e) {
+    if ($(e.target).closest('.social_dropdown_wrap').length == 0)
+        $(".social_dropdown").removeClass('social_dropdown_wrap--animate');
+});
+
 // ---testimonial script---
 
 $(document).ready(function () {
