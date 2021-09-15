@@ -3884,7 +3884,6 @@ ul.dot_list li {
 
 .widget {
     padding: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .widget_title {
@@ -3896,7 +3895,8 @@ ul.dot_list li {
 
 .widget_recent_post li {
     list-style: none;
-    margin-bottom: 15px;
+    padding: 20px 0px;
+    border-bottom: 0.5px solid rgb(202, 202, 202);
 }
 
 .post_footer {
@@ -3979,7 +3979,7 @@ ul.dot_list li {
 }
 
 .blog_text h2 {
-    color: #d85b1a;
+    /* color: #d85b1a; */
     font-weight: 600;
     margin: 30px 0;
 }
@@ -4081,9 +4081,9 @@ ul.dot_list li {
     margin-right: 5px;
 }
 
-.meta-wrapper .date_post {
+/* .meta-wrapper .date_post {
     margin-left: 20px;
-}
+} */
 
 .date_post i {
     font-size: 18px;
@@ -5889,8 +5889,6 @@ ul.app-features li::before {
 
 .blog-banner h1 {
     padding: 10px 0px;
-    border-bottom: 2px solid #fff;
-    width: min-content;
     text-align: center;
     margin: auto;
 }
@@ -6023,6 +6021,17 @@ ul.app-features li strong {
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.5px;
+}
+
+.widget.strength-list .strength-box,
+.widget.strength-list .strength-box h5{
+    background-color: #d85b1a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.widget.strength-list .strength-box ul.strength li{
+    list-style: inside disc;
 }
 
 @media(max-width:1900px) {
