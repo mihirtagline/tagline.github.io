@@ -6846,3 +6846,13 @@ p,
 .owl-nav{
     display: none !important;
 }
+
+.california-head .mobile-dev-cal-title h1,
+.california-head .mobile-dev-cal-title p{
+    color: #000;
+}
+
+.california-head .btn{
+    background-color: #D85B1A;
+    color: #fff;
+}
