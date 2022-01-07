@@ -6856,3 +6856,12 @@ p,
     background-color: #D85B1A;
     color: #fff;
 }
+
+.california-development-services .android-services .ios-app-service-name p,
+.california-development-services .ios-service .ios-app-service-name p{
+    margin-bottom: 0 !important;
+}
+
+.california-case-studies{
+    height: auto;
+}
