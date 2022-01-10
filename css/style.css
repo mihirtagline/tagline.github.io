@@ -6865,3 +6865,11 @@ p,
 .california-case-studies{
     height: auto;
 }
+
+.ourservices-california .ourservices-bg .service-description {
+    height: 230px;
+}
+
+.react-native-dev-california .mobdev li{
+    list-style: disc inside;
+}
